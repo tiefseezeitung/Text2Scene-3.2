@@ -10,12 +10,12 @@ from flair.data import Corpus
 
 tagger = SequenceTagger.load('ner')
 
-trialData = '/Users/nihat/Downloads/spaceeval_trial_data'
-trainData = '/Users/nihat/Downloads/Traning-2'
-testData = '/Users/nihat/Downloads/test_task8-2'
-trialCSV = '/Users/nihat/Desktop/trial10.csv'
-trainCSV = '/Users/nihat/Desktop/train10.csv'
-testCSV = '/Users/nihat/Desktop/test10.csv'
+trialData = './spaceeval_trial_data'
+trainData = './Traning-2'
+testData = './test_task8-2'
+trialCSV = './trial10.csv'
+trainCSV = './train10.csv'
+testCSV = './test10.csv'
 
 
 def lstSentences(data):
