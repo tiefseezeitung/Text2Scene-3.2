@@ -77,14 +77,18 @@ def writedata(path,fieldnames,datalist):
             writer.writerow({fieldnames[f]: datalist[each][f] for f in range(len(fieldnames))})
             
             
-attributes = ['dimensionality','form','dcl','countable','motion_type','motion_class',\
+attributes = ['dimensionality','form','motion_type','motion_class',\
               'motion_sense','semantic_type','motion_signal_type']
 columnnames = ['text', 'iso'] + attributes
 
 # construct list of lists that will later be converted to csv
-trialLst = constructtrial('./spaceeval_trial_data') # dev = trial
-trainSetClass = construct(attributes,'./Traning')
-testSetClass = construct(attributes,'./test_task8')
+trialLst = constructtrial('../Data/spaceeval_trial_data/spaceeval_trial_data') # dev = trial
+trainSetClass = construct(attributes,'../Data/training/Traning')
+testSetClass = construct(attributes,'../Data/test_task8')
+
+#trialLst = constructtrial('./Data/spaceeval_trial_data/spaceeval_trial_data') # dev = trial
+#trainSetClass = construct(attributes,'./Data/training/Traning')
+#testSetClass = construct(attributes,'./Data/test_task8')
 
 print(len(trainSetClass))
 print(len(testSetClass))
