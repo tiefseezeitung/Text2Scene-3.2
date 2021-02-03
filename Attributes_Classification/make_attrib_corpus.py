@@ -86,10 +86,6 @@ trialLst = constructtrial('../Data/spaceeval_trial_data/spaceeval_trial_data') #
 trainSetClass = construct(attributes,'../Data/training/Traning')
 testSetClass = construct(attributes,'../Data/test_task8')
 
-#trialLst = constructtrial('./Data/spaceeval_trial_data/spaceeval_trial_data') # dev = trial
-#trainSetClass = construct(attributes,'./Data/training/Traning')
-#testSetClass = construct(attributes,'./Data/test_task8')
-
 print(len(trainSetClass))
 print(len(testSetClass))
 
