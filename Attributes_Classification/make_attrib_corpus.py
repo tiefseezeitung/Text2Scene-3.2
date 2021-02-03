@@ -82,9 +82,9 @@ attributes = ['dimensionality','form','dcl','countable','motion_type','motion_cl
 columnnames = ['text', 'iso'] + attributes
 
 # construct list of lists that will later be converted to csv
-trialLst = constructtrial('/home/beyza/Desktop/Text2Scene/Data/spaceeval_trial_data/spaceeval_trial_data') # dev = trial
-trainSetClass = construct(attributes,'/home/beyza/Desktop/Text2Scene/Data/training/Traning')
-testSetClass = construct(attributes,'/home/beyza/Desktop/Text2Scene/Data/test_task8')
+trialLst = constructtrial('./spaceeval_trial_data') # dev = trial
+trainSetClass = construct(attributes,'./Traning')
+testSetClass = construct(attributes,'./test_task8')
 
 print(len(trainSetClass))
 print(len(testSetClass))
