@@ -78,7 +78,7 @@ def writedata(path,fieldnames,datalist):
             
             
 attributes = ['dimensionality','form','dcl','countable','motion_type','motion_class',\
-              'motion_sense','semantic_type','motion_signal_type','value']
+              'motion_sense','semantic_type','motion_signal_type']
 columnnames = ['text', 'iso'] + attributes
 
 # construct list of lists that will later be converted to csv
