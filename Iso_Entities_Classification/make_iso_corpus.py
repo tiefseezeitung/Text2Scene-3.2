@@ -73,13 +73,14 @@ def construct(path):
     return newfile
 
 
-trainpath = '/Text2Scene-3.2/Data/training/Traning'
-trialpath = '/Text2Scene-3.2/Data/spaceeval_trial_data/spaceeval_trial_data'
-testpath = '/Text2Scene-3.2/Data/test_task8'
+trainpath = '../Data/training/Traning'
+trialpath = '../Data/spaceeval_trial_data/spaceeval_trial_data'
+testpath = '../Data/test_task8/Test.configuration3'
 
-traintxtpath = '/Text2Scene-3.2/Iso_Entities_Classification/corpus/train.txt'
-trialtxtpath = '/Text2Scene-3.2/Iso_Entities_Classification/corpus/trial.txt'
-testtxtpath = '/Text2Scene-3.2/Iso_Entities_Classification/corpus/test.txt'
+
+traintxtpath = './corpus/train.txt'
+trialtxtpath = './corpus/trial.txt'
+testtxtpath = './corpus/test.txt'
 
 trialLst = constructtrial(trialpath) # dev = trial
 trainSetClass = construct(trainpath)

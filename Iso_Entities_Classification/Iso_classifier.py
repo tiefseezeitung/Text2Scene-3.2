@@ -16,7 +16,7 @@ from flair.visual.training_curves import Plotter
 from flair.datasets import ColumnCorpus
 
 # this is the folder in which train, test and dev files reside
-data_folder = '/home/beyza/Desktop/Text2Scene/git_text2scene/Text2Scene-3.2/Iso_Entities_Classification/corpus'
+data_folder = './corpus'
 
 # define columns
 columns = {0: 'text', 1: 'iso'}

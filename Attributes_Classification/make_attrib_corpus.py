@@ -61,7 +61,7 @@ def construct(attributes, path):
                                         break
                     if not found: 
                         #filter out useless data
-                        if token.text == ('\n' or'' or ' ' or '\n\n\n' or '\n\n'or '        '): pass
+                        if token.text == ('\n' or'' or ' ' or '\n\n\n' or '\n\n'or '        ' or '\t'): pass
                         else: 
                             newfile += [[token.text ,'O']+[None for n in range(len(attributes))]]
                             
@@ -84,7 +84,7 @@ columnnames = ['text', 'iso'] + attributes
 # construct list of lists that will later be converted to csv
 trialLst = constructtrial('../Data/spaceeval_trial_data/spaceeval_trial_data') # dev = trial
 trainSetClass = construct(attributes,'../Data/training/Traning')
-testSetClass = construct(attributes,'../Data/test_task8')
+testSetClass = construct(attributes,'../Data/test_task8/Test.configuration3')
 
 print(len(trainSetClass))
 print(len(testSetClass))
