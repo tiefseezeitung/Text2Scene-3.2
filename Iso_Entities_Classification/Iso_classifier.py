@@ -23,8 +23,7 @@ columns = {0: 'text', 1: 'iso'}
 
 # load corpus containing training, test and dev data
 corpus: Corpus = ColumnCorpus(data_folder, columns,
-                                      test_file='test.txt',
-                                      dev_file='trial.txt',  
+                                      test_file='test.txt', 
                                       train_file='train.txt')
 print(corpus)
 
@@ -65,15 +64,14 @@ from flair.trainers import ModelTrainer
 trainer: ModelTrainer = ModelTrainer(tagger, corpus)
 
 trainer.train(
-    "resources/taggers/example-iso",
-    learning_rate=0.1,
+    "resources0/taggers/example-iso",
+    learning_rate=0.5,
     mini_batch_size=32,
-    max_epochs=15,
-    shuffle=False,
+    max_epochs=31,
 )
 
 # not necessary
-plotter = Plotter()
-plotter.plot_training_curves("resources/taggers/example-iso/loss.tsv")
-plotter.plot_weights("resources/taggers/example-iso/weights.txt")
+#plotter = Plotter()
+#plotter.plot_training_curves("resources/taggers/example-iso/loss.tsv")
+#plotter.plot_weights("resources/taggers/example-iso/weights.txt")
 
