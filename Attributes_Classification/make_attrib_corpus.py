@@ -7,6 +7,7 @@ import spacy
 nlp = spacy.load("en_core_web_sm")
 import xml.etree.ElementTree as ET
 import csv
+import string
 
 def constructtrial(path):
     """Gets data and splits text to tokens and puts them into a list"""
@@ -56,14 +57,19 @@ def construct(attributes, path):
                                         # more than one word
                                         x = txt.split(" ")
                                         for e in range(len(x)):
-                                                newfile += [[x[e],i]+[subelem.get(attributes[a]) for a in range(len(attributes))]]     
+                                            newfile += [[x[e],i]+[subelem.get(attributes[a]) for a in range(len(attributes))]]  
+                                            # use this instead when you want to put a specific string if an attribute is None:
+                                            #newfile += [[x[e],i]+[subelem.get(attributes[a]) if subelem.get(attributes[a])!=None  else '' for a in range(len(attributes))]] 
                                         found = True
                                         break
                     if not found: 
                         #filter out useless data
-                        if token.text == ('\n' or'' or ' ' or '\n\n\n' or '\n\n'or '        ' or '\t'): pass
+                        #txt = (str(token.text)).replace('\s','')
+                        txt = (str(token.text)).translate(str.maketrans('', '', string.whitespace))
+                        if (txt == '' or txt == ' '): 
+                            pass
                         else: 
-                            newfile += [[token.text ,'O']+[None for n in range(len(attributes))]]
+                            newfile += [[txt ,'O']+[None for n in range(len(attributes))]]
                             
     return newfile
 
@@ -90,8 +96,28 @@ print(len(trainSetClass))
 print(len(testSetClass))
 
 # write data into csv files
-writedata('train.csv',columnnames,trainSetClass)
-writedata('test.csv',columnnames,testSetClass)
+writedata('train_new.csv',columnnames,trainSetClass)
+writedata('test_new.csv',columnnames,testSetClass)
 
 # does not produce the desired output for trial, but the trial data is useless anyway
 #writedata('trial.csv',['text'],trialLst)
+
+
+# this part would produce an empyt line after a sentence 
+# but it doesn't solve the problems with the corpus 
+
+
+def prod_lines(file):
+    newfile = file.replace('.csv','')+'_wlines.csv'
+    with open(file, 'r', encoding='utf-8') as f_input, open(newfile, 'w', encoding='utf-8') as f_output:
+        csv_output = csv.writer(f_output, delimiter = ',')
+    
+        for row in csv.reader(f_input, delimiter = ','):
+            if (row[0] == '.' or row[0] == '!' or row[0] == '?'):
+                csv_output.writerow(row)
+                csv_output.writerow('')
+            else:
+                csv_output.writerow(row)
+
+prod_lines('train_new.csv')
+prod_lines('test_new.csv')
