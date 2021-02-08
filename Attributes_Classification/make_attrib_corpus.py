@@ -106,7 +106,7 @@ writedata('test_new.csv',columnnames,testSetClass)
 # this part would produce an empyt line after a sentence 
 # but it doesn't solve the problems with the corpus 
 
-
+'''
 def prod_lines(file):
     newfile = file.replace('.csv','')+'_wlines.csv'
     with open(file, 'r', encoding='utf-8') as f_input, open(newfile, 'w', encoding='utf-8') as f_output:
@@ -121,3 +121,4 @@ def prod_lines(file):
 
 prod_lines('train_new.csv')
 prod_lines('test_new.csv')
+'''
