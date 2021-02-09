@@ -45,6 +45,7 @@ def construct(attributes, path):
                 root = tree.getroot()
                 doc = nlp(root[0].text)
 
+                prev = 1
                 for token in doc:
                     found = False
                     for elem in root:
@@ -61,16 +62,19 @@ def construct(attributes, path):
                                             # use this instead when you want to put a specific string if an attribute is None:
                                             #newfile += [[x[e],i]+[subelem.get(attributes[a]) if subelem.get(attributes[a])!=None  else '' for a in range(len(attributes))]] 
                                         found = True
+                                        prev = len(x)
                                         break
                     if not found: 
-                        #filter out useless data
-                        #txt = (str(token.text)).replace('\s','')
-                        txt = (str(token.text)).translate(str.maketrans('', '', string.whitespace))
-                        if (txt == '' or txt == ' '): 
-                            pass
-                        else: 
-                            newfile += [[txt ,'O']+[None for n in range(len(attributes))]]
-                            
+                        if prev > 1: prev -= 1
+                        else:
+                            #filter out useless data
+                            #txt = (str(token.text)).replace('\s','')
+                            txt = (str(token.text)).translate(str.maketrans('', '', string.whitespace))
+                            if (txt == '' or txt == ' '): 
+                                pass
+                            else: 
+                                newfile += [[txt ,'O']+[None for n in range(len(attributes))]]
+                            prev = 1
     return newfile
 
 def writedata(path,fieldnames,datalist):
