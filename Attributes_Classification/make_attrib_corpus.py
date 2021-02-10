@@ -9,23 +9,6 @@ import xml.etree.ElementTree as ET
 import csv
 import string
 
-def constructtrial(path):
-    """Gets data and splits text to tokens and puts them into a list"""
- 
-    newfile = []
-    for subdir, dirs, files in os.walk(path):
-        for filename in files:
-            filepath = subdir + os.sep + filename
-            if filepath.endswith(".xml"):
-                root = ET.parse(filepath)
-                t = root.find('TEXT')
-                text = t.text
-                doc = nlp(text)
-                for token in doc:
-                    newfile += [token.text]
-    return newfile
-
-
 def construct(attributes, path):
     """constructs a list of lists with entries text, iso, and all given attributes"""
     
@@ -74,7 +57,6 @@ def construct(attributes, path):
                                 pass
                             else: 
                                 newfile += [[txt ,'O']+[None for n in range(len(attributes))]]
-                            prev = 1
     return newfile
 
 def writedata(path,fieldnames,datalist):
@@ -82,17 +64,23 @@ def writedata(path,fieldnames,datalist):
     
     with open(path, 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer_wl = csv.writer(csvfile, delimiter=',')
         writer.writeheader()
         for each in range(0,len(datalist)):
-            writer.writerow({fieldnames[f]: datalist[each][f] for f in range(len(fieldnames))})
-            
+            if (datalist[each][0] == '.' or datalist[each][0] == '!' or datalist[each][0] == '?'):
+                writer.writerow({fieldnames[f]: datalist[each][f] for f in range(len(fieldnames))})
+                # adding this produces blank lines between sentences:
+                writer_wl.writerow('')
+            else:
+                writer.writerow({fieldnames[f]: datalist[each][f] for f in range(len(fieldnames))})
+               
             
 attributes = ['dimensionality','form','motion_type','motion_class',\
               'motion_sense','semantic_type','motion_signal_type']
 columnnames = ['text', 'iso'] + attributes
 
 # construct list of lists that will later be converted to csv
-trialLst = constructtrial('../Data/spaceeval_trial_data/spaceeval_trial_data') # dev = trial
+#trialLst = constructtrial('../Data/spaceeval_trial_data/spaceeval_trial_data') # dev = trial
 trainSetClass = construct(attributes,'../Data/training/Traning')
 testSetClass = construct(attributes,'../Data/test_task8/Test.configuration3')
 
@@ -100,29 +88,6 @@ print(len(trainSetClass))
 print(len(testSetClass))
 
 # write data into csv files
-writedata('train_new.csv',columnnames,trainSetClass)
-writedata('test_new.csv',columnnames,testSetClass)
+writedata('train.csv',columnnames,trainSetClass)
+writedata('test.csv',columnnames,testSetClass)
 
-# does not produce the desired output for trial, but the trial data is useless anyway
-#writedata('trial.csv',['text'],trialLst)
-
-
-# this part would produce an empyt line after a sentence 
-# but it doesn't solve the problems with the corpus 
-
-'''
-def prod_lines(file):
-    newfile = file.replace('.csv','')+'_wlines.csv'
-    with open(file, 'r', encoding='utf-8') as f_input, open(newfile, 'w', encoding='utf-8') as f_output:
-        csv_output = csv.writer(f_output, delimiter = ',')
-    
-        for row in csv.reader(f_input, delimiter = ','):
-            if (row[0] == '.' or row[0] == '!' or row[0] == '?'):
-                csv_output.writerow(row)
-                csv_output.writerow('')
-            else:
-                csv_output.writerow(row)
-
-prod_lines('train_new.csv')
-prod_lines('test_new.csv')
-'''
