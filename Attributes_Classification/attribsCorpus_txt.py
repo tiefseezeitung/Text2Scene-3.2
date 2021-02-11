@@ -72,16 +72,22 @@ def writetxt(path,fieldnames,datalist):
     string = ''
     for each in range(0,len(datalist)):
         # eine zeile
-        for e in datalist[each]:
+        for e in range(len(datalist[each])):
             # spalte
             #print(e)
-            if e != None:
-                string+= e
-                string += ' '
+            if datalist[each][e] != None:
+                string+= str(datalist[each][e])
+                if e == len(datalist[each])-1: string += '\n'
+                else: string += '\t'
             else: 
-                string += 'None '
+                if datalist[each][0] == '': break  #if text is empty
+                else: 
+                    string += 'None'
+                    if e == len(datalist[each])-1: string += '\n'
+                    else: string += '\t'
+            if datalist[each][0] == '.' or datalist[each][0] == '!' or datalist[each][0] == '?':
+                if e == len(datalist[each])-1: string += '\n' 
                 #string += ' '
-        string+= '\n'
     txt=open(path,"w") 
     txt.writelines(string) 
     txt.close() 
@@ -98,15 +104,14 @@ attributes = ['dimensionality','form','motion_type','motion_class',\
 columnnames = ['text', 'iso'] + attributes
 
 # construct list of lists that will later be converted to csv
-trialLst = constructtrial('/Users/nihat/Downloads/Data/spaceeval_trial_data') # dev = trial
-trainSetClass = construct(attributes,'/Users/nihat/Downloads/Traning-2')
-testSetClass = construct(attributes,'/Users/nihat/Downloads/test_task8/Test.configuration3')
-
+#trialLst = constructtrial('../Data/spaceeval_trial_data') # dev = trial
+trainSetClass = construct(attributes,'../Data/training/Traning')
+testSetClass = construct(attributes,'../Data/test_task8/Test.configuration3')
 print(len(trainSetClass))
 print(len(testSetClass))
 
 # write data into csv files
-writetxt('/Users/nihat/Desktop/train_new.txt',columnnames,trainSetClass)
-writetxt('/Users/nihat/Desktop/test_new.txt',columnnames,testSetClass)
+writetxt('train_new.txt',columnnames,trainSetClass)
+writetxt('test_new.txt',columnnames,testSetClass)
 
 
