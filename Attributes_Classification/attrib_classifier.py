@@ -61,3 +61,8 @@ classifier = TextClassifier(document_embeddings, \
 
 trainer = ModelTrainer(classifier, corpus)
 trainer.train("resources/taggers/example-attr", max_epochs=10)
+
+
+"""
+Haben es auch mit txt Dateien versucht (dann aber mit ColumnCorpus statt CSVClassification). Das Training funktioniert aber weiterhin nicht.
+"""
