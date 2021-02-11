@@ -19,36 +19,40 @@ from pathlib import Path
 from typing import List
 from sys import exit
 
-'''programme does not work, multiple messages like: 
-    Warning: An empty Sentence was created! Are there empty strings in your dataset?
-resulting error: RuntimeError: Length of all samples has to be greater than 0, but found an element in 'lengths' that is <= 0'''
 
 
-column_name_map = {0: 'text', 1: 'label', 2:'label',3:'label',4:'label',5:'label',\
-              6:'label',7:'label',8:'label'}
+label_columns = ['iso', 'dimensionality', 'form', 'motion_type', 'motion_class', 'motion_sense',\
+             'semantic_type', 'motion_signal_type']
+column_name_map = {0: 'text', 1: 'label-iso',2:'label-dimensionality', 3:'label-form',4:'label-motion_type',5:'label-motion_class',6:'label-motion_sense',\
+              7:'label-semantic_type',8:'label-motion_signal_type'}
+
 data_folder = './'
 
+# 3 different functions for corpus
+
+#1 labels get recognized, sentences do not
+#we get messages:'Warning: An empty Sentence was created! Are there empty strings in your dataset?'
+#resulting error: RuntimeError: Length of all samples has to be greater than 0, but found an element in 'lengths' that is <= 0
+
 corpus: Corpus = CSVClassificationCorpus(data_folder, column_name_map, skip_header=True, test_file='test.csv',train_file='train.csv',delimiter=',')
+
+
+#2 sentences get recognized, but labels do not
+
+#corpus = NLPTaskDataFetcher.load_column_corpus(Path('./'), column_name_map, train_file='train.csv', test='test_orig.csv')
+
+
+#3 does not recognize anything in this format
+
+#corpus = NLPTaskDataFetcher.load_classification_corpus(Path('./'), train_file='train.csv',test_file='test.csv')
+
 print(corpus)
+print(corpus.obtain_statistics())
+
+exit()
 
 word_embeddings = [WordEmbeddings('glove'), FlairEmbeddings('news-forward-fast'), FlairEmbeddings('news-backward-fast')]
 document_embeddings = DocumentLSTMEmbeddings(word_embeddings, hidden_size=512, reproject_words=True, reproject_words_dimension=256)
-
-'''
-embedding_types: List[TokenEmbeddings] = [
-    WordEmbeddings("glove"),
-    #TransformerWordEmbeddings('distilbert-base-uncased', fine_tune=True),
-    # comment in this line to use character embeddings
-    # CharacterEmbeddings(),
-    # comment in these lines to use contextual string embeddings
-    #
-    # FlairEmbeddings('news-forward'),
-    #
-    # FlairEmbeddings('news-backward'),
-]
-
-embeddings: StackedEmbeddings = StackedEmbeddings(embeddings=embedding_types)
-'''
 
 
 classifier = TextClassifier(document_embeddings, \

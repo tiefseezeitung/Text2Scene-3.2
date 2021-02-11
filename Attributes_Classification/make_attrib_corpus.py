@@ -41,6 +41,9 @@ def construct(attributes, path):
                                         # more than one word
                                         x = txt.split(" ")
                                         for e in range(len(x)):
+                                            # the following line does not filter out the whitespaces here
+                                            x[e] = (str(x[e]).translate(str.maketrans('', '', string.whitespace)))
+                                            # add line as a list
                                             newfile += [[x[e],i]+[subelem.get(attributes[a]) for a in range(len(attributes))]]  
                                             # use this instead when you want to put a specific string if an attribute is None:
                                             #newfile += [[x[e],i]+[subelem.get(attributes[a]) if subelem.get(attributes[a])!=None  else '' for a in range(len(attributes))]] 
@@ -50,8 +53,7 @@ def construct(attributes, path):
                     if not found: 
                         if prev > 1: prev -= 1
                         else:
-                            #filter out useless data
-                            #txt = (str(token.text)).replace('\s','')
+                            #filter out useless data, works
                             txt = (str(token.text)).translate(str.maketrans('', '', string.whitespace))
                             if (txt == '' or txt == ' '): 
                                 pass
