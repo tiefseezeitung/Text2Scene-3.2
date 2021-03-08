@@ -9,12 +9,17 @@ import xml.etree.ElementTree as ET
 import csv
 import string
 
+
 def construct(attributes, path):
-    """constructs a list of lists with entries text, iso, and all given attributes"""
+    """constructs a list of lists with text and all given attributes and if a
+        word is an iso-entity it also adds a list with the specific entity in 
+        the form <ENTITY>"""
     
     isoents = ['PLACE','PATH','SPATIAL_ENTITY','SPATIAL_SIGNAL',\
               'MOTION','MOTION_SIGNAL','MEASURE','NONMOTION_EVENT']
     newfile = []
+    
+    # go through every xml in the passed path
     for subdir, dirs, files in os.walk(path):
         for filename in files:
             filepath = subdir + os.sep + filename
@@ -43,24 +48,32 @@ def construct(attributes, path):
                                         for e in range(len(x)):
                                             x[e] = (str(x[e]).translate(str.maketrans('', '', string.whitespace)))
                                             # add line as a list
-                                            newfile += [[x[e],i]+[subelem.get(attributes[a]) if (subelem.get(attributes[a])!=None and subelem.get(attributes[a])!='') else 'O' for a in range(len(attributes))]]
+                                            newfile += [[x[e]]+[subelem.get(attributes[a]) if (subelem.get(attributes[a])!=None and subelem.get(attributes[a])!='') \
+                                                                else 'O' for a in range(len(attributes))]]    
+                                        # adds list with the iso entity of the subelem
+                                        newfile += [['<']+['O' for n in range(len(attributes))]]
+                                        newfile += [[i]+['O' for n in range(len(attributes))]]
+                                        newfile += [['>']+['O' for n in range(len(attributes))]]
+                                        
                                         found = True
                                         prev = len(x)
                                         break
                     if not found: 
                         # if last tagged word was longer than one token, 
                         # skip next token because it is already in our list
-                        if prev > 1: prev -= 1
+                        if prev > 1: prev -= 1 
                         
                         # if word/token not tagged, add word and list of O's 
                         # to list
                         else:
-                            #filter out useless data
                             txt = (str(token.text)).translate(str.maketrans('', '', string.whitespace))
-                            if (txt == '' or txt == ' '): 
-                                pass
-                            else: 
-                                newfile += [[txt ,'O']+['O' for n in range(len(attributes))]]
+                            x = txt.split(' ')
+                            for e in range(len(x)):
+                                if (x[e] == '' or x[e] == ' '): 
+                                    pass
+                                else: 
+                                    newfile += [[x[e]]+['O' for n in range(len(attributes))]]
+                                    
     return newfile
 
 def write_csv(path,fieldnames,datalist):
@@ -103,19 +116,20 @@ def write_txt(path,fieldnames,datalist):
     txt=open(path,"w") 
     txt.writelines(string) 
     txt.close() 
-            
-            
+    
 attributes = ['dimensionality','form','motion_type','motion_class',\
               'motion_sense','semantic_type','motion_signal_type']
-columnnames = ['text', 'iso'] + attributes
+columnnames = ['text'] + attributes
 
-# construct list of lists that will later be converted to txt file
-trainSetClass = construct(attributes,'../Data/training/Traning')
-testSetClass = construct(attributes,'../Data/test_task8/Test.configuration3')
+# construct the list of lists with token and iso entities as first entries and
+# attributes as following entries in each list
+trainSetClass = construct(attributes,'/home/beyza/Desktop/Text2Scene/Data/training/Traning')
+testSetClass = construct(attributes,'/home/beyza/Desktop/Text2Scene/Data/test_task8/Test.configuration3')
 
 #print(len(trainSetClass))
 #print(len(testSetClass))
 
 # write data into txt files
-write_txt('train.txt',columnnames,trainSetClass)
-write_txt('test.txt',columnnames,testSetClass)
+write_txt('train_ilines.txt',columnnames,trainSetClass)
+write_txt('test_ilines.txt',columnnames,testSetClass)
+

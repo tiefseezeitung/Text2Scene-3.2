@@ -17,12 +17,10 @@ def construct(path):
     
     isoents = ['PLACE','PATH','SPATIAL_ENTITY','SPATIAL_SIGNAL',\
               'MOTION','MOTION_SIGNAL','MEASURE','NONMOTION_EVENT']
-    #leave out METALINK because they are too random for the model
-    isolinks = ['QSLINK', 'OLINK', 'MOVELINK', 'MEASURELINK'] 
+
+    isolinks = ['QSLINK', 'OLINK'] 
     
-    link_attr = ['trajector', 'landmark', 'trigger', 'goal', 'mover' ] 
-    #attributes = ['dimensionality','form','motion_type','motion_class',\
-    #              'motion_sense','semantic_type','motion_signal_type']
+    link_attr = ['trajector', 'landmark', 'trigger'] 
     
     newfile = []
     
