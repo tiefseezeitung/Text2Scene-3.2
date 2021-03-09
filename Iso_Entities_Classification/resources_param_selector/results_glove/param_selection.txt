@@ -1,0 +1,306 @@
+evaluation run 1
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 64
+	learning_rate: 0.1
+	mini_batch_size: 16
+	rnn_layers: 2
+score: 0.15998888888888887
+variance: 3.145481481481483e-05
+test_score: 0.8681
+----------------------------------------------------------------------------------------------------
+evaluation run 2
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 64
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.14676666666666663
+variance: 8.411111111111119e-06
+test_score: 0.8751
+----------------------------------------------------------------------------------------------------
+evaluation run 3
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.14296666666666666
+variance: 9.008148148148145e-06
+test_score: 0.8781
+----------------------------------------------------------------------------------------------------
+evaluation run 4
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.15
+	mini_batch_size: 16
+	rnn_layers: 2
+score: 0.1490111111111111
+variance: 1.294592592592596e-05
+test_score: 0.8745
+----------------------------------------------------------------------------------------------------
+evaluation run 5
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 64
+	learning_rate: 0.05
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.16044444444444442
+variance: 4.369851851851854e-05
+test_score: 0.8708
+----------------------------------------------------------------------------------------------------
+evaluation run 6
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 64
+	learning_rate: 0.05
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.15579999999999997
+variance: 1.973111111111119e-05
+test_score: 0.8712
+----------------------------------------------------------------------------------------------------
+evaluation run 7
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.15
+	mini_batch_size: 16
+	rnn_layers: 2
+score: 0.15152222222222222
+variance: 2.687555555555555e-05
+test_score: 0.8727
+----------------------------------------------------------------------------------------------------
+evaluation run 8
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 64
+	learning_rate: 0.1
+	mini_batch_size: 16
+	rnn_layers: 1
+score: 0.15156666666666666
+variance: 1.2492592592592547e-05
+test_score: 0.8608
+----------------------------------------------------------------------------------------------------
+evaluation run 9
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.14408888888888885
+variance: 2.4659259259259085e-06
+test_score: 0.8659
+----------------------------------------------------------------------------------------------------
+evaluation run 10
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.1
+	mini_batch_size: 16
+	rnn_layers: 1
+score: 0.15085555555555552
+variance: 2.2889629629629535e-05
+test_score: 0.8764
+----------------------------------------------------------------------------------------------------
+evaluation run 11
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 64
+	learning_rate: 0.05
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.1592333333333333
+variance: 1.3143703703703686e-05
+test_score: 0.8641
+----------------------------------------------------------------------------------------------------
+evaluation run 12
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 64
+	learning_rate: 0.2
+	mini_batch_size: 16
+	rnn_layers: 2
+score: 0.14868888888888887
+variance: 2.2137037037036854e-05
+test_score: 0.8724
+----------------------------------------------------------------------------------------------------
+evaluation run 13
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 64
+	learning_rate: 0.2
+	mini_batch_size: 16
+	rnn_layers: 2
+score: 0.14809999999999998
+variance: 3.373777777777788e-05
+test_score: 0.8661
+----------------------------------------------------------------------------------------------------
+evaluation run 14
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 64
+	learning_rate: 0.2
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.15964444444444445
+variance: 4.405111111111125e-05
+test_score: 0.8793
+----------------------------------------------------------------------------------------------------
+evaluation run 15
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.14316666666666666
+variance: 2.670148148148148e-05
+test_score: 0.8788
+----------------------------------------------------------------------------------------------------
+evaluation run 16
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 64
+	learning_rate: 0.1
+	mini_batch_size: 16
+	rnn_layers: 1
+score: 0.153
+variance: 1.052814814814827e-05
+test_score: 0.8562
+----------------------------------------------------------------------------------------------------
+evaluation run 17
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 64
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.14767777777777777
+variance: 8.575555555555512e-06
+test_score: 0.8763
+----------------------------------------------------------------------------------------------------
+evaluation run 18
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.15
+	mini_batch_size: 16
+	rnn_layers: 2
+score: 0.1489222222222222
+variance: 2.711037037037035e-05
+test_score: 0.8737
+----------------------------------------------------------------------------------------------------
+evaluation run 19
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.05
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.15513333333333332
+variance: 2.1677777777777678e-05
+test_score: 0.8691
+----------------------------------------------------------------------------------------------------
+evaluation run 20
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 64
+	learning_rate: 0.05
+	mini_batch_size: 16
+	rnn_layers: 1
+score: 0.17093333333333335
+variance: 2.2754814814814785e-05
+test_score: 0.8562
+----------------------------------------------------------------------------------------------------
+evaluation run 21
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.1436333333333333
+variance: 2.8593333333333336e-05
+test_score: 0.8793
+----------------------------------------------------------------------------------------------------
+evaluation run 22
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.14231111111111114
+variance: 3.763111111111095e-05
+test_score: 0.8796
+----------------------------------------------------------------------------------------------------
+evaluation run 23
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.1420222222222222
+variance: 4.645925925925965e-06
+test_score: 0.8829
+----------------------------------------------------------------------------------------------------
+evaluation run 24
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.14238888888888887
+variance: 1.6602222222222318e-05
+test_score: 0.8846
+----------------------------------------------------------------------------------------------------
+evaluation run 25
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.14344444444444446
+variance: 3.899259259259255e-06
+test_score: 0.8773
+----------------------------------------------------------------------------------------------------
+evaluation run 26
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.14341111111111113
+variance: 1.2987407407407407e-05
+test_score: 0.8803
+----------------------------------------------------------------------------------------------------
+evaluation run 27
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.2
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.13851111111111114
+variance: 2.3407407407407145e-05
+test_score: 0.8802
+----------------------------------------------------------------------------------------------------
+evaluation run 28
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.2
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.14372222222222222
+variance: 2.434148148148144e-05
+test_score: 0.8804
+----------------------------------------------------------------------------------------------------
+evaluation run 29
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.2
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.14217777777777776
+variance: 1.80007407407407e-05
+test_score: 0.8759
+----------------------------------------------------------------------------------------------------
+evaluation run 30
+	embeddings: /home/beyza/.flair/embeddings/glove.gensim
+	hidden_size: 128
+	learning_rate: 0.2
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.14990000000000003
+variance: 9.159259259259282e-05
+test_score: 0.8661
+----------------------------------------------------------------------------------------------------
+best parameter combination
+	embeddings: 0
+	hidden_size: 1
+	learning_rate: 3
+	mini_batch_size: 0
+	rnn_layers: 1

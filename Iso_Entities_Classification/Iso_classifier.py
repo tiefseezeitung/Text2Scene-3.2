@@ -12,7 +12,6 @@ from flair.embeddings import (
     CharacterEmbeddings,)
 from flair.training_utils import EvaluationMetric
 from flair.visual.training_curves import Plotter
-# from flair.datasets import ClassificationCorpus doesnt work with this
 from flair.datasets import ColumnCorpus
 
 # this is the folder in which train, test and dev files reside
@@ -70,8 +69,8 @@ trainer.train(
     max_epochs=3,
 )
 
-# not necessary
-#plotter = Plotter()
-#plotter.plot_training_curves("resources/taggers/example-iso/loss.tsv")
-#plotter.plot_weights("resources/taggers/example-iso/weights.txt")
+# not necessary, but plots learning curves
+plotter = Plotter()
+plotter.plot_training_curves("resources/taggers/example-iso/loss.tsv")
+plotter.plot_weights("resources/taggers/example-iso/weights.txt")
 

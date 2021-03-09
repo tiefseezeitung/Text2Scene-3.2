@@ -1,4 +1,3 @@
- O
 02-Jan-2010 O
 -- O
 On O
@@ -15,23 +14,17 @@ Confluence PLACE
 Point PLACE
 48N PLACE
 10E PLACE
-Point O
-48N O
-10E O
 was O
 situated NONMOTION_EVENT
 only O
 a O
 few MEASURE
 kilometres MEASURE
-kilometres O
 away SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-from O
 the O
 autobahn PATH
 A96 PATH
-A96 O
 resp O
 . O
 
@@ -46,7 +39,6 @@ be O
 taken O
 . O
 
- O
 The O
 GPS O
 routed MOTION
@@ -59,9 +51,6 @@ Rot PLACE
 an PLACE
 der PLACE
 Rot PLACE
-an O
-der O
-Rot O
 ’ O
 . O
 
@@ -101,7 +90,6 @@ role O
 here PLACE
 . O
 
- O
 On O
 the O
 one O
@@ -149,7 +137,6 @@ a O
 homestead PLACE
 . O
 
- O
 In O
 these O
 late O
@@ -185,7 +172,6 @@ of O
 the O
 live SPATIAL_ENTITY
 stock SPATIAL_ENTITY
-stock O
 in SPATIAL_SIGNAL
 the O
 stable PLACE
@@ -227,18 +213,15 @@ buildings SPATIAL_ENTITY
 around MEASURE
 . O
 
- O
 ﻿http://confluence.org O
 / O
 confluence.php?id=2343 O
- O
 02-Aug-2005 O
 -- O
 Continues O
 from O
 48N O
 26E. O
- O
 After O
 an O
 easy O
@@ -305,7 +288,6 @@ completely O
 painted O
 . O
 
- O
 Then O
 passing MOTION
 Suceava PLACE
@@ -321,7 +303,6 @@ we SPATIAL_ENTITY
 took MOTION
 road PATH
 29 PATH
-29 O
 towards MOTION_SIGNAL
 Manoleasa PLACE
 . O
@@ -336,11 +317,9 @@ distance O
 of O
 410 MEASURE
 m MEASURE
-m O
 to O
 48N PLACE
 27E PLACE
-27E O
 , O
 so O
 it O
@@ -447,17 +426,13 @@ other O
 edge PATH
 . O
 
- O
 Continues O
 at O
 46N PLACE
 15E PLACE
-15E O
- O
 ﻿http://confluence.org O
 / O
 confluence.php?id=9787 O
- O
 26-Nov-2004 O
 -- O
 The O
@@ -467,7 +442,6 @@ was O
 to O
 meet MOTION
 up MOTION
-up O
 with MOTION_SIGNAL
 my O
 brother SPATIAL_ENTITY
@@ -516,14 +490,11 @@ visit MOTION
 CP PLACE
 48N PLACE
 12E PLACE
-48N O
-12E O
 on SPATIAL_SIGNAL
 the O
 way PATH
 . O
 
- O
 We SPATIAL_ENTITY
 left MOTION
 Salzburg PLACE
@@ -541,9 +512,6 @@ Salzburg PATH
 - PATH
 Munich PATH
 Autobahn PATH
-- O
-Munich O
-Autobahn O
 ) O
 , O
 via MOTION_SIGNAL
@@ -585,14 +553,12 @@ located O
 a O
 few MEASURE
 metres MEASURE
-metres O
 into SPATIAL_SIGNAL
 the O
 adjacent SPATIAL_SIGNAL
 field PLACE
 . O
 
- O
 I SPATIAL_ENTITY
 had O
 hoped O
@@ -694,7 +660,6 @@ the O
 field PLACE
 . O
 
- O
 Luckily O
 I SPATIAL_ENTITY
 did O
@@ -735,7 +700,6 @@ showed O
 metres O
 . O
 
- O
 We SPATIAL_ENTITY
 took O
 a O
@@ -747,8 +711,6 @@ infamous O
 SPD SPATIAL_ENTITY
 meridian SPATIAL_ENTITY
 stone SPATIAL_ENTITY
-meridian O
-stone O
 and O
 up MOTION_SIGNAL
 to MOTION_SIGNAL
@@ -795,11 +757,9 @@ confluence O
 point PLACE
 . O
 
- O
 ﻿http://confluence.org O
 / O
 confluence.php?id=2348 O
- O
 22-Mar-2008 O
 -- O
 On O
@@ -844,7 +804,6 @@ this O
 point PLACE
 . O
 
- O
 We SPATIAL_ENTITY
 drove MOTION
 some O
@@ -859,11 +818,8 @@ stopped MOTION
 about MEASURE
 500 MEASURE
 m MEASURE
-500 O
-m O
 away SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-from O
 the O
 confluence PLACE
 . O
@@ -886,7 +842,6 @@ desired O
 zeros PLACE
 . O
 
- O
 After O
 taking O
 our O
@@ -901,7 +856,6 @@ and O
 the O
 Bavarian PATH
 Alps PATH
-Alps O
 where SPATIAL_SIGNAL
 we SPATIAL_ENTITY
 went O
@@ -912,11 +866,9 @@ perfect O
 day O
 . O
 
- O
 ﻿http://confluence.org O
 / O
 confluence.php?id=2349 O
- O
 12-May-2008 O
 -- O
 This PLACE
@@ -941,12 +893,10 @@ into MOTION_SIGNAL
 the O
 Vosges PATH
 Mountains PATH
-Mountains O
 and O
 the O
 Black PATH
 Forest PATH
-Forest O
 . O
 
 The O
@@ -955,12 +905,10 @@ starts O
 from O
 48°N PLACE
 7°E PLACE
-° O
 N O
 7 O
 ° O
 E. O
- O
 On O
 confluence O
 day O
@@ -979,7 +927,6 @@ in SPATIAL_SIGNAL
 the O
 Vosges PATH
 Mountains PATH
-Mountains O
 . O
 
 I SPATIAL_ENTITY
@@ -1014,14 +961,12 @@ is O
 located NONMOTION_EVENT
 10 MEASURE
 km MEASURE
-km O
 west SPATIAL_SIGNAL
 of O
 the O
 confluence PLACE
 . O
 
- O
 From MOTION_SIGNAL
 Freiburg PLACE
 , O
@@ -1034,7 +979,6 @@ along SPATIAL_SIGNAL
 the O
 Dreisam PATH
 creek PATH
-creek O
 leads MOTION
 to MOTION_SIGNAL
 the O
@@ -1043,7 +987,6 @@ Stegen PLACE
 ( O
 4 MEASURE
 km MEASURE
-km O
 from O
 CP PLACE
 ) O
@@ -1059,7 +1002,6 @@ of O
 the O
 Eschbach PATH
 stream PATH
-stream O
 follows MOTION
 upwards MOTION_SIGNAL
 to MOTION_SIGNAL
@@ -1076,7 +1018,6 @@ Obertal PLACE
 ( O
 510 MEASURE
 m MEASURE
-m O
 from O
 CP PLACE
 ) O
@@ -1150,11 +1091,9 @@ Feldberg PLACE
 ( O
 1494 MEASURE
 m MEASURE
-m O
 ) O
 . O
 
- O
 I SPATIAL_ENTITY
 parked MOTION
 my O
@@ -1163,7 +1102,6 @@ and O
 continued MOTION
 on MOTION_SIGNAL
 foot MOTION_SIGNAL
-foot O
 by O
 climbing MOTION
 down MOTION_SIGNAL
@@ -1172,7 +1110,6 @@ steep O
 grade PATH
 directly MOTION_SIGNAL
 towards MOTION_SIGNAL
-towards O
 the O
 confluence O
 point PLACE
@@ -1295,7 +1232,6 @@ it SPATIAL_ENTITY
 was O
 . O
 
- O
 Getting O
 a O
 perfect O
@@ -1326,7 +1262,6 @@ grades O
 With O
 4 MEASURE
 m MEASURE
-m O
 accuracy O
 , O
 I SPATIAL_ENTITY
@@ -1337,15 +1272,12 @@ confluence PLACE
 about MEASURE
 6 MEASURE
 m MEASURE
-6 O
-m O
 west SPATIAL_SIGNAL
 of O
 the O
 sail SPATIAL_ENTITY
 directly SPATIAL_SIGNAL
 at SPATIAL_SIGNAL
-at O
 the O
 track PATH
 . O
@@ -1365,11 +1297,9 @@ turned O
 to O
 5 MEASURE
 m MEASURE
-m O
 again O
 . O
 
- O
 Let O
 me SPATIAL_ENTITY
 here O
@@ -1382,12 +1312,10 @@ feature O
 The O
 Vosges PATH
 Mountains PATH
-Mountains O
 and O
 the O
 Black PATH
 Forest PATH
-Forest O
 are O
 two O
 related O
@@ -1399,11 +1327,9 @@ heights O
 ( O
 1424 MEASURE
 m MEASURE
-m O
 and O
 1494 MEASURE
 m MEASURE
-m O
 ) O
 . O
 
@@ -1432,22 +1358,18 @@ related O
 and O
 divided SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-from O
 each PATH
 other O
 by O
 the O
 Rhine PATH
 Rift PATH
-Rift O
 . O
 
 The O
 Upper PATH
 Rhine PATH
 River PATH
-Rhine O
-River O
 runs MOTION
 in MOTION_SIGNAL
 the O
@@ -1474,7 +1396,6 @@ confluences PLACE
 : O
 48°N PLACE
 7°E PLACE
-° O
 N O
 7 O
 ° O
@@ -1486,7 +1407,6 @@ France PLACE
 and O
 48°N PLACE
 8°E PLACE
-° O
 N O
 8 O
 ° O
@@ -1510,7 +1430,6 @@ in SPATIAL_SIGNAL
 the O
 Rhine PATH
 Rift PATH
-Rift O
 . O
 
 Both PLACE
@@ -1520,11 +1439,9 @@ heights O
 ( O
 730 MEASURE
 m MEASURE
-m O
 and O
 555 MEASURE
 m MEASURE
-m O
 ) O
 , O
 both PLACE
@@ -1575,7 +1492,6 @@ one O
 location PLACE
 . O
 
- O
 After O
 documentation O
 I SPATIAL_ENTITY
@@ -1613,18 +1529,15 @@ riding MOTION
 back MOTION_SIGNAL
 by MOTION_SIGNAL
 bike MOTION_SIGNAL
-bike O
 as O
 an O
 option O
 . O
 
- O
 CP PLACE
 visit O
 details O
 : O
-     O
 Time O
 at O
 the O
@@ -1632,33 +1545,26 @@ CP PLACE
 : O
 14:10 O
 pm O
-     O
 riding MOTION
 time O
 : O
 6 O
 hours O
-     O
 riding MOTION
 distance O
 : O
 101 MEASURE
 km MEASURE
-km O
-     O
 hiking MOTION
 time O
 : O
 20 O
 min O
-     O
 hiking MOTION
 distance O
 : O
 300 MEASURE
 m MEASURE
-m O
-     O
 Distance O
 to O
 a O
@@ -1666,8 +1572,6 @@ road PATH
 : O
 510 MEASURE
 km MEASURE
-km O
-     O
 Distance O
 to O
 a O
@@ -1675,16 +1579,12 @@ track PATH
 : O
 0 MEASURE
 m MEASURE
-m O
-     O
 Distance O
 to O
 houses SPATIAL_ENTITY
 : O
 337 MEASURE
 m MEASURE
-m O
-     O
 Topography O
 : O
 steep O
@@ -1692,7 +1592,6 @@ grade O
 , O
 northern O
 hillside PATH
-     O
 Minimal O
 distance O
 according O
@@ -1701,7 +1600,6 @@ GPS O
 : O
 0 O
 m O
-     O
 Position O
 accuracy O
 at O
@@ -1710,13 +1608,11 @@ CP PLACE
 : O
 4 O
 m O
-     O
 GPS O
 height O
 : O
 555 O
 m O
-     O
 Vegetation SPATIAL_ENTITY
 : O
 spruce SPATIAL_ENTITY
@@ -1750,7 +1646,6 @@ plane O
 trees SPATIAL_ENTITY
 . O
 
-     O
 Weather O
 : O
 fine O
@@ -1762,7 +1657,6 @@ C O
 felt O
 temperature O
 ) O
-     O
 Description O
 of O
 the O
@@ -1773,8 +1667,6 @@ the O
 Southern PATH
 Black PATH
 Forest PATH
-Black O
-Forest O
 , O
 in SPATIAL_SIGNAL
 the O
@@ -1784,14 +1676,11 @@ of O
 the O
 Eschbach PATH
 steam PATH
-steam O
 . O
 
 Right SPATIAL_SIGNAL
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-next O
-to O
 a O
 track PATH
 about O
@@ -1802,7 +1691,6 @@ the O
 hillside PATH
 . O
 
-     O
 Given O
 Name O
 : O
@@ -1810,9 +1698,6 @@ The O
 Green PLACE
 Sail PLACE
 Confluence PLACE
-Sail O
-Confluence O
- O
 Coordinator O
 's O
 Note O
@@ -1853,7 +1738,6 @@ of O
 it SPATIAL_ENTITY
 . O
 
- O
 San O
 Pedro O
 Sula O
@@ -1868,14 +1752,11 @@ March O
 31st O
 , O
 2006 O
-    O
 Biking MOTION
 from MOTION_SIGNAL
 San PLACE
 Pedro PLACE
 Sula PLACE
-Pedro O
-Sula O
 ( O
 Hondurasâ€ O
 ™ O
@@ -1885,7 +1766,6 @@ corner O
 to MOTION_SIGNAL
 El PLACE
 Salvador PLACE
-Salvador O
 I SPATIAL_ENTITY
 was O
 struck O
@@ -1913,7 +1793,6 @@ is O
 poor O
 . O
 
-    O
 More O
 so O
 than O
@@ -2014,7 +1893,6 @@ and O
 comfortable O
 . O
 
-    O
 I SPATIAL_ENTITY
 spent NONMOTION_EVENT
 one O
@@ -2114,7 +1992,6 @@ to O
 camp O
 . O
 
-    O
 I SPATIAL_ENTITY
 visited MOTION
 a O
@@ -2123,7 +2000,6 @@ school PLACE
 , O
 El PLACE
 Progreso PLACE
-Progreso O
 . O
 
 I SPATIAL_ENTITY
@@ -2160,7 +2036,6 @@ was O
 doing O
 . O
 
-    O
 Thanks O
 to O
 the O
@@ -2172,8 +2047,6 @@ of O
 San PLACE
 Pedro PLACE
 Sula PLACE
-Pedro O
-Sula O
 , O
 who O
 let O
@@ -2225,9 +2098,6 @@ Santa PLACE
 Rosa PLACE
 de PLACE
 Copan PLACE
-Rosa O
-de O
-Copan O
 ( O
 on O
 the O
@@ -2257,12 +2127,10 @@ June O
 19th O
 , O
 2006 O
-    O
 Before O
 biking MOTION
 out MOTION_SIGNAL
 of MOTION_SIGNAL
-of O
 Bogota PLACE
 , O
 a O
@@ -2290,22 +2158,17 @@ drove MOTION
 from MOTION_SIGNAL
 8,500 MEASURE
 feet MEASURE
-feet O
 at O
 Bogota PLACE
 to MOTION_SIGNAL
 11,000 MEASURE
 feet MEASURE
-feet O
 and O
 the O
 national PLACE
 park PLACE
 of PLACE
 Chingaza PLACE
-park O
-of O
-Chingaza O
 . O
 
 At O
@@ -2327,7 +2190,6 @@ Andean O
 paramo O
 . O
 
-    O
 Hidden O
 in SPATIAL_SIGNAL
 the O
@@ -2364,7 +2226,6 @@ only O
 a O
 few MEASURE
 feet MEASURE
-feet O
 tall O
 . O
 
@@ -2381,7 +2242,6 @@ to MOTION_SIGNAL
 about O
 12,500 MEASURE
 feet MEASURE
-feet O
 , O
 where SPATIAL_SIGNAL
 the O
@@ -2393,7 +2253,6 @@ low O
 40s O
 . O
 
-    O
 The O
 region PLACE
 is O
@@ -2412,7 +2271,6 @@ water SPATIAL_ENTITY
 flows MOTION
 out MOTION_SIGNAL
 of MOTION_SIGNAL
-of O
 these O
 highlands PLACE
 . O
@@ -2460,7 +2318,6 @@ of O
 water SPATIAL_ENTITY
 out MOTION_SIGNAL
 of MOTION_SIGNAL
-of O
 the O
 park PLACE
 . O
@@ -2508,7 +2365,6 @@ water O
 ) O
 . O
 
-    O
 Over O
 the O
 past O
@@ -2601,7 +2457,6 @@ the O
 Andes PATH
 . O
 
-    O
 Climate O
 change O
 this O
@@ -2701,7 +2556,6 @@ Andean O
 ecosystem SPATIAL_ENTITY
 . O
 
-    O
 Before O
 leaving MOTION
 , O
@@ -2797,7 +2651,6 @@ December O
 12th O
 , O
 2005 O
-    O
 After O
 a O
 week O
@@ -2808,7 +2661,6 @@ I SPATIAL_ENTITY
 left MOTION
 San PLACE
 Diego PLACE
-Diego O
 at O
 noon O
 on O
@@ -2861,7 +2713,6 @@ next O
 morning O
 . O
 
-    O
 Bicycles SPATIAL_ENTITY
 , O
 it O
@@ -2934,7 +2785,6 @@ sitting NONMOTION_EVENT
 inside SPATIAL_SIGNAL
 . O
 
-    O
 Biking MOTION
 the O
 dry O
@@ -3028,7 +2878,6 @@ rapidly O
 improving O
 . O
 
-    O
 The O
 next O
 day O
@@ -3065,8 +2914,6 @@ to MOTION_SIGNAL
 Centro PLACE
 Educativo PLACE
 Patria PLACE
-Educativo O
-Patria O
 . O
 
 Afterwards O
@@ -3142,7 +2989,6 @@ extremely O
 well O
 . O
 
-    O
 I SPATIAL_ENTITY
 am O
 fearful O
@@ -3179,7 +3025,6 @@ June O
 19th O
 , O
 2006 O
-    O
 Climbing MOTION
 into MOTION_SIGNAL
 the O
@@ -3196,8 +3041,6 @@ Bogota PLACE
 at O
 9,000 MEASURE
 ft MEASURE
-ft O
-above O
 sea O
 level O
 , O
@@ -3232,7 +3075,6 @@ of SPATIAL_SIGNAL
 Colombia PLACE
 . O
 
-    O
 In O
 the O
 1990s O
@@ -3334,7 +3176,6 @@ the O
 automobile O
 . O
 
-    O
 I SPATIAL_ENTITY
 talked O
 with O
@@ -3459,7 +3300,6 @@ be O
 from O
 Bogota PLACE
 ™ O
-    O
 I SPATIAL_ENTITY
 stayed O
 for O
@@ -3560,15 +3400,12 @@ bike O
 mechanics O
 . O
 
-    O
 Bogota PLACE
 now O
 has O
 over MEASURE
 300 MEASURE
 km MEASURE
-300 O
-km O
 of O
 dedicated O
 bike O
@@ -3629,7 +3466,6 @@ in SPATIAL_SIGNAL
 Bogota PLACE
 by MOTION_SIGNAL
 bicycle MOTION_SIGNAL
-bicycle O
 . O
 
 A O
@@ -3676,7 +3512,6 @@ bike O
 traffic SPATIAL_ENTITY
 . O
 
-    O
 To O
 be O
 sure O
@@ -3777,7 +3612,6 @@ is O
 possible O
 . O
 
-    O
 I SPATIAL_ENTITY
 spent NONMOTION_EVENT
 my O
@@ -3864,7 +3698,6 @@ helmets O
 . O
 
 ) O
-    O
 The O
 new O
 Bogota PLACE
@@ -3958,12 +3791,10 @@ s O
 example O
 . O
 
- O
 Hello O
 from O
 La PLACE
 Paz PLACE
-Paz O
 , O
 Bolivia PLACE
 ! O
@@ -3997,7 +3828,6 @@ for O
 Climate O
 . O
 
- O
 Announcing O
 Ride NONMOTION_EVENT
 for O
@@ -4027,7 +3857,6 @@ for O
 yourself O
 ! O
 
- O
 I SPATIAL_ENTITY
 will O
 be O
@@ -4120,7 +3949,6 @@ somewhat O
 . O
 
 ) O
- O
 Please O
 share O
 this O
@@ -4185,7 +4013,6 @@ global O
 warming O
 . O
 
- O
 I SPATIAL_ENTITY
 am O
 personally O
@@ -4199,7 +4026,6 @@ having O
 traveled MOTION
 Latin PLACE
 America PLACE
-America O
 , O
 I SPATIAL_ENTITY
 know O
@@ -4231,7 +4057,6 @@ in SPATIAL_SIGNAL
 the O
 United PLACE
 States PLACE
-States O
 take O
 the O
 lead O
@@ -4267,7 +4092,6 @@ take O
 action O
 . O
 
- O
 I SPATIAL_ENTITY
 will O
 send O
@@ -4298,21 +4122,18 @@ Thanksgiving O
 weekend O
 ! O
 
- O
 In SPATIAL_SIGNAL
 Bolivia PLACE
 , O
 on SPATIAL_SIGNAL
 mile PATH
 11,140 PATH
-11,140 O
 on SPATIAL_SIGNAL
 the O
 way MOTION
 to MOTION_SIGNAL
 Patagonia PLACE
 , O
- O
 David SPATIAL_ENTITY
 Northern O
 Guatemala O
@@ -4327,7 +4148,6 @@ March O
 12th O
 , O
 2006 O
-    O
 Gregg SPATIAL_ENTITY
 , O
 Brooks SPATIAL_ENTITY
@@ -4345,14 +4165,10 @@ in MOTION_SIGNAL
 a MOTION_SIGNAL
 small MOTION_SIGNAL
 boat MOTION_SIGNAL
-a O
-small O
-boat O
 across MOTION_SIGNAL
 the O
 Usumacinta PATH
 River PATH
-River O
 . O
 
 Although O
@@ -4461,16 +4277,13 @@ Brooks SPATIAL_ENTITY
 continued MOTION
 by MOTION_SIGNAL
 van MOTION_SIGNAL
-van O
 , O
 and O
 we SPATIAL_ENTITY
 split MOTION
 ways MOTION
-ways O
 . O
 
-    O
 Thinly O
 populated O
 , O
@@ -4509,8 +4322,6 @@ the O
 ruins PLACE
 of PLACE
 Tikal PLACE
-of O
-Tikal O
 , O
 a O
 city O
@@ -4577,11 +4388,9 @@ and O
 tourists SPATIAL_ENTITY
 . O
 
-    O
 The O
 Tikal PLACE
 ruins PLACE
-ruins O
 sit NONMOTION_EVENT
 near MEASURE
 the O
@@ -4589,8 +4398,6 @@ large O
 lake PLACE
 of PLACE
 Peten-Itza PLACE
-of O
-Peten O
 - O
 Itza O
 , O
@@ -4681,7 +4488,6 @@ the O
 lake PLACE
 . O
 
-     O
 According O
 to O
 their O
@@ -4784,7 +4590,6 @@ new O
 world O
 . O
 
- O
 Peru O
 Monday O
 , O
@@ -4792,7 +4597,6 @@ October O
 16th O
 , O
 2006 O
-    O
 As O
 I SPATIAL_ENTITY
 said O
@@ -4852,7 +4656,6 @@ years O
 ago O
 . O
 
-    O
 All O
 of O
 the O
@@ -4941,7 +4744,6 @@ are O
 gone O
 . O
 
-    O
 The O
 countryâ€ O
 ™ O
@@ -5028,7 +4830,6 @@ its O
 electricity O
 . O
 
-    O
 All O
 of O
 this O
@@ -5085,11 +4886,9 @@ rural O
 area PLACE
 east SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 the O
 Cordillera PATH
 Blanca PATH
-Blanca O
 , O
 I SPATIAL_ENTITY
 met MOTION
@@ -5245,7 +5044,6 @@ ice O
 . O
 
 ) O
-    O
 Loosing O
 the O
 glaciers O
@@ -5345,7 +5143,6 @@ for O
 Climate O
 ! O
 
-     O
 Since O
 last O
 update O
@@ -5397,7 +5194,6 @@ has O
 passed O
 9,000 MEASURE
 miles MEASURE
-miles O
 . O
 
 Ride O
@@ -5446,13 +5242,11 @@ of SPATIAL_SIGNAL
 the O
 Amazon PATH
 River PATH
-River O
 ( O
 map O
 ) O
 . O
 
-    O
 Below O
 are O
 entries O
@@ -5463,10 +5257,8 @@ three O
 months O
 . O
 
- O
 COLOMBIA PLACE
 : O
- O
 5/28 O
 Elections NONMOTION_EVENT
 in SPATIAL_SIGNAL
@@ -5505,7 +5297,6 @@ to O
 Venezuela PLACE
 VENEZUELA PLACE
 : O
- O
 7/12 O
 Is O
 Oil O
@@ -5530,7 +5321,6 @@ Biking MOTION
 with O
 Tom SPATIAL_ENTITY
 Hunt SPATIAL_ENTITY
-Hunt O
 7/27 O
 Coral O
 reefs PLACE
@@ -5538,7 +5328,6 @@ in SPATIAL_SIGNAL
 Venezuela PLACE
 BRAZIL PLACE
 : O
- O
 8/15 O
 Into O
 the O
@@ -5557,7 +5346,6 @@ Amazon PLACE
 BEST O
 VIDEOS O
 : O
- O
 A O
 bombero O
 celebrates NONMOTION_EVENT
@@ -5566,14 +5354,12 @@ birthday O
 in SPATIAL_SIGNAL
 Medellin, PLACE
 Colombia PLACE
-, O
 Colombia O
 Bicycle O
 commuters SPATIAL_ENTITY
 in SPATIAL_SIGNAL
 Bogota, PLACE
 Colombia PLACE
-, O
 Colombia O
 A O
 bike O
@@ -5585,12 +5371,10 @@ ambulance O
 in O
 Caracas, PLACE
 Venezuela PLACE
-, O
 Venezuela O
 Truck SPATIAL_ENTITY
 full SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 kids SPATIAL_ENTITY
 yelling O
 ‘ O
@@ -5608,7 +5392,6 @@ reserve PLACE
 in SPATIAL_SIGNAL
 the O
 Amazon PLACE
- O
 WHAT O
 DOES O
 GLOBAL O
@@ -5623,7 +5406,6 @@ AND O
 BRAZIL PLACE
 ? O
 
-    O
 Due O
 to O
 rising MOTION
@@ -5763,7 +5545,6 @@ at O
 risk O
 . O
 
-    O
 One O
 topic O
 I SPATIAL_ENTITY
@@ -5837,7 +5618,6 @@ such O
 diseases O
 . O
 
- O
 CHECK O
 BACK O
 SOON O
@@ -5846,7 +5626,6 @@ RIDE O
 FOR O
 CLIMATE O
 USA PLACE
-    O
 I SPATIAL_ENTITY
 am O
 currently O
@@ -5873,7 +5652,6 @@ around SPATIAL_SIGNAL
 the O
 United PLACE
 States PLACE
-States O
 to O
 promote O
 solutions O
@@ -5905,7 +5683,6 @@ stay O
 tuned O
 ! O
 
- O
 DO O
 YOU O
 KNOW O
@@ -5915,7 +5692,6 @@ THE O
 ROAD PATH
 ? O
 
-     O
 Over O
 the O
 next O
@@ -5943,7 +5719,6 @@ Cusco PLACE
 and O
 La PLACE
 Paz PLACE
-Paz O
 , O
 as O
 well O
@@ -5988,19 +5763,16 @@ me SPATIAL_ENTITY
 know O
 . O
 
-    O
 I SPATIAL_ENTITY
 am O
 currently O
 taking MOTION
 a MOTION_SIGNAL
 boat MOTION_SIGNAL
-boat O
 up MOTION_SIGNAL
 the O
 Amazon PATH
 River PATH
-River O
 from MOTION_SIGNAL
 Manaus PLACE
 into MOTION_SIGNAL
@@ -6046,7 +5818,6 @@ another O
 update O
 . O
 
-    O
 Thank O
 you O
 again O
@@ -6071,9 +5842,7 @@ email O
 
 Best O
 , O
- O
 David SPATIAL_ENTITY
- O
 Miles O
 by O
 country O
@@ -6107,7 +5876,6 @@ September O
 28th O
 , O
 2006 O
-    O
 In SPATIAL_SIGNAL
 Huaraz PLACE
 , O
@@ -6125,9 +5893,6 @@ Santa PLACE
 Rosa PLACE
 de PLACE
 Viterbo PLACE
-Rosa O
-de O
-Viterbo O
 , O
 a O
 good O
@@ -6208,7 +5973,6 @@ entire O
 school SPATIAL_ENTITY
 . O
 
-    O
 What O
 do O
 I SPATIAL_ENTITY
@@ -6411,7 +6175,6 @@ to O
 travel O
 . O
 
-    O
 At O
 the O
 least O
@@ -6444,7 +6207,6 @@ in SPATIAL_SIGNAL
 the O
 United PLACE
 States PLACE
-States O
 that O
 care O
 about O
@@ -6502,7 +6264,6 @@ February O
 6th O
 , O
 2006 O
-    O
 It O
 is O
 difficult O
@@ -6572,7 +6333,6 @@ read O
 about O
 . O
 
-    O
 Heading MOTION
 south MOTION_SIGNAL
 from MOTION_SIGNAL
@@ -6585,7 +6345,6 @@ first O
 night O
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 the O
 house PLACE
 of O
@@ -6691,7 +6450,6 @@ abroad SPATIAL_SIGNAL
 . O
 
 ) O
-    O
 The O
 land PLACE
 south SPATIAL_SIGNAL
@@ -6706,8 +6464,6 @@ land PLACE
 to SPATIAL_SIGNAL
 the SPATIAL_SIGNAL
 north SPATIAL_SIGNAL
-the O
-north O
 , O
 and O
 I SPATIAL_ENTITY
@@ -6743,7 +6499,6 @@ corn O
 stalks SPATIAL_ENTITY
 . O
 
-    O
 After O
 staying NONMOTION_EVENT
 with O
@@ -6764,7 +6519,6 @@ climbed MOTION
 to MOTION_SIGNAL
 11,000 MEASURE
 feet MEASURE
-feet O
 where SPATIAL_SIGNAL
 I SPATIAL_ENTITY
 encountered MOTION
@@ -6796,18 +6550,14 @@ August O
 15th O
 , O
 2006 O
-    O
 Heading MOTION
 south MOTION_SIGNAL
 from MOTION_SIGNAL
 Puerto PLACE
 Ordaz PLACE
-Ordaz O
 / O
 Ciudad PLACE
 Guyana PLACE
-Guyana O
-( O
 the O
 city PLACE
 seems O
@@ -6870,7 +6620,6 @@ is O
 where SPATIAL_SIGNAL
 Angel PLACE
 Falls PLACE
-Falls O
 , O
 the O
 worldâ€ O
@@ -6923,7 +6672,6 @@ same O
 time O
 . O
 
-    O
 Entering MOTION
 Brazil PLACE
 , O
@@ -6937,7 +6685,6 @@ into MOTION_SIGNAL
 the O
 Amazon PLACE
 basin PLACE
-basin O
 , O
 where SPATIAL_SIGNAL
 , O
@@ -6955,7 +6702,6 @@ city PLACE
 of O
 Boa PLACE
 Vista PLACE
-Vista O
 . O
 
 Before O
@@ -6999,7 +6745,6 @@ worry O
 about O
 it.â€ O
 ™ O
-    O
 In O
 Brazil PLACE
 , O
@@ -7066,7 +6811,6 @@ languages O
 In SPATIAL_SIGNAL
 Boa PLACE
 Vista PLACE
-Vista O
 , O
 where SPATIAL_SIGNAL
 I SPATIAL_ENTITY
@@ -7109,7 +6853,6 @@ the O
 teacher SPATIAL_ENTITY
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 me SPATIAL_ENTITY
 would O
 repeat O
@@ -7175,7 +6918,6 @@ been O
 understood O
 . O
 
-    O
 Continuing MOTION
 south MOTION_SIGNAL
 , O
@@ -7255,17 +6997,14 @@ equator PATH
 ) O
 . O
 
-    O
 Further SPATIAL_SIGNAL
 south SPATIAL_SIGNAL
-south O
 , O
 however O
 , O
 a O
 75 MEASURE
 mile MEASURE
-mile O
 stretch PATH
 of O
 road O
@@ -7486,14 +7225,11 @@ slowly O
 on MOTION_SIGNAL
 a MOTION_SIGNAL
 bike MOTION_SIGNAL
-a O
-bike O
 through MOTION_SIGNAL
 the O
 reserve PLACE
 . O
 
-    O
 At SPATIAL_SIGNAL
 the O
 reserveÂ´s O
@@ -7564,7 +7300,6 @@ bike MOTION
 the O
 75 MEASURE
 miles MEASURE
-miles O
 , O
 stopping O
 only O
@@ -7628,7 +7363,6 @@ the O
 road O
 . O
 
-    O
 On SPATIAL_SIGNAL
 the O
 exit PLACE
@@ -7725,7 +7459,6 @@ it O
 . O
 
 ’ O
-    O
 After O
 two O
 more O
@@ -7753,12 +7486,10 @@ where SPATIAL_SIGNAL
 the O
 Rio PATH
 Negro PATH
-Negro O
 meets MOTION
 the O
 Amazon PATH
 River PATH
-River O
 . O
 
 I SPATIAL_ENTITY
@@ -7778,7 +7509,6 @@ up MOTION_SIGNAL
 the O
 Amazon PATH
 river PATH
-river O
 and O
 into MOTION_SIGNAL
 Peru PLACE

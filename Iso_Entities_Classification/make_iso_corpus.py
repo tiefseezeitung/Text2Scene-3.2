@@ -6,23 +6,7 @@ from sys import exit
 import spacy
 nlp = spacy.load("en_core_web_sm")
 import xml.etree.ElementTree as ET
-
-
-# needed later for .txt file (but only for trial)
-def constructtrial(path):
-    """Gets data and splits text to tokens and puts them into a list"""
-    newfile = []
-    for subdir, dirs, files in os.walk(path):
-        for filename in files:
-            filepath = subdir + os.sep + filename
-            if filepath.endswith(".xml"):
-                root = ET.parse(filepath)
-                t = root.find('TEXT')
-                text = t.text
-                doc = nlp(text)
-                for token in doc:
-                    newfile += [token.text]
-    return newfile
+import string
 
 
 # to get iso-type
@@ -45,6 +29,7 @@ def construct(path):
                 doc = nlp(root[0].text)
                 isoents = ['PLACE','PATH','SPATIAL_ENTITY','SPATIAL_SIGNAL',\
                            'MOTION','MOTION_SIGNAL','MEASURE','NONMOTION_EVENT']
+                prev = 1
                 for token in doc:
                     found = False
                     for elem in root:
@@ -61,28 +46,30 @@ def construct(path):
                                                 #csv would be
                                                 #newfile += x[e] +','+i+'\n'
                                         found = True
+                                        prev = len(x)
                                         break
                     if not found: 
-                        #filter out useless data
-                        if token.text == ('\n' or'' or ' ' or '\n\n\n' or '\n\n'): pass
-                        else: 
-                            newfile += token.text +' O\n'
-                            #csv:
-                            #newfile += token.text +',O\n'
-                #print(newfile)
+                        if prev > 1: prev -= 1
+                        else:
+                            #filter out useless data
+                            txt = (str(token.text)).translate(str.maketrans('', '', string.whitespace))
+                            x = txt.split(' ')
+                            for e in range(len(x)):
+                                if x[e] == '\n' or x[e] =='' or x[e] ==' ' or x[e] =='\n\n\n' or x[e] =='\n\n': pass
+                                else: 
+                                    newfile += x[e] +' O\n'
+                                    #csv:
+                                    #newfile += x[e] +',O\n'
     return newfile
 
 
 trainpath = '../Data/training/Traning'
-trialpath = '../Data/spaceeval_trial_data/spaceeval_trial_data'
 testpath = '../Data/test_task8/Test.configuration3'
 
 
 traintxtpath = './corpus/train.txt'
-trialtxtpath = './corpus/trial.txt'
 testtxtpath = './corpus/test.txt'
 
-trialLst = constructtrial(trialpath) # dev = trial
 trainSetClass = construct(trainpath)
 testSetClass = construct(testpath)
 
@@ -97,17 +84,7 @@ testtxt.write(testSetClass)
 testtxt.close()
 
 
-trialtxt = open(trialtxtpath, "w", encoding="utf-8")
-
-#newlist
-for each in trialLst:
-    l = str(each)
-    trialtxt.write(l)
-    trialtxt.write("\n")
-trialtxt.close()
-print("")
-
-# 1.erst keine empty lines
+# 1.remove empty lines
 # 2.remove lines with no text
 # 3.remove lines with no text but with entity
 # 4.add empty lines at the end of a sentence
@@ -197,11 +174,4 @@ testtxt.writelines(oline)
 testtxt.close()
 
 
-trialtxt = open(trialtxtpath, "w")
-for each in trialLst:
-    l = str(each)
-    trialtxt.write(l)
-    trialtxt.write("\n")
-trialtxt.close()
-print("")
 

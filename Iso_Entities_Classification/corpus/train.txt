@@ -122,8 +122,6 @@ is O
 Surrender SPATIAL_ENTITY
 of SPATIAL_ENTITY
 Breda SPATIAL_ENTITY
-of O
-Breda O
 , O
 commemorating O
 a O
@@ -219,8 +217,6 @@ Drunkards O
 Francisco SPATIAL_ENTITY
 de SPATIAL_ENTITY
 Goya SPATIAL_ENTITY
-de O
-Goya O
 ( O
 1746–1828 O
 ) O
@@ -450,7 +446,6 @@ harrowing O
 “ O
 black SPATIAL_ENTITY
 paintings SPATIAL_ENTITY
-paintings O
 , O
 ” O
 done O
@@ -923,10 +918,6 @@ Garden SPATIAL_ENTITY
 of SPATIAL_ENTITY
 Earthly SPATIAL_ENTITY
 Delights SPATIAL_ENTITY
-Garden O
-of O
-Earthly O
-Delights O
 . O
 
 Daringly O
@@ -1014,9 +1005,6 @@ Adoration SPATIAL_ENTITY
 of SPATIAL_ENTITY
 the SPATIAL_ENTITY
 Magi SPATIAL_ENTITY
-of O
-the O
-Magi O
 , O
 a O
 brilliant O
@@ -1027,8 +1015,6 @@ and O
 The SPATIAL_ENTITY
 Three SPATIAL_ENTITY
 Graces SPATIAL_ENTITY
-Three O
-Graces O
 , O
 a O
 portrait O
@@ -1347,9 +1333,6 @@ Casón PLACE
 del PLACE
 Buen PLACE
 Retiro PLACE
-del O
-Buen O
-Retiro O
 , O
 up SPATIAL_SIGNAL
 the O
@@ -1359,9 +1342,6 @@ calle PATH
 de PATH
 Felipe PATH
 IV PATH
-de O
-Felipe O
-IV O
 , O
 houses SPATIAL_SIGNAL
 a O
@@ -1386,20 +1366,10 @@ the O
 Paseo PATH
 del PATH
 Prado PATH
-del O
-Prado O
 is O
 the O
 Museo PLACE
 Thyssen-Bor­nemizsa PLACE
-Thyssen O
-- O
-Bor­nemizsa O
-, O
-a O
-recent O
-addition O
-to O
 Madrid PLACE
 ’s O
 already O
@@ -1412,8 +1382,6 @@ the O
 Palacio PLACE
 de PLACE
 Villahermosa PLACE
-de O
-Villahermosa O
 . O
 
 This O
@@ -1609,25 +1577,15 @@ landmark PLACE
 of O
 old PLACE
 Madrid PLACE
-Madrid O
-, O
-is O
-the O
 Hospital PLACE
 de PLACE
 San PLACE
 Carlos PLACE
-de O
-San O
-Carlos O
 ( O
 c/ PLACE
 Santa PLACE
 I­sa­bel PLACE
 52 PLACE
-Santa O
-I­sa­bel O
-52 O
 ) O
 , O
 which PLACE
@@ -1639,10 +1597,6 @@ de PLACE
 Arte PLACE
 Reina PLACE
 Sofía PLACE
-de O
-Arte O
-Reina O
-Sofía O
 . O
 
 The O
@@ -1678,13 +1632,9 @@ Museum PLACE
 of PLACE
 Modern PLACE
 Art PLACE
-of O
-Modern O
-Art O
 in SPATIAL_SIGNAL
 New PLACE
 York PLACE
-York O
 until O
 the O
 death O
@@ -1780,25 +1730,14 @@ Gris O
 Directly O
 across SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-from O
 the O
 Reina PLACE
 Sofía PLACE
-Sofía O
 is O
 the O
 Atocha PLACE
 train PLACE
 station PLACE
-train O
-station O
-, O
-an O
-iron O
-- O
-and O
-- O
-glass O
 affair PLACE
 with O
 a O
@@ -1845,7 +1784,6 @@ go MOTION
 
 South­east SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 the O
 train O
 station PLACE
@@ -1855,21 +1793,13 @@ Real PLACE
 Fábrica PLACE
 de PLACE
 Ta­pi­ces PLACE
-Fábrica O
-de O
-Ta­pi­ces O
 ( O
 Royal PLACE
 Tapestry PLACE
 Factory PLACE
-Tapestry O
-Factory O
-, O
 c/ PLACE
 Fuenterrabía, PLACE
 2 PLACE
-Fuenterrabía O
-, O
 2 O
 ) O
 . O
@@ -1947,13 +1877,10 @@ commission O
 Immediately MEASURE
 east SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 the O
 Museo PLACE
 del PLACE
 Prado PLACE
-del O
-Prado O
 is O
 the O
 city PLACE
@@ -1966,9 +1893,6 @@ Parque PLACE
 del PLACE
 Buen PLACE
 Retiro PLACE
-del O
-Buen O
-Retiro O
 . O
 
 Until O
@@ -1982,7 +1906,6 @@ ago O
 , O
 Retiro PLACE
 Park PLACE
-Park O
 was O
 a O
 royal O
@@ -2044,12 +1967,9 @@ The O
 Palacio PLACE
 de PLACE
 Cristal PLACE
-de O
-Cristal O
 ( O
 Crystal PLACE
 Palace PLACE
-Palace O
 ) O
 , O
 a O
@@ -2084,19 +2004,14 @@ the O
 Real PLACE
 Jardín PLACE
 Botánico PLACE
-Jardín O
-Botánico O
 ( O
 Royal PLACE
 Botanical PLACE
 Garden PLACE
-Botanical O
-Garden O
 ) O
 , O
 adjacent SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 the O
 Prado PLACE
 , O
@@ -2109,7 +2024,6 @@ and O
 is O
 packed SPATIAL_SIGNAL
 with SPATIAL_SIGNAL
-with O
 enlightening O
 displays SPATIAL_ENTITY
 of O
@@ -2125,17 +2039,10 @@ corner PLACE
 of O
 Retiro PLACE
 Park PLACE
-Park O
 is O
 Puerta SPATIAL_ENTITY
 de SPATIAL_ENTITY
 Al­ca­lá SPATIAL_ENTITY
-de O
-Al­ca­lá O
-, O
-a O
-monumental O
-triumphal O
 arch SPATIAL_ENTITY
 surmounted SPATIAL_SIGNAL
 by O
@@ -2169,9 +2076,6 @@ Plaza PLACE
 de PLACE
 la PLACE
 Independencia PLACE
-de O
-la O
-Independencia O
 , O
 in SPATIAL_SIGNAL
 which PLACE
@@ -2214,7 +2118,6 @@ foundations O
 of O
 modern PLACE
 Madrid PLACE
-Madrid O
 , O
 a O
 sprawling O
@@ -2238,8 +2141,6 @@ museums PLACE
 Barrio PLACE
 de PLACE
 Salamanca PLACE
-de O
-Salamanca O
 is O
 the O
 most O
@@ -2252,7 +2153,6 @@ these PLACE
 and O
 Gran PATH
 Vía PATH
-Vía O
 is O
 the O
 great O
@@ -2274,14 +2174,11 @@ old PLACE
 to O
 new PLACE
 Madrid PLACE
-Madrid O
 . O
 
 Paseo PATH
 de PATH
 Recoletos PATH
-de O
-Recoletos O
 is O
 a O
 continuation O
@@ -2289,8 +2186,6 @@ of O
 Paseo PATH
 del PATH
 Prado PATH
-del O
-Prado O
 that O
 runs MOTION
 from MOTION_SIGNAL
@@ -2298,31 +2193,23 @@ Plaza PLACE
 de PLACE
 la PLACE
 Cibeles PLACE
-de O
-la O
-Cibeles O
 to MOTION_SIGNAL
 Plaza PLACE
 Colón PLACE
-Colón O
 . O
 
 A MEASURE
 block MEASURE
-block O
 east SPATIAL_SIGNAL
 is O
 the O
 distinguished O
 Museo PLACE
 Arqueológico PLACE
-Arqueológico O
 ( O
 c/ PLACE
 Serrano, PLACE
 13 PLACE
-Serrano O
-, O
 13 O
 ) O
 . O
@@ -2391,7 +2278,6 @@ found NONMOTION_EVENT
 in SPATIAL_SIGNAL
 Alicante PLACE
 province PLACE
-province O
 in O
 1897 O
 . O
@@ -2500,8 +2386,6 @@ discovered O
 Plaza PLACE
 de PLACE
 Colón PLACE
-de O
-Colón O
 is O
 a O
 large O
@@ -2549,7 +2433,6 @@ of O
 the O
 New PLACE
 World PLACE
-World O
 . O
 
 There O
@@ -2561,16 +2444,10 @@ Cultural PLACE
 de PLACE
 la PLACE
 Villa PLACE
-Cultural O
-de O
-la O
-Villa O
 ( O
 City PLACE
 Cultural PLACE
 Center PLACE
-Cultural O
-Center O
 ) O
 , O
 with SPATIAL_SIGNAL
@@ -2591,9 +2468,6 @@ Paseo PATH
 de PATH
 la PATH
 Castellana PATH
-de O
-la O
-Castellana O
 is O
 Madrid PLACE
 ’s O
@@ -2607,7 +2481,6 @@ running MOTION
 for O
 several MEASURE
 miles MEASURE
-miles O
 through MOTION_SIGNAL
 the O
 heart PLACE
@@ -2619,7 +2492,6 @@ bordering SPATIAL_SIGNAL
 the O
 Salamanca PLACE
 district PLACE
-district O
 to O
 it PATH
 west SPATIAL_SIGNAL
@@ -2631,12 +2503,9 @@ the O
 area PLACE
 north SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 Plaza PLACE
 de PLACE
 Colón PLACE
-de O
-Colón O
 , O
 you SPATIAL_ENTITY
 come MOTION
@@ -2669,14 +2538,10 @@ balconies SPATIAL_ENTITY
 Museo PLACE
 Lázaro PLACE
 Galdiano PLACE
-Lázaro O
-Galdiano O
 ( O
 c/ PLACE
 Serrano, PLACE
 122 PLACE
-Serrano O
-, O
 122 O
 ) O
 is O
@@ -2845,7 +2710,6 @@ Vinci O
 entitled O
 The SPATIAL_ENTITY
 Saviour SPATIAL_ENTITY
-Saviour O
 . O
 
 Another O
@@ -2858,19 +2722,12 @@ is O
 the O
 Museo PLACE
 Sorolla PLACE
-Sorolla O
-( O
 Paseo PLACE
 del PLACE
 General PLACE
 Martínez PLACE
 Campos, PLACE
 37 PLACE
-del O
-General O
-Martínez O
-Campos O
-, O
 37 O
 ) O
 . O
@@ -2936,15 +2793,11 @@ feel O
 Quite MEASURE
 a MEASURE
 way MEASURE
-a O
-way O
 east SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 the O
 Salamanca PLACE
 barrio PLACE
-barrio O
 is O
 the O
 Plaza PLACE
@@ -2953,19 +2806,10 @@ Toros PLACE
 y PLACE
 Museo PLACE
 Taurino PLACE
-de O
-Toros O
-y O
-Museo O
-Taurino O
-( O
 Bullfighting PLACE
 Ring PLACE
 and PLACE
 Museum PLACE
-Ring O
-and O
-Museum O
 ) O
 , O
 officially O
@@ -2978,12 +2822,6 @@ Monumental PLACE
 de PLACE
 Las PLACE
 Ventas PLACE
-de O
-Toros O
-Monumental O
-de O
-Las O
-Ventas O
 . O
 
 This PLACE
@@ -3063,12 +2901,9 @@ Bourbon O
 Madrid O
 West SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 Puerta PLACE
 del PLACE
 Sol PLACE
-del O
-Sol O
 is O
 the O
 city PLACE
@@ -3087,14 +2922,10 @@ monarchs O
 Calle PATH
 de PATH
 Alcalá PATH
-de O
-Alcalá O
 merges MOTION
 with MOTION_SIGNAL
 Gran PATH
 Vía PATH
-Vía O
-and O
 leads MOTION
 to MOTION_SIGNAL
 the O
@@ -3102,16 +2933,11 @@ Plaza PLACE
 de PLACE
 la PLACE
 Cibeles PLACE
-de O
-la O
-Cibeles O
 and O
 the O
 Paseo PATH
 del PATH
 Prado PATH
-del O
-Prado O
 , O
 with SPATIAL_SIGNAL
 it PATH
@@ -3152,7 +2978,6 @@ world O
 ’s O
 Big PLACE
 Three PLACE
-Three O
 , O
 visitors SPATIAL_ENTITY
 can O
@@ -3160,7 +2985,6 @@ repair MOTION
 to MOTION_SIGNAL
 Retiro PLACE
 Park PLACE
-Park O
 , O
 where O
 kings O
@@ -3193,9 +3017,6 @@ Plaza PLACE
 de PLACE
 la PLACE
 Cibeles PLACE
-de O
-la O
-Cibeles O
 is O
 splendid O
 . O
@@ -3221,8 +3042,6 @@ pulled MOTION
 by MOTION_SIGNAL
 two MOTION_SIGNAL
 lions MOTION_SIGNAL
-two O
-lions O
 . O
 
 The O
@@ -3255,28 +3074,15 @@ like O
 Palacio PLACE
 de PLACE
 Comunicaciones PLACE
-de O
-Comunicaciones O
-, O
-teasingly O
-nicknamed O
 Nuestra PLACE
 Señora PLACE
 de PLACE
 las PLACE
 Comunicaciones PLACE
-Señora O
-de O
-las O
-Comunicaciones O
-( O
 Our PLACE
 Lady PLACE
 of PLACE
 Communications PLACE
-Lady O
-of O
-Communications O
 ) O
 . O
 
@@ -3308,9 +3114,6 @@ Plaza PLACE
 de PLACE
 la PLACE
 Cibeles PLACE
-de O
-la O
-Cibeles O
 , O
 the O
 Banco O
@@ -3349,8 +3152,6 @@ on SPATIAL_SIGNAL
 calle PATH
 de PATH
 Alcalá PATH
-de O
-Alcalá O
 . O
 
 Imposing O
@@ -3388,22 +3189,15 @@ Plaza PLACE
 de PLACE
 la PLACE
 Lealtad PLACE
-de O
-la O
-Lealtad O
 , O
 the O
 Bolsa PLACE
 de PLACE
 Comercio PLACE
-de O
-Comercio O
 ( O
 Stock PLACE
 E PLACE
 xchange PLACE
-E O
-xchange O
 ) O
 . O
 
@@ -3413,8 +3207,6 @@ leafy O
 Paseo PATH
 del PATH
 Prado PATH
-del O
-Prado O
 you SPATIAL_ENTITY
 ’ll O
 find O
@@ -3439,16 +3231,11 @@ Sol O
 Puerta PLACE
 del PLACE
 Sol PLACE
-del O
-Sol O
 ( O
 Gateway PLACE
 to PLACE
 the PLACE
 Sun PLACE
-to O
-the O
-Sun O
 ) O
 is O
 Madrid PLACE
@@ -3476,7 +3263,6 @@ transition O
 between O
 Hapsburg PLACE
 Madrid PLACE
-Madrid O
 and O
 the O
 city O
@@ -3499,10 +3285,6 @@ here PLACE
   O
 part SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
-the O
-ancient O
-town O
 wall PATH
   O
 — O
@@ -3534,14 +3316,11 @@ from O
 Puerta PLACE
 del PLACE
 Sol PLACE
-del O
-Sol O
 , O
 designated O
 “ O
 Kilometer PLACE
 Zero PLACE
-Zero O
 ” O
 ( O
 on SPATIAL_SIGNAL
@@ -3583,8 +3362,6 @@ square PLACE
 Casa SPATIAL_ENTITY
 de SPATIAL_ENTITY
 Correos SPATIAL_ENTITY
-de O
-Correos O
 ) O
 houses SPATIAL_SIGNAL
 the O
@@ -3644,8 +3421,6 @@ remodeled O
 Puerta PLACE
 del PLACE
 Sol PLACE
-del O
-Sol O
 is O
 a O
 statue SPATIAL_ENTITY
@@ -3713,32 +3488,23 @@ the O
 Puerta PLACE
 del PLACE
 Sol PLACE
-del O
-Sol O
 . O
 
 Just MEASURE
 north SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 the O
 Puerta PLACE
 del PLACE
 Sol PLACE
-del O
-Sol O
 and O
 next SPATIAL_SIGNAL
 door SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-door O
-to O
 the O
 Ministry PLACE
 of PLACE
 Finance PLACE
-of O
-Finance O
 , O
 is O
 the O
@@ -3750,17 +3516,6 @@ Artes PLACE
 de PLACE
 San PLACE
 Fernando PLACE
-Academia O
-de O
-Bellas O
-Artes O
-de O
-San O
-Fernando O
-  O
-— O
-  O
-call O
 it PLACE
 the O
 Museum PLACE
@@ -3768,10 +3523,6 @@ of PLACE
 the PLACE
 Royal PLACE
 Academy PLACE
-of O
-the O
-Royal O
-Academy O
 . O
 
 It PLACE
@@ -3826,7 +3577,6 @@ display O
 The O
 Royal PLACE
 Academy PLACE
-Academy O
 also O
 has O
 a O
@@ -3843,7 +3593,6 @@ of O
 the O
 Prado PLACE
 Museum PLACE
-Museum O
 . O
 
 Representative O
@@ -3866,23 +3615,17 @@ Rodríguez O
 
 Southeast SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 Puerta PLACE
 del PLACE
 Sol PLACE
-del O
-Sol O
 is O
 Plaza PLACE
 Santa PLACE
 Ana PLACE
-Santa O
-Ana O
 and O
 the O
 Huertas PLACE
 district PLACE
-district O
 , O
 both PLACE
 of O
@@ -3891,7 +3634,6 @@ are O
 chock O
 full SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 restaurants PLACE
 , O
 tascas PLACE
@@ -3929,7 +3671,6 @@ pride O
 the O
 Prado PLACE
 museum PLACE
-museum O
 , O
 is O
 indisputably O
@@ -4061,7 +3802,6 @@ of O
 the O
 royal PLACE
 palace PLACE
-palace O
 , O
 to O
 design O
@@ -4112,9 +3852,6 @@ royal PLACE
 museum PLACE
 of PLACE
 painting PLACE
-museum O
-of O
-painting O
 was O
 inaugurated O
 in O
@@ -4129,16 +3866,6 @@ El PLACE
 Mu­seo PLACE
 del PLACE
 Prado PLACE
-Mu­seo O
-del O
-Prado O
-. O
-
-In O
-the O
-early O
-1990s O
-, O
 modernization O
 projects O
 , O
@@ -4571,8 +4298,6 @@ the O
 Asakusa PLACE
 Kannon PLACE
 temple PLACE
-Kannon O
-temple O
 ) O
 . O
 
@@ -4598,14 +4323,6 @@ in SPATIAL_SIGNAL
 the O
 Sumida PATH
 River PATH
-River O
-by O
-two O
-local O
-fishermen O
-in O
-the O
-year O
 628 O
   O
 — O
@@ -4680,7 +4397,6 @@ reputation O
 as O
 Fun PLACE
 City PLACE
-City O
 . O
 
 The O
@@ -4992,14 +4708,12 @@ corner PLACE
 of O
 Hibiya PLACE
 Park PLACE
-Park O
 all O
 the O
 way PATH
 to MOTION_SIGNAL
 Tokyo PLACE
 Bay PLACE
-Bay O
 is O
 the O
 broad O
@@ -5039,7 +4753,6 @@ bura O
 Just O
 south SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 Ginza PLACE
 itself O
 , O
@@ -5134,15 +4847,6 @@ Tsukiji PLACE
 Central PLACE
 Wholesale PLACE
 Market PLACE
-Central O
-Wholesale O
-Market O
-  O
-— O
-  O
-the O
-largest O
-fish O
 market PLACE
 in SPATIAL_SIGNAL
 Asia PLACE
@@ -5211,16 +4915,6 @@ Rikyu PLACE
 Detached PLACE
 Palace PLACE
 Garden PLACE
-Rikyu O
-Detached O
-Palace O
-Garden O
-. O
-
-Originally O
-a O
-Tokugawa O
-family O
 estate PLACE
 , O
 the O
@@ -5238,8 +4932,6 @@ path PATH
 to SPATIAL_SIGNAL
 the SPATIAL_SIGNAL
 left SPATIAL_SIGNAL
-the O
-left O
 as O
 you SPATIAL_ENTITY
 enter MOTION
@@ -5263,12 +4955,10 @@ up MOTION_SIGNAL
 the O
 Sumida PATH
 River PATH
-River O
 to MOTION_SIGNAL
 Asakusa PLACE
 . O
 
- O
 23-Aug-2002 O
 -- O
 On O
@@ -5315,7 +5005,6 @@ come MOTION
 to MOTION_SIGNAL
 Sînpetru PLACE
 German PLACE
-German O
 . O
 
 We SPATIAL_ENTITY
@@ -5395,7 +5084,6 @@ village PLACE
 of O
 Sînpetru PLACE
 German PLACE
-German O
 , O
 where SPATIAL_SIGNAL
 we SPATIAL_ENTITY
@@ -5461,7 +5149,6 @@ ways PATH
 before O
 . O
 
- O
 Finally O
 we SPATIAL_ENTITY
 reached MOTION
@@ -5472,15 +5159,12 @@ Gelu PLACE
 to O
 Sînnicolau PLACE
 Mare PLACE
-Mare O
 . O
 
 After MOTION_SIGNAL
 about MEASURE
 2 MEASURE
 km MEASURE
-2 O
-km O
 we SPATIAL_ENTITY
 turned MOTION
 left MOTION_SIGNAL
@@ -5502,14 +5186,11 @@ car SPATIAL_ENTITY
 on SPATIAL_SIGNAL
 46 PATH
 N PATH
-N O
 , O
 150 MEASURE
 m MEASURE
-m O
 away SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-from O
 the O
 point PLACE
 . O
@@ -5568,7 +5249,6 @@ drive MOTION
 away MOTION_SIGNAL
 our MOTION_SIGNAL
 car MOTION_SIGNAL
-car O
 immediately O
 . O
 
@@ -5642,17 +5322,11 @@ to MOTION_SIGNAL
 N PLACE
 22 PLACE
 E PLACE
-N O
-22 O
-E. O
- O
- O
 23-Aug-2002 O
 -- O
 Leaving MOTION
 46N PLACE
 21E PLACE
-21E O
 we SPATIAL_ENTITY
 drove MOTION
 via MOTION_SIGNAL
@@ -5676,8 +5350,6 @@ us SPATIAL_ENTITY
 About MEASURE
 5 MEASURE
 km MEASURE
-5 O
-km O
 behind SPATIAL_SIGNAL
 that O
 village PLACE
@@ -5685,9 +5357,6 @@ in SPATIAL_SIGNAL
 the SPATIAL_SIGNAL
 direction SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-the O
-direction O
-to O
 Bata PLACE
 we SPATIAL_ENTITY
 turned MOTION
@@ -5695,7 +5364,6 @@ right MOTION_SIGNAL
 near MEASURE
 21 PATH
 E PATH
-E O
 into MOTION_SIGNAL
 a O
 way PATH
@@ -5735,10 +5403,8 @@ mosquitoes SPATIAL_ENTITY
 
 1.3 MEASURE
 km MEASURE
-km O
 far SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-from O
 the O
 confluence PLACE
 we SPATIAL_ENTITY
@@ -5748,7 +5414,6 @@ the O
 way PATH
 turning MOTION_SIGNAL
 left MOTION_SIGNAL
-left O
 , O
 because O
 it O
@@ -5884,8 +5549,6 @@ before O
 am O
 . O
 
- O
- O
 19-Apr-2012 O
 -- O
 The O
@@ -5935,7 +5598,6 @@ last O
 winter O
 . O
 
- O
 We SPATIAL_ENTITY
 could O
 park NONMOTION_EVENT
@@ -5944,13 +5606,9 @@ car SPATIAL_ENTITY
 appr. MEASURE
 950 MEASURE
 m MEASURE
-. O
-
-950 O
 m O
 away SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-from O
 the O
 point PLACE
 and O
@@ -5972,7 +5630,6 @@ herdsmen O
 station PLACE
 not MEASURE
 far MEASURE
-far O
 from O
 the O
 point PLACE
@@ -5987,7 +5644,6 @@ visit O
 us SPATIAL_ENTITY
 . O
 
- O
 Because O
 we O
 had O
@@ -6008,15 +5664,10 @@ roads PATH
 to MOTION_SIGNAL
 the MOTION_SIGNAL
 west MOTION_SIGNAL
-the O
-west O
 to MOTION_SIGNAL
 point PLACE
 46N PLACE
 24E PLACE
-24E. O
- O
- O
 23-Mar-2002 O
 -- O
 On O
@@ -6034,23 +5685,18 @@ team SPATIAL_ENTITY
 ( O
 Mara SPATIAL_ENTITY
 Iliescu SPATIAL_ENTITY
-Iliescu O
 , O
 Dana SPATIAL_ENTITY
 Iliescu SPATIAL_ENTITY
-Iliescu O
 , O
 Ramona SPATIAL_ENTITY
 Demean SPATIAL_ENTITY
-Demean O
 , O
 Marius SPATIAL_ENTITY
 Iliescu SPATIAL_ENTITY
-Iliescu O
 , O
 Mihai SPATIAL_ENTITY
 Tiepac SPATIAL_ENTITY
-Tiepac O
 and O
 Lucky SPATIAL_ENTITY
 ) O
@@ -6079,8 +5725,6 @@ and O
 Certeju PLACE
 de PLACE
 Jos PLACE
-de O
-Jos O
 arriving MOTION
 in MOTION_SIGNAL
 the O
@@ -6106,7 +5750,6 @@ at SPATIAL_SIGNAL
 only O
 50 MEASURE
 meters MEASURE
-meters O
 we SPATIAL_ENTITY
 parked NONMOTION_EVENT
 the O
@@ -6128,7 +5771,6 @@ we O
 had O
 200 MEASURE
 meters MEASURE
-meters O
 left O
 ( O
 Point O
@@ -6140,7 +5782,6 @@ trip MOTION
 continued O
 on MOTION_SIGNAL
 foot MOTION_SIGNAL
-foot O
 crossing MOTION
 the O
 valley PATH
@@ -6172,7 +5813,6 @@ snowing O
 Altitude O
 575 MEASURE
 meters MEASURE
-meters O
 . O
 
 Distance O
@@ -6180,11 +5820,8 @@ from O
 Simeria PLACE
 17.1 MEASURE
 km MEASURE
-km O
 . O
 
- O
- O
 04-Sep-2004 O
 -- O
 We SPATIAL_ENTITY
@@ -6211,13 +5848,10 @@ Focsani PLACE
 on MOTION_SIGNAL
 DN PATH
 2 PATH
-2 O
 ( O
 European PATH
 Road PATH
 85 PATH
-Road O
-85 O
 ) O
 . O
 
@@ -6230,17 +5864,14 @@ were O
 at SPATIAL_SIGNAL
 185 MEASURE
 km MEASURE
-km O
 from O
 the O
 confluence PLACE
 North PATH
 46 PATH
-46 O
 with O
 East PATH
 27 PATH
-27 O
 . O
 
 We SPATIAL_ENTITY
@@ -6255,7 +5886,6 @@ Buzau PLACE
 , O
 Ramnicu PLACE
 Sarat PLACE
-Sarat O
 and O
 , O
 after O
@@ -6266,7 +5896,6 @@ driving MOTION
 and O
 200 MEASURE
 km MEASURE
-km O
 , O
 we SPATIAL_ENTITY
 reached MOTION
@@ -6275,7 +5904,6 @@ Focsani PLACE
 at SPATIAL_SIGNAL
 35 MEASURE
 km MEASURE
-km O
 from O
 the O
 confluence O
@@ -6286,7 +5914,6 @@ the O
 county PLACE
 of O
 Vrancea PLACE
- O
 We SPATIAL_ENTITY
 continued O
 our O
@@ -6318,8 +5945,6 @@ to O
 almost MEASURE
 5 MEASURE
 km MEASURE
-5 O
-km O
 . O
 
 The O
@@ -6334,7 +5959,6 @@ confluence PLACE
 ( O
 4.8 MEASURE
 km MEASURE
-km O
 ) O
 is O
 in SPATIAL_SIGNAL
@@ -6345,8 +5969,6 @@ the O
 Ecaterina PLACE
 Teodoroiu PLACE
 monument PLACE
-Teodoroiu O
-monument O
 ( O
 Romanian O
 female O
@@ -6371,8 +5993,6 @@ monument PLACE
 on SPATIAL_SIGNAL
 the SPATIAL_SIGNAL
 right SPATIAL_SIGNAL
-the O
-right O
 coming MOTION
 from MOTION_SIGNAL
 Panciu PLACE
@@ -6389,7 +6009,6 @@ point PLACE
 ( O
 direction MOTION_SIGNAL
 North-North-West MOTION_SIGNAL
-North O
 - O
 North O
 - O
@@ -6406,17 +6025,13 @@ our O
 trip MOTION
 on MOTION_SIGNAL
 foot MOTION_SIGNAL
-foot O
 on MOTION_SIGNAL
 the O
 Dealu PLACE
 Mare PLACE
 hill PLACE
-Mare O
-hill O
 . O
 
- O
 Luckily O
 , O
 this O
@@ -6445,8 +6060,6 @@ After O
 about MEASURE
 3 MEASURE
 km MEASURE
-3 O
-km O
 , O
 we SPATIAL_ENTITY
 entered MOTION
@@ -6460,7 +6073,6 @@ crossroad PLACE
 ( O
 1 MEASURE
 km MEASURE
-km O
 from O
 the O
 confluence PLACE
@@ -6475,7 +6087,6 @@ us SPATIAL_ENTITY
 going MOTION
 towards MOTION_SIGNAL
 North-East MOTION_SIGNAL
-North O
 - O
 East O
 . O
@@ -6501,8 +6112,6 @@ at SPATIAL_SIGNAL
 about MEASURE
 300 MEASURE
 m MEASURE
-300 O
-m O
 from O
 the O
 confluence PLACE
@@ -6540,7 +6149,6 @@ a O
 slope PATH
 towards MOTION_SIGNAL
 North-East-East MOTION_SIGNAL
-North O
 - O
 East O
 - O
@@ -6568,7 +6176,6 @@ the O
 forest PLACE
 . O
 
- O
 Needless O
 to O
 say O
@@ -6617,7 +6224,6 @@ of O
 a O
 15 MEASURE
 m MEASURE
-m O
 deep O
 ravine PATH
 , O
@@ -6666,13 +6272,10 @@ photos O
 within MEASURE
 sufficient MEASURE
 accuracy MEASURE
-sufficient O
-accuracy O
 from O
 ' O
 zero PLACE
 point PLACE
-point O
 ' O
 . O
 
@@ -6692,7 +6295,6 @@ our O
 conquest O
 . O
 
- O
 The O
 return O
 journey MOTION
@@ -6774,13 +6376,10 @@ Marasti PLACE
 at SPATIAL_SIGNAL
 20 MEASURE
 km MEASURE
-km O
 of O
 Panciu PLACE
 . O
 
- O
- O
 15-Aug-2003 O
 -- O
 On O
@@ -6798,13 +6397,11 @@ on MOTION_SIGNAL
 the O
 E PATH
 70 PATH
-70 O
 from MOTION_SIGNAL
 the O
 point PLACE
 south SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 Craiova PLACE
 to MOTION_SIGNAL
 Strehaia PLACE
@@ -6817,7 +6414,6 @@ road PATH
 to MOTION_SIGNAL
 Targu PLACE
 Jiu PLACE
-Jiu O
 . O
 
 The O
@@ -6872,8 +6468,6 @@ to MOTION_SIGNAL
 Paraul PLACE
 de PLACE
 Vale PLACE
-de O
-Vale O
 . O
 
 The O
@@ -6939,7 +6533,6 @@ the O
 last O
 3000 MEASURE
 m MEASURE
-m. O
 Finally O
 our O
 Mitsubishi O
@@ -6966,11 +6559,8 @@ car SPATIAL_ENTITY
 about MEASURE
 700 MEASURE
 m MEASURE
-700 O
-m O
 far SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-from O
 N45E23 PLACE
 at SPATIAL_SIGNAL
 the O
@@ -7002,7 +6592,6 @@ of SPATIAL_SIGNAL
 the O
 Southern PATH
 Carpates PATH
-Carpates O
 , O
 but O
 the O
@@ -7070,8 +6659,6 @@ to MOTION_SIGNAL
 Paraul PLACE
 de PLACE
 Vale PLACE
-de O
-Vale O
 we SPATIAL_ENTITY
 turned MOTION
 via MOTION_SIGNAL
@@ -7080,12 +6667,9 @@ to MOTION_SIGNAL
 Baia PLACE
 de PLACE
 Arama PLACE
-de O
-Arama O
 and O
 Baile PLACE
 Herculane PLACE
-Herculane O
 . O
 
 This O
@@ -7149,8 +6733,6 @@ next O
 day O
 . O
 
- O
- O
 23-Jul-2005 O
 -- O
 Well O
@@ -7234,7 +6816,6 @@ Kosovo PLACE
 – O
 570 MEASURE
 km MEASURE
-km O
 as O
 the O
 crow O
@@ -7250,11 +6831,9 @@ in SPATIAL_SIGNAL
 Romania PLACE
 . O
 
- O
 Fortunately O
 Eastern PLACE
 Europe PLACE
-Europe O
 – O
 even O
 outside SPATIAL_SIGNAL
@@ -7325,7 +6904,6 @@ I SPATIAL_ENTITY
 covered MOTION
 500 MEASURE
 km MEASURE
-km O
 on O
 Fri O
 eve O
@@ -7346,7 +6924,6 @@ around O
 noon O
 . O
 
- O
 The O
 instructions O
 from O
@@ -7404,7 +6981,6 @@ UK O
 car SPATIAL_ENTITY
 ! O
 
- O
 As O
 previously O
 described O
@@ -7507,7 +7083,6 @@ good O
 idea O
 . O
 
- O
 The O
 valley PATH
 is O
@@ -7615,14 +7190,12 @@ km O
 and O
 500 MEASURE
 metres MEASURE
-metres O
 ascent MOTION
 is O
 slow O
 going O
 ! O
 
- O
 There O
 was O
 no O
@@ -7631,7 +7204,6 @@ to O
 go MOTION
 out MOTION_SIGNAL
 of MOTION_SIGNAL
-of O
 the O
 main O
 valley PATH
@@ -7641,7 +7213,6 @@ point PLACE
 was O
 some MEASURE
 distance MEASURE
-distance O
 from O
 the O
 ridge O
@@ -7672,7 +7243,6 @@ altitude O
 was O
 550 MEASURE
 metres MEASURE
-metres O
 and O
 the O
 estimated O
@@ -7687,7 +7257,6 @@ site O
 was O
 875 MEASURE
 metres MEASURE
-metres O
 . O
 
 In O
@@ -7698,7 +7267,6 @@ was O
 at SPATIAL_SIGNAL
 1020 MEASURE
 metres MEASURE
-metres O
 – O
 so O
 a O
@@ -7707,11 +7275,8 @@ of O
 almost MEASURE
 500 MEASURE
 metres MEASURE
-500 O
-metres O
 . O
 
- O
 The O
 return MOTION
 – O
@@ -7867,7 +7432,6 @@ cheap O
 Casio SPATIAL_ENTITY
 ! O
 
- O
 After O
 the O
 point PLACE
@@ -7894,14 +7458,12 @@ at SPATIAL_SIGNAL
 the O
 Dracula PLACE
 hotel PLACE
-hotel O
 or O
 eat NONMOTION_EVENT
 at SPATIAL_SIGNAL
 the O
 Dracula PLACE
 café PLACE
-café O
 but O
 slept O
 and O
@@ -7929,7 +7491,6 @@ on SPATIAL_SIGNAL
 the O
 Moldavian PATH
 border PATH
-border O
 and O
 one PLACE
 more O
@@ -7938,14 +7499,12 @@ near MEASURE
 the O
 Danube PLACE
 delta PLACE
-delta O
 . O
 
 Another O
 time O
 . O
 
- O
 That O
 reminds O
 me SPATIAL_ENTITY
@@ -7993,13 +7552,10 @@ their O
 achievements O
 . O
 
- O
- O
 23-Jul-2002 O
 -- O
 47°N PLACE
 26°E PLACE
-° O
 N O
 26 O
 ° O
@@ -8010,16 +7566,13 @@ in SPATIAL_SIGNAL
 the O
 Ceahlău PATH
 mountains PATH
-mountains O
 near MEASURE
 the O
 village PLACE
 Izvoru PLACE
 Alb PLACE
-Alb O
 . O
 
- O
 In O
 the O
 3rd O
@@ -8068,8 +7621,6 @@ the O
 back SPATIAL_ENTITY
 . O
 
- O
- O
 06-May-2002 O
 -- O
 We SPATIAL_ENTITY
@@ -8114,13 +7665,10 @@ Oradea PLACE
 is O
 600 MEASURE
 km MEASURE
-km O
 ( O
 about MEASURE
 380 MEASURE
 miles MEASURE
-380 O
-miles O
 ) O
 from O
 Bucharest PLACE
@@ -8135,7 +7683,6 @@ Romania PLACE
 only O
 10 MEASURE
 km MEASURE
-km O
 from O
 the O
 border PATH
@@ -8165,7 +7712,6 @@ and O
 the O
 Pannonia PATH
 Plains PATH
-Plains O
 begin NONMOTION_EVENT
 , O
 on SPATIAL_SIGNAL
@@ -8173,12 +7719,10 @@ the O
 river PATH
 Crisul PATH
 Repede PATH
-Repede O
 ( O
 the O
 Fast PATH
 Cris PATH
-Cris O
 ) O
 , O
 that O
@@ -8281,7 +7825,6 @@ confluence PLACE
 hunting MOTION
 . O
 
- O
 On O
 May O
 6th O
@@ -8324,7 +7867,6 @@ We SPATIAL_ENTITY
 took MOTION
 road PATH
 76/E79 PATH
-76 O
 / O
 E79 O
 to MOTION_SIGNAL
@@ -8342,22 +7884,16 @@ to MOTION_SIGNAL
 Baile PLACE
 1 PLACE
 Mai PLACE
-1 O
-Mai O
 ( O
 1 PLACE
 Mai PLACE
 Spa PLACE
-Mai O
-Spa O
 ) O
 . O
 
 Baile PLACE
 1 PLACE
 Mai PLACE
-1 O
-Mai O
 is O
 known O
 for O
@@ -8380,11 +7916,9 @@ Same O
 for O
 Baile PLACE
 Felix PLACE
-Felix O
 ( O
 Felix PLACE
 Spa PLACE
-Spa O
 ) O
 nearby MEASURE
 . O
@@ -8430,15 +7964,12 @@ just O
 half MEASURE
 a MEASURE
 mile MEASURE
-a O
-mile O
 after SPATIAL_SIGNAL
 turning MOTION
 left MOTION_SIGNAL
 from MOTION_SIGNAL
 road PATH
 76/E79 PATH
-76 O
 / O
 E79 O
 ) O
@@ -8475,8 +8006,6 @@ lies NONMOTION_EVENT
 on SPATIAL_SIGNAL
 top SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-top O
-of O
 a O
 hill PLACE
 . O
@@ -8507,8 +8036,6 @@ just O
 few MEASURE
 hundred MEASURE
 meters MEASURE
-hundred O
-meters O
 from O
 the O
 end PLACE
@@ -8527,7 +8054,6 @@ photo O
 ) O
 . O
 
- O
 The O
 confluence PLACE
 lies NONMOTION_EVENT
@@ -8543,8 +8069,6 @@ just O
 in SPATIAL_SIGNAL
 front SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-front O
-of O
 the O
 pentecostal O
 church PLACE
@@ -8557,7 +8081,6 @@ church PLACE
 lies NONMOTION_EVENT
 inside SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 a O
 house PLACE
 , O
@@ -8594,8 +8117,6 @@ only O
 in SPATIAL_SIGNAL
 front SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-front O
-of O
 us SPATIAL_ENTITY
 another O
 forested O
@@ -8623,10 +8144,8 @@ elevation O
 was O
 179 MEASURE
 meters MEASURE
-meters O
 . O
 
- O
 You O
 can O
 see O
@@ -8675,8 +8194,6 @@ from O
 Baile PLACE
 1 PLACE
 Mai PLACE
-1 O
-Mai O
 . O
 
 Photo O
@@ -8714,7 +8231,6 @@ house SPATIAL_ENTITY
 with O
 2 MEASURE
 storeys MEASURE
-storeys O
 ) O
 . O
 
@@ -8756,7 +8272,6 @@ photo O
 6 O
 . O
 
- O
 Next O
 day O
 we SPATIAL_ENTITY
@@ -8772,8 +8287,6 @@ visited MOTION
 N47E23 PLACE
 . O
 
- O
- O
 07-May-2002 O
 -- O
 English O
@@ -8804,8 +8317,6 @@ the O
 Goga PLACE
 memorial PLACE
 house PLACE
-memorial O
-house O
 ( O
 a O
 poet O
@@ -8855,7 +8366,6 @@ mountains PLACE
 of O
 Salaj PLACE
 County PLACE
-County O
 , O
 a O
 region PLACE
@@ -8875,7 +8385,6 @@ of O
 the O
 Western PATH
 Carpathians PATH
-Carpathians O
 , O
 where SPATIAL_SIGNAL
 the O
@@ -8901,10 +8410,6 @@ a MOTION_SIGNAL
 very MOTION_SIGNAL
 small MOTION_SIGNAL
 rate MOTION_SIGNAL
-a O
-very O
-small O
-rate O
 : O
 while O
 we SPATIAL_ENTITY
@@ -8912,7 +8417,6 @@ were O
 driving MOTION
 one MEASURE
 kilometer MEASURE
-kilometer O
 the O
 confluence PLACE
 approached MOTION
@@ -8955,7 +8459,6 @@ after O
 some O
 20 MEASURE
 km MEASURE
-km O
 from O
 Ciucea PLACE
 , O
@@ -9030,9 +8533,6 @@ another O
 or MEASURE
 3 MEASURE
 km MEASURE
-or O
-3 O
-km O
 when O
 the O
 GPS O
@@ -9046,7 +8546,6 @@ hill PLACE
 , O
 500 MEASURE
 m MEASURE
-m O
 further SPATIAL_SIGNAL
 . O
 
@@ -9066,7 +8565,6 @@ started O
 climbing MOTION
 . O
 
- O
 The O
 climb MOTION
 was O
@@ -9150,16 +8648,13 @@ elevation O
 was O
 536 MEASURE
 m MEASURE
-m. O
 We SPATIAL_ENTITY
 were O
 just O
 100 MEASURE
 m MEASURE
-m O
 away SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-from O
 the O
 top PLACE
 of O
@@ -9181,7 +8676,6 @@ degree O
 panorama O
 . O
 
- O
 Pic O
 # O
 1 O
@@ -9220,7 +8714,6 @@ horizon PATH
 the O
 Meses PATH
 Mountains PATH
-Mountains O
 can O
 be O
 seen O
@@ -9252,12 +8745,9 @@ southwards O
 For O
 many MEASURE
 miles MEASURE
-miles O
 in SPATIAL_SIGNAL
 that SPATIAL_SIGNAL
 direction SPATIAL_SIGNAL
-that O
-direction O
 there O
 are O
 no O
@@ -9294,8 +8784,6 @@ spot PLACE
 In SPATIAL_SIGNAL
 front SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-front O
-of O
 the O
 near MEASURE
 forest PLACE
@@ -9451,8 +8939,6 @@ road PATH
 Ciucea PATH
 – PATH
 Romanasi PATH
-– O
-Romanasi O
 . O
 
 If O
@@ -9506,8 +8992,6 @@ church PLACE
 on SPATIAL_SIGNAL
 your SPATIAL_SIGNAL
 left SPATIAL_SIGNAL
-your O
-left O
 . O
 
 In O
@@ -9537,7 +9021,6 @@ the O
 houses SPATIAL_ENTITY
 . O
 
- O
 Getting MOTION
 back MOTION_SIGNAL
 to MOTION_SIGNAL
@@ -9564,7 +9047,6 @@ we SPATIAL_ENTITY
 met MOTION
 Road PATH
 1F/E81 PATH
-1F O
 / O
 E81 O
 . O
@@ -9575,8 +9057,6 @@ only O
 70 MEASURE
 more MEASURE
 km MEASURE
-more O
-km O
 to O
 Cluj PLACE
 ( O
@@ -9637,8 +9117,6 @@ Romanian O
 confluence PLACE
 . O
 
- O
- O
 26-Dec-2002 O
 -- O
 This O
@@ -9648,14 +9126,10 @@ be O
 found O
 1,5 MEASURE
 km MEASURE
-km O
 to SPATIAL_SIGNAL
 the SPATIAL_SIGNAL
 west SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-the O
-west O
-from O
 Icafalâu PLACE
 ( O
 Ikafalva PLACE
@@ -9664,8 +9138,6 @@ in SPATIAL_SIGNAL
 Covasna PLACE
 county, PLACE
 Romania PLACE
-county O
-, O
 Romania O
 . O
 
@@ -9734,7 +9206,6 @@ living NONMOTION_EVENT
 in SPATIAL_SIGNAL
 Eastern PLACE
 Transylvania PLACE
-Transylvania O
 ) O
 – O
 they SPATIAL_ENTITY
@@ -9753,10 +9224,8 @@ land PLACE
 is O
 300 MEASURE
 km MEASURE
-km O
 far SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-from O
 the O
 Hungarian O
 state O
@@ -9770,7 +9239,6 @@ of O
 Romania PLACE
 . O
 
- O
 We SPATIAL_ENTITY
 have O
 spent NONMOTION_EVENT
@@ -9784,7 +9252,6 @@ parents PLACE
 in SPATIAL_SIGNAL
 Sfântu PLACE
 Gheorghe PLACE
-Gheorghe O
 ( O
 Sepsiszentgyörgy PLACE
 ) O
@@ -9841,15 +9308,12 @@ in SPATIAL_SIGNAL
 the O
 Bodok PATH
 mountains PATH
-mountains O
 , O
 only O
 23 MEASURE
 km MEASURE
-km O
 apart SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-from O
 Sepsiszentgyörgy PLACE
 . O
 
@@ -9880,15 +9344,11 @@ drove MOTION
 to MOTION_SIGNAL
 the MOTION_SIGNAL
 NE MOTION_SIGNAL
-the O
-NE O
 on MOTION_SIGNAL
 the O
 11 PATH
 main PATH
 road PATH
-main O
-road O
 and O
 turned MOTION
 NW MOTION_SIGNAL
@@ -9913,7 +9373,6 @@ and O
 than O
 towards MOTION_SIGNAL
 North MOTION_SIGNAL
-North O
 on MOTION_SIGNAL
 a O
 narrow O
@@ -9954,7 +9413,6 @@ was O
 only O
 250 MEASURE
 meters MEASURE
-meters O
 from O
 the O
 confluence PLACE
@@ -10038,9 +9496,6 @@ about MEASURE
 one MEASURE
 hundred MEASURE
 meters MEASURE
-one O
-hundred O
-meters O
 of O
 elevation O
 we SPATIAL_ENTITY
@@ -10110,7 +9565,6 @@ It PLACE
 is O
 725 MEASURE
 meter MEASURE
-meter O
 above O
 sea O
 level O
@@ -10142,7 +9596,6 @@ picture O
 # O
 7 O
 ) O
- O
 There O
 was O
 only O
@@ -10168,7 +9621,6 @@ Ikavár PLACE
 ( O
 Ika PLACE
 castle PLACE
-castle O
 ) O
 . O
 
@@ -10177,10 +9629,8 @@ castle PLACE
 is O
 1 MEASURE
 km MEASURE
-km O
 to SPATIAL_SIGNAL
 SW SPATIAL_SIGNAL
-SW O
 on SPATIAL_SIGNAL
 the O
 other O
@@ -10208,7 +9658,6 @@ legend O
 the O
 Ika PLACE
 castle PLACE
-castle O
 was O
 built O
 by O
@@ -10234,7 +9683,6 @@ creek PATH
 while O
 coiling SPATIAL_SIGNAL
 up SPATIAL_SIGNAL
-up O
 its O
 tail SPATIAL_ENTITY
 to O
@@ -10261,13 +9709,11 @@ Sándor O
 rabonbán O
 . O
 
- O
 The O
 conquest O
 of O
 46°N PLACE
 26°E PLACE
-° O
 N O
 26 O
 ° O
@@ -10286,8 +9732,6 @@ lovely O
 memory O
 . O
 
- O
- O
 28-Mar-2004 O
 -- O
 we SPATIAL_ENTITY
@@ -10326,15 +9770,11 @@ was O
 only O
 35 MEASURE
 m MEASURE
-m O
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 the O
 street PATH
 ..... O
- O
- O
 21-Aug-2005 O
 -- O
 Continued O
@@ -10351,20 +9791,16 @@ north SPATIAL_SIGNAL
 – O
 away SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-from O
 the O
 Danube PLACE
 delta PLACE
-delta O
 and O
 very MEASURE
 close MEASURE
-close O
 to O
 the O
 Moldovan PATH
 border PATH
-border O
 . O
 
 The O
@@ -10389,7 +9825,6 @@ a O
 visit MOTION
 . O
 
- O
 Driving MOTION
 away MOTION_SIGNAL
 from MOTION_SIGNAL
@@ -10490,7 +9925,6 @@ an O
 hour O
 . O
 
- O
 Eventually O
 I SPATIAL_ENTITY
 got MOTION
@@ -10617,7 +10051,6 @@ just O
 a O
 few MEASURE
 metres MEASURE
-metres O
 from O
 the O
 border PATH
@@ -10633,7 +10066,6 @@ any O
 security O
 . O
 
- O
 I SPATIAL_ENTITY
 was O
 woken O
@@ -10725,14 +10157,12 @@ wander MOTION
 around MOTION_SIGNAL
 . O
 
- O
 The O
 point PLACE
 itself O
 was O
 1 MEASURE
 km MEASURE
-km O
 from O
 the O
 village PLACE
@@ -10747,7 +10177,6 @@ ditches PATH
 one PATH
 waist MEASURE
 high MEASURE
-high O
 . O
 
 I SPATIAL_ENTITY
@@ -10798,7 +10227,6 @@ now O
 complete O
 ! O
 
- O
 On SPATIAL_SIGNAL
 the O
 way PATH
@@ -10836,10 +10264,8 @@ changed O
 and O
 set MOTION
 off MOTION
-off O
 . O
 
- O
 Some O
 random O
 observations O
@@ -10879,7 +10305,6 @@ different O
 from O
 Western PLACE
 Europe PLACE
-Europe O
 – O
 To O
 the O
@@ -10896,7 +10321,6 @@ at SPATIAL_SIGNAL
 the O
 Bulgarian PATH
 border PATH
-border O
 at O
 3 O
 a.m. O
@@ -10981,7 +10405,6 @@ registration O
 plates O
 . O
 
- O
 Drum O
 bun O
 is O
@@ -11000,8 +10423,6 @@ journey O
 ” O
 . O
 
- O
- O
 05-Oct-2001 O
 -- O
 The O
@@ -11014,14 +10435,11 @@ villages PLACE
 of O
 Fizeşu PLACE
 Gherlii PLACE
-Gherlii O
 and O
 Sântioana PLACE
 some MEASURE
 500 MEASURE
 meters MEASURE
-500 O
-meters O
 from O
 the O
 road PATH
@@ -11049,7 +10467,6 @@ but O
 after O
 100 MEASURE
 meters MEASURE
-meters O
 we SPATIAL_ENTITY
 discovered NONMOTION_EVENT
 a O
@@ -11065,7 +10482,6 @@ no O
 bridge O
 . O
 
- O
 After O
 30 O
 minutes O
@@ -11095,8 +10511,6 @@ at SPATIAL_SIGNAL
 almost MEASURE
 1.5 MEASURE
 km MEASURE
-1.5 O
-km O
 from O
 the O
 confluence PLACE
@@ -11123,22 +10537,18 @@ road PATH
 , O
 full SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 tractor O
 trails PATH
 and O
 went MOTION
 by MOTION_SIGNAL
 car MOTION_SIGNAL
-car O
 till O
 we SPATIAL_ENTITY
 were O
 aproximately MEASURE
 800 MEASURE
 m MEASURE
-800 O
-m O
 away SPATIAL_SIGNAL
 from O
 the O
@@ -11158,7 +10568,6 @@ walk MOTION
 uphill MOTION_SIGNAL
 . O
 
- O
 Photo O
 1 O
 is O
@@ -11196,8 +10605,6 @@ photo O
 7 O
 . O
 
- O
- O
 09-Aug-2003 O
 -- O
 On O
@@ -11217,9 +10624,6 @@ Enduros MOTION
 approx. MEASURE
 100 MEASURE
 kilometers MEASURE
-. O
-
-100 O
 kilometers O
 from O
 the O
@@ -11237,9 +10641,6 @@ some MEASURE
 thousand MEASURE
 offroad MEASURE
 kilometers MEASURE
-thousand O
-offroad O
-kilometers O
 in MOTION_SIGNAL
 Romania PLACE
 and O
@@ -11266,7 +10667,6 @@ to O
 discover O
 . O
 
- O
 The O
 last O
 kilometers MEASURE
@@ -11336,9 +10736,6 @@ N PLACE
 45° PLACE
 E PLACE
 22° PLACE
-45 O
-° O
-E O
 22 O
 ° O
 ( O
@@ -11372,7 +10769,6 @@ of O
 it O
 . O
 
- O
 We SPATIAL_ENTITY
 bend MOTION
 off MOTION_SIGNAL
@@ -11443,8 +10839,6 @@ to MOTION_SIGNAL
 within MEASURE
 530 MEASURE
 meters MEASURE
-530 O
-meters O
 of O
 the O
 confluence O
@@ -11512,8 +10906,6 @@ still O
 approx.. MEASURE
 100 MEASURE
 meters MEASURE
-.. O
-100 O
 meters O
 further O
 southwest SPATIAL_SIGNAL
@@ -11537,7 +10929,6 @@ brook O
 bed PATH
 . O
 
- O
 The O
 confluence O
 point PLACE
@@ -11546,7 +10937,6 @@ now O
 a O
 few MEASURE
 steps MEASURE
-steps O
 from O
 here PLACE
 , O
@@ -11556,8 +10946,6 @@ move MOTION
 in MOTION_SIGNAL
 a MOTION_SIGNAL
 zigzag MOTION_SIGNAL
-a O
-zigzag O
 through MOTION_SIGNAL
 the O
 forest PLACE
@@ -11595,7 +10983,6 @@ confluence O
 point PLACE
 ! O
 
- O
 We SPATIAL_ENTITY
 take O
 a O
@@ -11639,12 +11026,8 @@ many MEASURE
 beautiful MEASURE
 Offroad MEASURE
 kilometers MEASURE
-beautiful O
-Offroad O
-kilometers O
 . O
 
- O
 Romania PLACE
 has O
 very O
@@ -11670,8 +11053,6 @@ a O
 journey O
 ! O
 
- O
- O
 19-Apr-2012 O
 -- O
 Because O
@@ -11697,8 +11078,6 @@ visit NONMOTION_EVENT
 of O
 46N PLACE
 25E PLACE
-25E. O
- O
 The O
 route O
 did O
@@ -11732,7 +11111,6 @@ The O
 last O
 three MEASURE
 km MEASURE
-km O
 of O
 the O
 way PATH
@@ -11769,7 +11147,6 @@ to O
 go MOTION
 200 MEASURE
 metres MEASURE
-metres O
 across MOTION_SIGNAL
 a O
 humid O
@@ -11782,7 +11159,6 @@ the O
 field PLACE
 . O
 
- O
 We SPATIAL_ENTITY
 drove MOTION
 on MOTION_SIGNAL
@@ -11806,8 +11182,6 @@ pleasant O
 flair O
 . O
 
- O
- O
 12-Aug-2004 O
 -- O
 We SPATIAL_ENTITY
@@ -11821,7 +11195,6 @@ home PLACE
 from MOTION_SIGNAL
 48N PLACE
 28E PLACE
-28E. O
 We SPATIAL_ENTITY
 took MOTION
 the O
@@ -11839,7 +11212,6 @@ the O
 town PLACE
 10 MEASURE
 kilometers MEASURE
-kilometers O
 from O
 the O
 confluence PLACE
@@ -11859,13 +11231,11 @@ village PLACE
 just O
 three MEASURE
 kilometers MEASURE
-kilometers O
 from O
 the O
 confluence PLACE
 . O
 
- O
 One SPATIAL_ENTITY
 of O
 us SPATIAL_ENTITY
@@ -11890,7 +11260,6 @@ confluence PLACE
 last O
 2-3 MEASURE
 kilometers MEASURE
-- O
 3 O
 kilometers O
 . O
@@ -11917,7 +11286,6 @@ at SPATIAL_SIGNAL
 the O
 River PATH
 Siret PATH
-Siret O
 , O
 and O
 the O
@@ -11930,7 +11298,6 @@ of O
 it PLACE
 . O
 
- O
 When O
 reached MOTION
 the O
@@ -11975,7 +11342,6 @@ the O
 fields PLACE
 . O
 
- O
 Near MEASURE
 the O
 spot PLACE
@@ -11987,7 +11353,6 @@ their O
 cows SPATIAL_ENTITY
 . O
 
- O
 Durango O
 to O
 San O
@@ -12005,7 +11370,6 @@ January O
 26th O
 , O
 2006 O
-    O
 In O
 the O
 past O
@@ -12043,16 +11407,11 @@ between MEASURE
 and MEASURE
 8,000 MEASURE
 ft MEASURE
-6,000 O
-and O
-8,000 O
-ft O
 above O
 sea O
 level O
 . O
 
-    O
 This O
 dry O
 region O
@@ -12126,7 +11485,6 @@ of O
 silver O
 . O
 
-    O
 The O
 most O
 impressive O
@@ -12140,7 +11498,6 @@ which O
 at O
 8,000 MEASURE
 feet MEASURE
-feet O
 and O
 350,000 O
 people O
@@ -12210,7 +11567,6 @@ Villa O
 ) O
 . O
 
-    O
 I SPATIAL_ENTITY
 have O
 ridden MOTION
@@ -12245,7 +11601,6 @@ back O
 in SPATIAL_SIGNAL
 San PLACE
 Diego PLACE
-Diego O
 , O
 only O
 to O
@@ -12288,7 +11643,6 @@ me SPATIAL_ENTITY
 ) O
 . O
 
-    O
 It O
 is O
 a O
@@ -12407,7 +11761,6 @@ December O
 11th O
 , O
 2006 O
-    O
 I SPATIAL_ENTITY
 spent NONMOTION_EVENT
 a O
@@ -12415,7 +11768,6 @@ week O
 in SPATIAL_SIGNAL
 La PLACE
 Paz PLACE
-Paz O
 , O
 where SPATIAL_SIGNAL
 I SPATIAL_ENTITY
@@ -12470,11 +11822,9 @@ Bolivian O
 television O
 … O
 ) O
-    O
 From MOTION_SIGNAL
 La PLACE
 Paz PLACE
-Paz O
 , O
 I SPATIAL_ENTITY
 basically O
@@ -12494,7 +11844,6 @@ now O
 in SPATIAL_SIGNAL
 Northern PLACE
 Argentina PLACE
-Argentina O
 . O
 
 I SPATIAL_ENTITY
@@ -12559,7 +11908,6 @@ with O
 me SPATIAL_ENTITY
 . O
 
-    O
 The O
 terrain O
 has O
@@ -12583,7 +11931,6 @@ across MOTION_SIGNAL
 the O
 Atacama PLACE
 Desert PLACE
-Desert O
 , O
 crossing MOTION
 sections PLACE
@@ -12632,10 +11979,8 @@ few O
 weeks O
 . O
 
- O
 Southern PLACE
 Bolivia PLACE
-Bolivia O
 , O
 including SPATIAL_SIGNAL
 the O
@@ -12652,11 +11997,9 @@ with O
 Wouter SPATIAL_ENTITY
 ) O
 : O
- O
 The O
 Atacama PLACE
 Desert PLACE
-Desert O
 of SPATIAL_SIGNAL
 Chile PLACE
 , O
@@ -12666,10 +12009,8 @@ incredible O
 night O
 biking NONMOTION_EVENT
 : O
- O
 Northern PLACE
 Argentina PLACE
-Argentina O
 , O
 where SPATIAL_SIGNAL
 I SPATIAL_ENTITY
@@ -12680,7 +12021,6 @@ now O
 I SPATIAL_ENTITY
 caught MOTION
 up MOTION
-up O
 with O
 Brooks SPATIAL_ENTITY
 and O
@@ -12730,7 +12070,6 @@ January O
 19th O
 , O
 2006 O
-    O
 I SPATIAL_ENTITY
 spent NONMOTION_EVENT
 two O
@@ -12754,8 +12093,6 @@ the O
 Sierra PATH
 Madre PATH
 Occidente PATH
-Madre O
-Occidente O
 , O
 a O
 massive O
@@ -12803,7 +12140,6 @@ chickens O
 ) O
 . O
 
-    O
 In SPATIAL_SIGNAL
 Copala PLACE
 I SPATIAL_ENTITY
@@ -12900,7 +12236,6 @@ herbal O
 remedies O
 . O
 
-    O
 Departing MOTION
 Copala PLACE
 , O
@@ -12911,12 +12246,9 @@ to MOTION_SIGNAL
 over MEASURE
 6,000 MEASURE
 feet MEASURE
-6,000 O
-feet O
 in O
 30 MEASURE
 miles MEASURE
-miles O
 , O
 and O
 then O
@@ -12953,14 +12285,10 @@ the O
 Sierra PATH
 Madre PATH
 Ocidente PATH
-Madre O
-Ocidente O
 for O
 hundreds MEASURE
 of MEASURE
 miles MEASURE
-of O
-miles O
 to O
 the O
 north SPATIAL_SIGNAL
@@ -12990,17 +12318,13 @@ to MOTION_SIGNAL
 over MEASURE
 9,000 MEASURE
 feet MEASURE
-9,000 O
-feet O
 . O
 
-    O
 The O
 second O
 night NONMOTION_EVENT
 out SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 Copala PLACE
 , O
 while O
@@ -13035,7 +12359,6 @@ move MOTION
 camp SPATIAL_ENTITY
 . O
 
-    O
 The O
 third O
 night O
@@ -13064,7 +12387,6 @@ village PLACE
 of O
 Llano PLACE
 Grande PLACE
-Grande O
 high O
 in SPATIAL_SIGNAL
 the O
@@ -13169,7 +12491,6 @@ see O
 ) O
 . O
 
-    O
 I SPATIAL_ENTITY
 am O
 now O
@@ -13239,8 +12560,6 @@ at SPATIAL_SIGNAL
 about MEASURE
 6,000 MEASURE
 ft MEASURE
-6,000 O
-ft O
 and O
 is O
 filled SPATIAL_SIGNAL
@@ -13265,7 +12584,6 @@ October O
 2nd O
 , O
 2006 O
-    O
 The O
 city PLACE
 of O
@@ -13273,11 +12591,9 @@ Huaraz PLACE
 sits NONMOTION_EVENT
 directly SPATIAL_SIGNAL
 beneath SPATIAL_SIGNAL
-beneath O
 the O
 Cordillera PATH
 Blanca PATH
-Blanca O
 , O
 a O
 massive O
@@ -13288,9 +12604,6 @@ rises MOTION
 over MEASURE
 22,000 MEASURE
 ft MEASURE
-22,000 O
-ft O
-and O
 has SPATIAL_SIGNAL
 the O
 worldâ€ O
@@ -13347,7 +12660,6 @@ be O
 gone O
 . O
 
-    O
 In SPATIAL_SIGNAL
 Huaraz PLACE
 , O
@@ -13362,10 +12674,6 @@ Nacional PLACE
 de PLACE
 Recursos PLACE
 Naturals PLACE
-Nacional O
-de O
-Recursos O
-Naturals O
 ) O
 , O
 who O
@@ -13468,7 +12776,6 @@ the O
 picture O
 . O
 
-    O
 There O
 are O
 few O
@@ -13519,8 +12826,6 @@ the O
 nearly MEASURE
 19,000 MEASURE
 ft MEASURE
-19,000 O
-ft O
 peak PLACE
 in O
 just O
@@ -13531,7 +12836,6 @@ leaving MOTION
 our O
 14,000 MEASURE
 ft MEASURE
-ft O
 base O
 camp PLACE
 at O
@@ -13547,7 +12851,6 @@ glacier PATH
 at O
 16,000 MEASURE
 ft MEASURE
-ft O
 , O
 and O
 then O
@@ -13561,7 +12864,6 @@ the O
 summit PLACE
 . O
 
-    O
 The O
 morning O
 we SPATIAL_ENTITY
@@ -13611,7 +12913,6 @@ before O
 
 Ten MEASURE
 meters MEASURE
-meters O
 from SPATIAL_SIGNAL
 the O
 summit PLACE
@@ -13668,7 +12969,6 @@ we SPATIAL_ENTITY
 had O
 . O
 
-    O
 Loosing O
 these O
 glaciers O
@@ -13757,7 +13057,6 @@ February O
 10th O
 , O
 2006 O
-    O
 The O
 butterflies SPATIAL_ENTITY
 I SPATIAL_ENTITY
@@ -13803,7 +13102,6 @@ now O
 threatened O
 . O
 
-    O
 The O
 butterflies SPATIAL_ENTITY
 that O
@@ -13821,7 +13119,6 @@ skies PLACE
 were O
 full SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 butterflies SPATIAL_ENTITY
 , O
 there O
@@ -13861,8 +13158,6 @@ to MOTION_SIGNAL
 northeastern PLACE
 North PLACE
 America PLACE
-North O
-America O
 in O
 the O
 spring O
@@ -13878,7 +13173,6 @@ cycle O
 . O
 
 ) O
-    O
 According O
 to O
 a O
@@ -13934,7 +13228,6 @@ cold NONMOTION_EVENT
 at SPATIAL_SIGNAL
 11,000 MEASURE
 feet MEASURE
-feet O
 , O
 and O
 moisture O
@@ -13976,7 +13269,6 @@ by O
 2050 O
 . O
 
-    O
 This O
 study O
 relies O
@@ -14046,7 +13338,6 @@ living O
 there O
 . O
 
- O
 * O
 WPG2 O
 CANNOT O
@@ -14055,7 +13346,6 @@ GALLERY2 O
 ITEM O
 BY O
 * O
-    O
 Indeed O
 , O
 the O
@@ -14103,7 +13393,6 @@ into O
 furniture O
 . O
 
-    O
 It O
 is O
 more O
@@ -14130,7 +13419,6 @@ sanctuary PLACE
 was O
 full SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 shops PLACE
 pedaling O
 trinkets O
@@ -14181,9 +13469,6 @@ less MEASURE
 than MEASURE
 a MEASURE
 kilometer MEASURE
-than O
-a O
-kilometer O
 from SPATIAL_SIGNAL
 the O
 butterflies SPATIAL_ENTITY
@@ -14258,7 +13543,6 @@ August O
 22nd O
 , O
 2006 O
-    O
 I SPATIAL_ENTITY
 spent NONMOTION_EVENT
 a O
@@ -14282,11 +13566,6 @@ de PLACE
 Pesquisas PLACE
 da PLACE
 Amazonia PLACE
-National O
-de O
-Pesquisas O
-da O
-Amazonia O
 ( O
 INPA PLACE
 ) O
@@ -14326,7 +13605,6 @@ in SPATIAL_SIGNAL
 the O
 Amazon PLACE
 rainforest PLACE
-rainforest O
 . O
 
 From O
@@ -14370,12 +13648,10 @@ the O
 basin PLACE
 . O
 
-    O
 Although O
 the O
 Amazon PLACE
 basin PLACE
-basin O
 is O
 enormous O
 ( O
@@ -14386,7 +13662,6 @@ to O
 the O
 contiguous PLACE
 U.S. PLACE
-U.S. O
 ) O
 , O
 deforestation NONMOTION_EVENT
@@ -14457,7 +13732,6 @@ red O
 ) O
 . O
 
-    O
 I SPATIAL_ENTITY
 talked NONMOTION_EVENT
 with O
@@ -14611,7 +13885,6 @@ here O
 . O
 
 ) O
-    O
 These O
 studies O
 , O
@@ -14698,7 +13971,6 @@ be O
 correct O
 . O
 
-    O
 Decreasing O
 rain O
 and O
@@ -14796,7 +14068,6 @@ amounts O
 of O
 carbon SPATIAL_ENTITY
 dioxide SPATIAL_ENTITY
-dioxide O
 to MOTION_SIGNAL
 the O
 atmosphere PLACE
@@ -14821,7 +14092,6 @@ or O
 not O
 ? O
 
-    O
 My O
 last O
 full O
@@ -14909,8 +14179,6 @@ for O
 thousands MEASURE
 of MEASURE
 miles MEASURE
-of O
-miles O
 beyond MOTION_SIGNAL
 the O
 horizon PATH
@@ -14962,12 +14230,10 @@ June O
 19th O
 , O
 2006 O
-    O
 Before O
 biking MOTION
 out MOTION_SIGNAL
 of MOTION_SIGNAL
-of O
 Bogota PLACE
 , O
 a O
@@ -14995,22 +14261,17 @@ drove MOTION
 from MOTION_SIGNAL
 8,500 MEASURE
 feet MEASURE
-feet O
 at O
 Bogota PLACE
 to MOTION_SIGNAL
 11,000 MEASURE
 feet MEASURE
-feet O
 and O
 the O
 national PLACE
 park PLACE
 of PLACE
 Chingaza PLACE
-park O
-of O
-Chingaza O
 . O
 
 At O
@@ -15032,7 +14293,6 @@ Andean O
 paramo O
 . O
 
-    O
 Hidden O
 in SPATIAL_SIGNAL
 the O
@@ -15069,7 +14329,6 @@ only O
 a O
 few MEASURE
 feet MEASURE
-feet O
 tall O
 . O
 
@@ -15086,7 +14345,6 @@ to MOTION_SIGNAL
 about O
 12,500 MEASURE
 feet MEASURE
-feet O
 , O
 where SPATIAL_SIGNAL
 the O
@@ -15098,7 +14356,6 @@ low O
 40s O
 . O
 
-    O
 The O
 region PLACE
 is O
@@ -15117,7 +14374,6 @@ water SPATIAL_ENTITY
 flows MOTION
 out MOTION_SIGNAL
 of MOTION_SIGNAL
-of O
 these O
 highlands PLACE
 . O
@@ -15165,7 +14421,6 @@ of O
 water SPATIAL_ENTITY
 out MOTION_SIGNAL
 of MOTION_SIGNAL
-of O
 the O
 park PLACE
 . O
@@ -15213,7 +14468,6 @@ water O
 ) O
 . O
 
-    O
 Over O
 the O
 past O
@@ -15306,7 +14560,6 @@ the O
 Andes PATH
 . O
 
-    O
 Climate O
 change O
 this O
@@ -15406,7 +14659,6 @@ Andean O
 ecosystem SPATIAL_ENTITY
 . O
 
-    O
 Before O
 leaving MOTION
 , O
@@ -15500,7 +14752,6 @@ November O
 18th O
 , O
 2005 O
-    O
 After O
 talking O
 with O
@@ -15519,7 +14770,6 @@ bike MOTION
 through MOTION_SIGNAL
 Los PLACE
 Angles PLACE
-Angles O
 to O
 get O
 a O
@@ -15538,14 +14788,12 @@ I SPATIAL_ENTITY
 rode MOTION
 30 MEASURE
 miles MEASURE
-miles O
 to MOTION_SIGNAL
 Hollywood PLACE
 and O
 back MOTION_SIGNAL
 . O
 
-    O
 I SPATIAL_ENTITY
 hoped O
 to O
@@ -15634,7 +14882,6 @@ slowly O
 afterwards O
 . O
 
-    O
 The O
 climate NONMOTION_EVENT
 in SPATIAL_SIGNAL
@@ -15707,7 +14954,6 @@ in SPATIAL_SIGNAL
 traffic NONMOTION_EVENT
 . O
 
-     O
 Unfortunately O
 , O
 cars SPATIAL_ENTITY
@@ -15768,7 +15014,6 @@ this O
 ) O
 . O
 
-    O
 I SPATIAL_ENTITY
 would O
 love O
@@ -15820,7 +15065,6 @@ June O
 26th O
 , O
 2006 O
-    O
 After O
 a O
 week O
@@ -15884,7 +15128,6 @@ in SPATIAL_SIGNAL
 Bogota PLACE
 . O
 
-    O
 Heading MOTION
 northwest MOTION_SIGNAL
 towards MOTION_SIGNAL
@@ -15943,11 +15186,9 @@ the O
 countryside PLACE
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 families SPATIAL_ENTITY
 . O
 
-    O
 My O
 first O
 night O
@@ -15955,7 +15196,6 @@ I SPATIAL_ENTITY
 camped NONMOTION_EVENT
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 Marco O
 ’s O
 family O
@@ -15968,12 +15208,10 @@ cuts MOTION
 clay SPATIAL_ENTITY
 out MOTION_SIGNAL
 of MOTION_SIGNAL
-of O
 the O
 roadside PATH
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 his O
 house PLACE
 , O
@@ -16042,11 +15280,9 @@ than O
 assistance O
 . O
 
-    O
 Camping NONMOTION_EVENT
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 families SPATIAL_ENTITY
 in SPATIAL_SIGNAL
 the O
@@ -16109,7 +15345,6 @@ rent O
 in O
 Palo PLACE
 Alto PLACE
-Alto O
 is O
 ) O
 . O
@@ -16175,7 +15410,6 @@ post O
 . O
 
 ) O
-    O
 Heading MOTION
 north MOTION_SIGNAL
 , O
@@ -16183,7 +15417,6 @@ I SPATIAL_ENTITY
 camped NONMOTION_EVENT
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 the O
 houses PLACE
 of O
@@ -16229,7 +15462,6 @@ September O
 6th O
 , O
 2006 O
-    O
 From MOTION_SIGNAL
 the O
 city PLACE
@@ -16310,7 +15542,6 @@ my O
 hammock SPATIAL_ENTITY
 . O
 
-    O
 The O
 river PATH
 here PLACE
@@ -16323,10 +15554,8 @@ Manaus PLACE
 , O
 1,000 MEASURE
 miles MEASURE
-miles O
 upstream SPATIAL_SIGNAL
 from SPATIAL_SIGNAL
-from O
 the O
 Amazonâ€ O
 ™ O
@@ -16360,8 +15589,6 @@ and O
 over MEASURE
 300 MEASURE
 feet MEASURE
-300 O
-feet O
 deep O
 . O
 
@@ -16387,7 +15614,6 @@ almost O
 unpopulated O
 . O
 
-    O
 My O
 boat SPATIAL_ENTITY
 followed MOTION
@@ -16494,7 +15720,6 @@ demanding O
 schedule O
 . O
 
-    O
 The O
 boat SPATIAL_ENTITY
 did O
@@ -16528,7 +15753,6 @@ was O
 unpopulated O
 . O
 
-    O
 Arriving MOTION
 upstream MOTION_SIGNAL
 , O
@@ -16617,9 +15841,6 @@ by MOTION_SIGNAL
 boat MOTION_SIGNAL
 or MOTION_SIGNAL
 plane MOTION_SIGNAL
-boat O
-or O
-plane O
 . O
 
 In O
@@ -16654,7 +15875,6 @@ s O
 center PLACE
 . O
 
-    O
 I SPATIAL_ENTITY
 intended O
 to O
@@ -16761,7 +15981,6 @@ Catholic O
 Church O
 . O
 
-    O
 From MOTION_SIGNAL
 Iquitos PLACE
 , O
@@ -16822,7 +16041,6 @@ cost O
 dollars O
 . O
 
-    O
 I SPATIAL_ENTITY
 have O
 now O
@@ -16878,7 +16096,6 @@ into MOTION_SIGNAL
 the O
 Peruvian PATH
 Andes PATH
-Andes O
 . O
 
 Cartagena O
@@ -16893,7 +16110,6 @@ May O
 28th O
 , O
 2006 O
-    O
 When O
 I SPATIAL_ENTITY
 arrived MOTION
@@ -16954,7 +16170,6 @@ in SPATIAL_SIGNAL
 town PLACE
 . O
 
-    O
 Cartagena PLACE
 is O
 one O
@@ -16966,7 +16181,6 @@ cities PLACE
 in SPATIAL_SIGNAL
 South PLACE
 America PLACE
-America O
 , O
 founded O
 in O
@@ -17044,7 +16258,6 @@ level PATH
 rises MOTION
 . O
 
-    O
 On O
 election O
 day O
@@ -17126,7 +16339,6 @@ the O
 process O
 . O
 
-    O
 I SPATIAL_ENTITY
 found O
 that O
@@ -17207,7 +16419,6 @@ corruptâ€ O
 ) O
 . O
 
-    O
 The O
 news O
 that O
@@ -17397,7 +16608,6 @@ in SPATIAL_SIGNAL
 Colombia PLACE
 . O
 
-    O
 The O
 armed O
 conflict NONMOTION_EVENT
@@ -17474,7 +16684,6 @@ November O
 16th O
 , O
 2005 O
-    O
 For O
 a O
 day NONMOTION_EVENT
@@ -17549,7 +16758,6 @@ web O
 log O
 . O
 
-    O
 After O
 staying NONMOTION_EVENT
 at SPATIAL_SIGNAL
@@ -17575,8 +16783,6 @@ the O
 Santa SPATIAL_ENTITY
 Ana SPATIAL_ENTITY
 winds SPATIAL_ENTITY
-Ana O
-winds O
 . O
 
 Passing MOTION
@@ -17590,8 +16796,6 @@ the O
 Pacific PATH
 Coast PATH
 Highway PATH
-Coast O
-Highway O
 along SPATIAL_SIGNAL
 the O
 coastal O
@@ -17603,15 +16807,12 @@ Malibu PLACE
 and O
 Santa PLACE
 Monica PLACE
-Monica O
 before O
 turning MOTION
 towards MOTION_SIGNAL
 West PLACE
 Los PLACE
 Angeles PLACE
-Los O
-Angeles O
 where SPATIAL_SIGNAL
 I SPATIAL_ENTITY
 met MOTION
@@ -17619,7 +16820,6 @@ my O
 friend O
 Julia SPATIAL_ENTITY
 Goodnough SPATIAL_ENTITY
-Goodnough O
 . O
 
 Hurricanes O
@@ -17636,13 +16836,11 @@ April O
 18th O
 , O
 2006 O
-    O
 Since O
 arriving MOTION
 in MOTION_SIGNAL
 Central PLACE
 America PLACE
-America O
 , O
 I SPATIAL_ENTITY
 have O
@@ -17663,7 +16861,6 @@ their O
 lives O
 . O
 
-    O
 In SPATIAL_SIGNAL
 Belize PLACE
 , O
@@ -17734,7 +16931,6 @@ Placencia PLACE
 is O
 Sand PLACE
 Bite PLACE
-Bite O
 , O
 a O
 small O
@@ -17758,7 +16954,6 @@ the O
 storm O
 . O
 
-    O
 Hurricanes O
 are O
 likely O
@@ -17892,7 +17087,6 @@ here O
 ) O
 . O
 
-    O
 In O
 1998 O
 , O
@@ -17904,7 +17098,6 @@ hurricane NONMOTION_EVENT
 , O
 Hurricane NONMOTION_EVENT
 Mitch NONMOTION_EVENT
-Mitch O
 , O
 tore MOTION
 through MOTION_SIGNAL
@@ -17917,7 +17110,6 @@ itself O
 over SPATIAL_SIGNAL
 Central PLACE
 America PLACE
-America O
 , O
 affecting O
 almost O
@@ -17938,7 +17130,6 @@ left O
 homeless O
 . O
 
-    O
 The O
 storm SPATIAL_ENTITY
 hit MOTION
@@ -17970,9 +17161,6 @@ San PLACE
 Pedro PLACE
 Sula PLACE
 airport PLACE
-Pedro O
-Sula O
-airport O
 described O
 water SPATIAL_ENTITY
 in SPATIAL_SIGNAL
@@ -17980,7 +17168,6 @@ his O
 house PLACE
 up SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 his O
 armpits SPATIAL_ENTITY
 . O
@@ -18089,7 +17276,6 @@ be O
 houses PLACE
 . O
 
-    O
 The O
 destruction NONMOTION_EVENT
 continued O
@@ -18099,7 +17285,6 @@ rest PLACE
 of SPATIAL_SIGNAL
 Central PLACE
 America PLACE
-America O
 . O
 
 In SPATIAL_SIGNAL
@@ -18107,9 +17292,6 @@ San PLACE
 Miguel, PLACE
 El PLACE
 Salvador PLACE
-Miguel O
-, O
-El O
 Salvador O
 , O
 one O
@@ -18220,7 +17402,6 @@ beans O
 . O
 
 ” O
-    O
 Mitch NONMOTION_EVENT
 was O
 so O
@@ -18292,7 +17473,6 @@ here PLACE
 in SPATIAL_SIGNAL
 Central PLACE
 America PLACE
-America O
 – O
 people O
 who O
@@ -18320,7 +17500,6 @@ to O
 live O
 . O
 
-    O
 Based O
 on O
 these O
@@ -18335,7 +17514,6 @@ toll O
 of O
 Hurricane NONMOTION_EVENT
 Mitch NONMOTION_EVENT
-Mitch O
 was O
 many O
 times O
@@ -18435,7 +17613,6 @@ worse O
 internationally O
 . O
 
- O
 Mazatlán O
 to O
 Copala O
@@ -18451,7 +17628,6 @@ January O
 13th O
 , O
 2006 O
-    O
 After O
 one O
 day NONMOTION_EVENT
@@ -18474,7 +17650,6 @@ town PLACE
 After O
 eight MEASURE
 miles MEASURE
-miles O
 , O
 realizing NONMOTION_EVENT
 I SPATIAL_ENTITY
@@ -18508,7 +17683,6 @@ their O
 phones O
 . O
 
-    O
 I SPATIAL_ENTITY
 pedaled MOTION
 an O
@@ -18516,8 +17690,6 @@ easy O
 30 MEASURE
 flat MEASURE
 miles MEASURE
-flat O
-miles O
 the O
 next O
 day O
@@ -18598,7 +17770,6 @@ was O
 incredible O
 . O
 
-     O
 I SPATIAL_ENTITY
 tried O
 to O
@@ -18650,7 +17821,6 @@ I SPATIAL_ENTITY
 rode MOTION
 15 MEASURE
 miles MEASURE
-miles O
 uphill MOTION_SIGNAL
 to MOTION_SIGNAL
 the O
@@ -18703,7 +17873,6 @@ October O
 15th O
 , O
 2006 O
-    O
 Leaving MOTION
 Huaraz PLACE
 , O
@@ -18712,7 +17881,6 @@ climbed MOTION
 a O
 13,500 MEASURE
 ft MEASURE
-ft O
 pass PATH
 , O
 camped NONMOTION_EVENT
@@ -18812,12 +17980,10 @@ me SPATIAL_ENTITY
 camp NONMOTION_EVENT
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 their O
 house PLACE
 . O
 
-    O
 Continuing MOTION
 south MOTION_SIGNAL
 , O
@@ -18855,7 +18021,6 @@ cities PLACE
 in SPATIAL_SIGNAL
 Latin PLACE
 America PLACE
-America O
 gives O
 me SPATIAL_ENTITY
 perhaps O
@@ -18939,7 +18104,6 @@ classes O
 live NONMOTION_EVENT
 . O
 
-    O
 I SPATIAL_ENTITY
 stayed O
 with O
@@ -18958,7 +18122,6 @@ while O
 in SPATIAL_SIGNAL
 Mexico PLACE
 City PLACE
-City O
 . O
 
 Jose O
@@ -19052,7 +18215,6 @@ out O
 . O
 
 ) O
-    O
 In SPATIAL_SIGNAL
 Lima PLACE
 , O
@@ -19100,7 +18262,6 @@ some O
 time O
 hanging NONMOTION_EVENT
 out NONMOTION_EVENT
-out O
 at SPATIAL_SIGNAL
 the O
 South O
@@ -19160,7 +18321,6 @@ from O
 Argentina PLACE
 . O
 
-    O
 ( O
 Family O
 friends O
@@ -19212,7 +18372,6 @@ September O
 27th O
 , O
 2006 O
-    O
 From O
 Uchiza PLACE
 , O
@@ -19273,7 +18432,6 @@ started O
 walking MOTION
 . O
 
-    O
 This O
 trail PATH
 was O
@@ -19321,7 +18479,6 @@ in SPATIAL_SIGNAL
 , O
 San PLACE
 Pedro PLACE
-Pedro O
 , O
 even O
 had O
@@ -19334,7 +18491,6 @@ transit MOTION
 was O
 by MOTION_SIGNAL
 horse MOTION_SIGNAL
-horse O
 ) O
 . O
 
@@ -19358,7 +18514,6 @@ a O
 piece O
 . O
 
-    O
 I SPATIAL_ENTITY
 asked O
 people SPATIAL_ENTITY
@@ -19431,14 +18586,12 @@ strange O
 women SPATIAL_ENTITY
 . O
 
-    O
 The O
 third O
 day O
 we SPATIAL_ENTITY
 met MOTION
 up MOTION
-up O
 with O
 the O
 road PATH
@@ -19452,7 +18605,6 @@ crossed MOTION
 a O
 12,500 MEASURE
 ft MEASURE
-ft O
 pass PATH
 , O
 and O
@@ -19551,7 +18703,6 @@ the O
 right O
 . O
 
-    O
 Passing MOTION
 through MOTION_SIGNAL
 more O
@@ -19574,7 +18725,6 @@ into MOTION_SIGNAL
 the O
 Cordillera PATH
 Blanca PATH
-Blanca O
 , O
 Peruâ€ O
 ™ O
@@ -19589,8 +18739,6 @@ reaching MOTION
 over MEASURE
 22,000 MEASURE
 ft MEASURE
-22,000 O
-ft O
 . O
 
 After O
@@ -19600,7 +18748,6 @@ nights O
 at SPATIAL_SIGNAL
 14,000 MEASURE
 feet MEASURE
-feet O
 overlooking SPATIAL_SIGNAL
 a O
 huge O
@@ -19615,7 +18762,6 @@ crossed MOTION
 a O
 16,000 MEASURE
 ft MEASURE
-ft O
 mountain O
 pass PATH
 , O
@@ -19625,7 +18771,6 @@ in SPATIAL_SIGNAL
 Peru PLACE
 . O
 
-    O
 I SPATIAL_ENTITY
 am O
 now O
@@ -19687,7 +18832,6 @@ December O
 31st O
 , O
 2005 O
-    O
 In SPATIAL_SIGNAL
 Loreto PLACE
 , O
@@ -19753,10 +18897,8 @@ across MOTION_SIGNAL
 Baja PLACE
 . O
 
-    O
 Southwestern PLACE
 Baja PLACE
-Baja O
 is O
 a O
 large O
@@ -19785,13 +18927,11 @@ grow MOTION
 strangely O
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 fields PLACE
 of O
 cacti SPATIAL_ENTITY
 . O
 
-    O
 Stopping MOTION
 at MOTION_SIGNAL
 a O
@@ -19849,7 +18989,6 @@ the O
 deal O
 . O
 
-    O
 I SPATIAL_ENTITY
 stayed NONMOTION_EVENT
 with O
@@ -19859,8 +18998,6 @@ in SPATIAL_SIGNAL
 Ciudad PLACE
 de PLACE
 Constitución PLACE
-de O
-Constitución O
 , O
 where SPATIAL_SIGNAL
 I O
@@ -19887,7 +19024,6 @@ peninsula PLACE
 to MOTION_SIGNAL
 La PLACE
 Paz PLACE
-Paz O
 , O
 the O
 largest O
@@ -19895,10 +19031,8 @@ city PLACE
 in SPATIAL_SIGNAL
 southern PLACE
 Baja PLACE
-Baja O
 . O
 
-    O
 At O
 the O
 suggestion O
@@ -19944,13 +19078,11 @@ climate O
 change O
 . O
 
-    O
 I SPATIAL_ENTITY
 am O
 in SPATIAL_SIGNAL
 La PLACE
 Paz PLACE
-Paz O
 now O
 , O
 where SPATIAL_SIGNAL
@@ -20058,7 +19190,6 @@ March O
 17th O
 , O
 2006 O
-    O
 After O
 a O
 night NONMOTION_EVENT
@@ -20088,14 +19219,12 @@ My O
 friend O
 Dennis SPATIAL_ENTITY
 Murphree SPATIAL_ENTITY
-Murphree O
 was O
 flying MOTION
 into MOTION_SIGNAL
 the O
 Belize PLACE
 City PLACE
-City O
 airport PLACE
 that O
 afternoon O
@@ -20123,7 +19252,6 @@ was O
 to O
 Belize PLACE
 City PLACE
-City O
 . O
 
 The O
@@ -20158,9 +19286,7 @@ it PATH
 is O
 75 MEASURE
 miles MEASURE
-miles.â€ O
 ™ O
-    O
 Belize PLACE
 is O
 more O
@@ -20317,10 +19443,8 @@ racks SPATIAL_ENTITY
 in SPATIAL_SIGNAL
 Belize PLACE
 City PLACE
-City O
 . O
 
-    O
 I SPATIAL_ENTITY
 met MOTION
 Dennis SPATIAL_ENTITY
@@ -20336,8 +19460,6 @@ the O
 Belize PLACE
 City PLACE
 airport PLACE
-City O
-airport O
 . O
 
 We SPATIAL_ENTITY
@@ -20349,7 +19471,6 @@ rode MOTION
 into MOTION_SIGNAL
 Belize PLACE
 City PLACE
-City O
 for O
 the O
 night O
@@ -20365,7 +19486,6 @@ more O
 than O
 20 MEASURE
 miles MEASURE
-miles O
 in O
 a O
 day O
@@ -20420,7 +19540,6 @@ were O
 biking MOTION
 50 MEASURE
 miles MEASURE
-miles O
 inland MOTION_SIGNAL
 . O
 
@@ -20432,7 +19551,6 @@ very O
 excited O
 . O
 
-    O
 Dennis SPATIAL_ENTITY
 and O
 I SPATIAL_ENTITY
@@ -20478,7 +19596,6 @@ presentation NONMOTION_EVENT
 at SPATIAL_SIGNAL
 Galen PLACE
 University PLACE
-University O
 , O
 a O
 university PLACE
@@ -20498,7 +19615,6 @@ classes O
 Biking MOTION
 10 MEASURE
 miles MEASURE
-miles O
 down MOTION_SIGNAL
 the O
 road PATH
@@ -20511,7 +19627,6 @@ night O
 at SPATIAL_SIGNAL
 Jaguar PLACE
 Creek PLACE
-Creek O
 , O
 an O
 â€˜environmental O
@@ -20520,7 +19635,6 @@ peaceâ€ O
 center PLACE
 . O
 
-    O
 Turning MOTION
 back MOTION_SIGNAL
 towards MOTION_SIGNAL
@@ -20538,7 +19652,6 @@ of O
 the O
 Maya PATH
 mountains PATH
-mountains O
 . O
 
 Fortunately O
@@ -20591,7 +19704,6 @@ bicycle O
 tour O
 . O
 
-    O
 Stopping O
 to O
 camp O
@@ -20727,7 +19839,6 @@ lawn PLACE
 in SPATIAL_SIGNAL
 Maya PLACE
 Center PLACE
-Center O
 , O
 a O
 small O
@@ -20742,7 +19853,6 @@ Maya O
 Mopan O
 . O
 
-    O
 The O
 following O
 day O
@@ -20813,7 +19923,6 @@ December O
 21st O
 , O
 2005 O
-    O
 The O
 past O
 week O
@@ -20825,7 +19934,6 @@ ride NONMOTION_EVENT
 through SPATIAL_SIGNAL
 northern PLACE
 Baja PLACE
-Baja O
 , O
 camping NONMOTION_EVENT
 on SPATIAL_SIGNAL
@@ -20836,7 +19944,6 @@ populated O
 places PLACE
 . O
 
-    O
 Leaving MOTION
 Ensenada PLACE
 seven O
@@ -20938,7 +20045,6 @@ view O
 mirror O
 . O
 
-    O
 After O
 two O
 and O
@@ -20951,7 +20057,6 @@ arrived MOTION
 in MOTION_SIGNAL
 San PLACE
 Felipe PLACE
-Felipe O
 , O
 a O
 small O
@@ -20961,8 +20066,6 @@ the O
 Gulf PLACE
 of PLACE
 California PLACE
-of O
-California O
 that O
 is O
 a O
@@ -21052,17 +20155,13 @@ rose MOTION
 , O
 took MOTION
 off MOTION
-off O
 south MOTION_SIGNAL
 again O
 on MOTION_SIGNAL
 my MOTION_SIGNAL
 bike MOTION_SIGNAL
-my O
-bike O
 . O
 
-    O
 Amazingly O
 , O
 I SPATIAL_ENTITY
@@ -21081,7 +20180,6 @@ teenagers SPATIAL_ENTITY
 from O
 San PLACE
 Felipe PLACE
-Felipe O
 on O
 their O
 ‘ O
@@ -21141,8 +20239,6 @@ only O
 a MEASURE
 few MEASURE
 miles MEASURE
-few O
-miles O
 down SPATIAL_SIGNAL
 the O
 road PATH
@@ -21162,7 +20258,6 @@ Mexican O
 slang O
 . O
 
-    O
 The O
 next O
 three O
@@ -21172,7 +20267,6 @@ south SPATIAL_SIGNAL
 of O
 San PLACE
 Felipe PLACE
-Felipe O
 , O
 were O
 slow O
@@ -21256,7 +20350,6 @@ averaged O
 mph O
 . O
 
-    O
 Rejoining MOTION
 the O
 main O
@@ -21283,7 +20376,6 @@ now O
 in SPATIAL_SIGNAL
 Guerrero PLACE
 Negro PLACE
-Negro O
 , O
 in SPATIAL_SIGNAL
 the O
@@ -21292,14 +20384,11 @@ of O
 southern O
 Baja PLACE
 California PLACE
-California O
 ( O
 ‘ O
 Baja PLACE
 California PLACE
 Sur PLACE
-California O
-Sur O
 ’ O
 ) O
 , O
@@ -21331,7 +20420,6 @@ December O
 29th O
 , O
 2006 O
-    O
 Biking MOTION
 south MOTION_SIGNAL
 from MOTION_SIGNAL
@@ -21361,7 +20449,6 @@ small O
 towns PLACE
 . O
 
-    O
 Biking MOTION
 Argentina PLACE
 ( O
@@ -21376,7 +20463,6 @@ countries PLACE
 of SPATIAL_SIGNAL
 South PLACE
 America PLACE
-America O
 is O
 a O
 bit O
@@ -21443,7 +20529,6 @@ a O
 plaza PLACE
 . O
 
-    O
 Northern O
 Argentina PLACE
 is O
@@ -21571,12 +20656,10 @@ bikes O
 ) O
 . O
 
-    O
 My O
 friend O
 Dave SPATIAL_ENTITY
 Johnson SPATIAL_ENTITY
-Johnson O
 flew MOTION
 in MOTION_SIGNAL
 to O
@@ -21660,19 +20743,15 @@ right O
 ) O
 . O
 
-    O
 Crossing MOTION
 a O
 15,500 MEASURE
 ft MEASURE
-ft O
 pass PATH
 ( O
 Paso PATH
 Aguas PATH
 Negras PATH
-Aguas O
-Negras O
 ) O
 on SPATIAL_SIGNAL
 a O
@@ -21708,14 +20787,12 @@ the O
 road PATH
 150 MEASURE
 miles MEASURE
-miles O
 down SPATIAL_SIGNAL
 down MOTION_SIGNAL
 the O
 deep O
 Elqui PATH
 Valley PATH
-Valley O
 , O
 we SPATIAL_ENTITY
 arrived MOTION
@@ -21723,7 +20800,6 @@ quickly O
 to MOTION_SIGNAL
 sea PLACE
 level PLACE
-level O
 and O
 the O
 beach O
@@ -21732,8 +20808,6 @@ of O
 La PLACE
 Serena, PLACE
 Chile PLACE
-Serena O
-, O
 Chile O
 . O
 
@@ -21744,7 +20818,6 @@ October O
 16th O
 , O
 2006 O
-    O
 As O
 I SPATIAL_ENTITY
 said O
@@ -21804,7 +20877,6 @@ years O
 ago O
 . O
 
-    O
 All O
 of O
 the O
@@ -21893,7 +20965,6 @@ are O
 gone O
 . O
 
-    O
 The O
 countryâ€ O
 ™ O
@@ -21980,7 +21051,6 @@ its O
 electricity O
 . O
 
-    O
 All O
 of O
 this O
@@ -22037,11 +21107,9 @@ rural O
 area PLACE
 east SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 the O
 Cordillera PATH
 Blanca PATH
-Blanca O
 , O
 I SPATIAL_ENTITY
 met MOTION
@@ -22197,7 +21265,6 @@ ice O
 . O
 
 ) O
-    O
 Loosing O
 the O
 glaciers O
@@ -22291,7 +21358,6 @@ November O
 15th O
 , O
 2006 O
-    O
 On O
 the O
 one O
@@ -22322,7 +21388,6 @@ ruins SPATIAL_ENTITY
 of SPATIAL_SIGNAL
 Machu PLACE
 Pichu PLACE
-Pichu O
 , O
 the O
 famous O
@@ -22343,7 +21408,6 @@ found O
 ) O
 . O
 
-    O
 It O
 is O
 difficult O
@@ -22423,8 +21487,6 @@ a O
 few MEASURE
 thousand MEASURE
 miles MEASURE
-thousand O
-miles O
 of O
 biking MOTION
 left O
@@ -22451,7 +21513,6 @@ past O
 12 O
 . O
 
-    O
 I SPATIAL_ENTITY
 also O
 spent NONMOTION_EVENT
@@ -22487,8 +21548,6 @@ visited MOTION
 La PLACE
 Salle PLACE
 school PLACE
-Salle O
-school O
 in SPATIAL_SIGNAL
 Cusco PLACE
 , O
@@ -22527,9 +21586,6 @@ South PLACE
 American PLACE
 Explorerâ€™s PLACE
 club PLACE
-American O
-Explorerâ€ O
-™ O
 s O
 club O
 , O
@@ -22551,7 +21607,6 @@ spent O
 time O
 . O
 
-    O
 Leaving MOTION
 Cusco PLACE
 , O
@@ -22583,7 +21638,6 @@ ago O
 in MOTION_SIGNAL
 Mexico PLACE
 City PLACE
-City O
 with O
 a O
 100 O
@@ -22661,7 +21715,6 @@ photos O
 ) O
 . O
 
-    O
 While O
 I SPATIAL_ENTITY
 do O
@@ -22695,7 +21748,6 @@ Mexico PLACE
 , O
 Central PLACE
 America PLACE
-America O
 , O
 Colombia PLACE
 , O
@@ -22720,7 +21772,6 @@ the O
 giant O
 Lake PLACE
 Titicaca PLACE
-Titicaca O
 . O
 
 We SPATIAL_ENTITY
@@ -22729,7 +21780,6 @@ now O
 in SPATIAL_SIGNAL
 La PLACE
 Paz PLACE
-Paz O
 , O
 the O
 capital PLACE
@@ -22748,7 +21798,6 @@ July O
 18th O
 , O
 2006 O
-    O
 In O
 1999 O
 , O
@@ -22794,7 +21843,6 @@ on SPATIAL_SIGNAL
 hillsides PATH
 . O
 
-    O
 Most O
 of O
 these O
@@ -22870,7 +21918,6 @@ safe O
 ! O
 
 ) O
-    O
 Floods O
 like O
 the O
@@ -22948,7 +21995,6 @@ May O
 27th O
 , O
 2006 O
-    O
 As O
 there O
 are O
@@ -23014,7 +22060,6 @@ rotary O
 club PLACE
 . O
 
-    O
 I SPATIAL_ENTITY
 found O
 that O
@@ -23050,8 +22095,6 @@ ride MOTION_SIGNAL
 on MOTION_SIGNAL
 a MOTION_SIGNAL
 freighter MOTION_SIGNAL
-a O
-freighter O
 , O
 but O
 only O
@@ -23074,13 +22117,11 @@ found O
 a O
 65 MEASURE
 foot MEASURE
-foot O
 yacht SPATIAL_ENTITY
 , O
 the O
 Golden SPATIAL_ENTITY
 Eagle SPATIAL_ENTITY
-Eagle O
 ( O
 probably O
 the O
@@ -23158,7 +22199,6 @@ the O
 floors O
 . O
 
-    O
 We SPATIAL_ENTITY
 were O
 soon O
@@ -23180,7 +22220,6 @@ Canada PLACE
 , O
 South PLACE
 Africa PLACE
-Africa O
 , O
 Singapore PLACE
 , O
@@ -23210,8 +22249,6 @@ the O
 San PLACE
 Blas PLACE
 Islands PLACE
-Blas O
-Islands O
 , O
 where SPATIAL_SIGNAL
 we SPATIAL_ENTITY
@@ -23226,7 +22263,6 @@ The O
 local O
 Kuna SPATIAL_ENTITY
 Indians SPATIAL_ENTITY
-Indians O
 , O
 who O
 inhabit O
@@ -23255,10 +22291,6 @@ then MEASURE
 a MEASURE
 half MEASURE
 meter MEASURE
-then O
-a O
-half O
-meter O
 above SPATIAL_SIGNAL
 sea O
 level PATH
@@ -23279,7 +22311,6 @@ under SPATIAL_SIGNAL
 water SPATIAL_ENTITY
 . O
 
-    O
 After O
 two O
 more O
@@ -23295,7 +22326,6 @@ arrived MOTION
 in MOTION_SIGNAL
 Cartagena, PLACE
 Colombia PLACE
-, O
 Colombia O
 , O
 the O
@@ -23304,7 +22334,6 @@ stop PLACE
 in SPATIAL_SIGNAL
 South PLACE
 America PLACE
-America O
 . O
 
 Medellin O
@@ -23316,7 +22345,6 @@ June O
 12th O
 , O
 2006 O
-    O
 I SPATIAL_ENTITY
 entered MOTION
 the O
@@ -23394,7 +22422,6 @@ rain O
 showers O
 . O
 
-    O
 Most O
 people SPATIAL_ENTITY
 in SPATIAL_SIGNAL
@@ -23505,7 +22532,6 @@ it PLACE
 is O
 . O
 
-    O
 In SPATIAL_SIGNAL
 Medellin PLACE
 , O
@@ -23529,9 +22555,6 @@ in MOTION_SIGNAL
 a MOTION_SIGNAL
 fire MOTION_SIGNAL
 truck MOTION_SIGNAL
-a O
-fire O
-truck O
 ) O
 , O
 helped O
@@ -23610,7 +22633,6 @@ left O
 ? O
 
 ) O
-    O
 The O
 video O
 on O
@@ -23626,7 +22648,6 @@ his O
 birthday O
 . O
 
-    O
 Leaving MOTION
 Medellin PLACE
 , O
@@ -23643,8 +22664,6 @@ the O
 Magdalena PATH
 river PATH
 valley PATH
-river O
-valley O
 , O
 and O
 then O
@@ -23698,7 +22717,6 @@ October O
 17th O
 , O
 2006 O
-    O
 Biking MOTION
 across MOTION_SIGNAL
 the O
@@ -23706,7 +22724,6 @@ cities PLACE
 of SPATIAL_SIGNAL
 Latin PLACE
 America PLACE
-America O
 , O
 I SPATIAL_ENTITY
 have O
@@ -23743,11 +22760,9 @@ thought O
 of O
 Los PLACE
 Angeles PLACE
-Angeles O
 , O
 Mexico PLACE
 City PLACE
-City O
 , O
 BogotÃ PLACE
 ¡ O
@@ -23757,7 +22772,6 @@ Caracas PLACE
 ) O
 . O
 
-    O
 During O
 my O
 week NONMOTION_EVENT
@@ -23774,12 +22788,9 @@ times O
 logging O
 150 MEASURE
 miles MEASURE
-miles O
 on MOTION_SIGNAL
 my MOTION_SIGNAL
 bicycle MOTION_SIGNAL
-my O
-bicycle O
 . O
 
 With O
@@ -23855,7 +22866,6 @@ lanes PATH
 ( O
 60 MEASURE
 km MEASURE
-km O
 ) O
 , O
 but O
@@ -23968,7 +22978,6 @@ work PLACE
 . O
 
 ) O
-    O
 In O
 the O
 next O
@@ -24053,7 +23062,6 @@ more O
 livable O
 . O
 
-    O
 To O
 develop O
 sustainable O
@@ -24158,11 +23166,9 @@ December O
 26th O
 , O
 2005 O
-    O
 Leaving MOTION
 Guerrero PLACE
 Negro PLACE
-Negro O
 early O
 on O
 the O
@@ -24180,7 +23186,6 @@ town PLACE
 of O
 Santa PLACE
 Rosalia PLACE
-Rosalia O
 , O
 an O
 old O
@@ -24198,10 +23203,8 @@ Baja PLACE
 is O
 full SPATIAL_SIGNAL
 of SPATIAL_SIGNAL
-of O
 United SPATIAL_ENTITY
 Staters SPATIAL_ENTITY
-Staters O
 . O
 
 The O
@@ -24237,7 +23240,6 @@ cactus O
 forests PLACE
 . O
 
-    O
 Baja O
 California O
 is O
@@ -24266,7 +23268,6 @@ England PLACE
 the O
 United PLACE
 States PLACE
-States O
 , O
 and O
 Mexico PLACE
@@ -24300,7 +23301,6 @@ I SPATIAL_ENTITY
 meet MOTION
 . O
 
-    O
 The O
 next O
 two O
@@ -24331,7 +23331,6 @@ at O
 the O
 University PLACE
 ITESM PLACE
-ITESM O
 in SPATIAL_SIGNAL
 Cerétaro PLACE
 . O
@@ -24349,7 +23348,6 @@ looking O
 across SPATIAL_SIGNAL
 Concepcion PLACE
 Bay PLACE
-Bay O
 , O
 where SPATIAL_SIGNAL
 we SPATIAL_ENTITY
@@ -24370,7 +23368,6 @@ Mexican O
 slang O
 . O
 
-    O
 I SPATIAL_ENTITY
 am O
 now O
@@ -24460,7 +23457,6 @@ water O
 in SPATIAL_SIGNAL
 Baja PLACE
 California PLACE
-California O
 . O
 
 I SPATIAL_ENTITY
@@ -24495,7 +23491,6 @@ January O
 17th O
 , O
 2007 O
-    O
 Since O
 Peru PLACE
 , O
@@ -24523,7 +23518,6 @@ stretch MOTION
 to MOTION_SIGNAL
 20,000 MEASURE
 feet MEASURE
-feet O
 . O
 
 The O
@@ -24554,7 +23548,6 @@ these O
 experiences O
 . O
 
-     O
 I SPATIAL_ENTITY
 have O
 written O
@@ -24668,7 +23661,6 @@ Andes O
 ) O
 . O
 
-    O
 Chile PLACE
 has O
 a O
@@ -24712,7 +23704,6 @@ in SPATIAL_SIGNAL
 the O
 northern PLACE
 hemisphere PLACE
-hemisphere O
 ) O
 take O
 a O
@@ -24742,7 +23733,6 @@ saying O
 of O
 Chile PLACE
 ™ O
-    O
 Like O
 California PLACE
 , O
@@ -24791,8 +23781,6 @@ the O
 Valley PLACE
 de PLACE
 Elqui PLACE
-de O
-Elqui O
 , O
 one O
 of O
@@ -24815,8 +23803,6 @@ valley PATH
 above MEASURE
 15,000 MEASURE
 feet MEASURE
-15,000 O
-feet O
 , O
 you O
 see O
@@ -24849,7 +23835,6 @@ productive O
 agriculture NONMOTION_EVENT
 . O
 
-     O
 While O
 in SPATIAL_SIGNAL
 Santiago PLACE
@@ -24898,12 +23883,10 @@ top PLACE
 of SPATIAL_SIGNAL
 El PLACE
 Plomo PLACE
-Plomo O
 , O
 a O
 17,800 MEASURE
 ft MEASURE
-ft O
 peak PLACE
 overlooking SPATIAL_SIGNAL
 Santiago PLACE
@@ -24974,14 +23957,12 @@ March O
 31st O
 , O
 2007 O
-    O
 I SPATIAL_ENTITY
 write NONMOTION_EVENT
 you O
 from SPATIAL_SIGNAL
 Buenos PLACE
 Aires PLACE
-Aires O
 , O
 where SPATIAL_SIGNAL
 I SPATIAL_ENTITY
@@ -24991,7 +23972,6 @@ for O
 the O
 return MOTION
 home MOTION
-home O
 to MOTION_SIGNAL
 the O
 States PLACE
@@ -25055,7 +24035,6 @@ road PATH
 as O
 far MOTION_SIGNAL
 south MOTION_SIGNAL
-south O
 as O
 I SPATIAL_ENTITY
 can O
@@ -25063,10 +24042,8 @@ bike MOTION
 in SPATIAL_SIGNAL
 South PLACE
 America PLACE
-America O
 . O
 
-    O
 Much O
 happened O
 in O
@@ -25100,7 +24077,6 @@ or O
 camped NONMOTION_EVENT
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 . O
 
 I SPATIAL_ENTITY
@@ -25138,7 +24114,6 @@ have O
 taken MOTION
 a MOTION_SIGNAL
 boat MOTION_SIGNAL
-boat O
 up MOTION_SIGNAL
 the O
 Amazon PATH
@@ -25149,7 +24124,6 @@ roads PATH
 over MOTION_SIGNAL
 15,000 MEASURE
 ft MEASURE
-ft O
 Andean O
 passes PATH
 , O
@@ -25208,7 +24182,6 @@ emotional O
 experience O
 . O
 
-    O
 Global O
 warming O
 is O
@@ -25289,7 +24262,6 @@ these O
 results O
 ? O
 
-    O
 In O
 terms O
 of O
@@ -25378,7 +24350,6 @@ is O
 possible O
 . O
 
-    O
 In O
 a O
 few O
@@ -25390,7 +24361,6 @@ to MOTION_SIGNAL
 the O
 United PLACE
 States PLACE
-States O
 , O
 where O
 I SPATIAL_ENTITY
@@ -25545,7 +24515,6 @@ our O
 challenge O
 . O
 
-    O
 I SPATIAL_ENTITY
 ask O
 you O
@@ -25575,7 +24544,6 @@ trip MOTION
 , O
 Bill SPATIAL_ENTITY
 Bradlee SPATIAL_ENTITY
-Bradlee O
 , O
 along O
 with O
@@ -25602,7 +24570,6 @@ around MOTION_SIGNAL
 the O
 United PLACE
 States PLACE
-States O
 to O
 promote O
 solutions O
@@ -25618,7 +24585,6 @@ in MOTION_SIGNAL
 in SPATIAL_SIGNAL
 Boston, PLACE
 Massachusetts PLACE
-, O
 Massachusetts O
 on O
 April O
@@ -25676,7 +24642,6 @@ near O
 you SPATIAL_ENTITY
 . O
 
-    O
 Now O
 , O
 though O
@@ -25801,9 +24766,7 @@ for O
 Climate O
 USA O
 , O
-    O
 David SPATIAL_ENTITY
-    O
 Thanks O
 to O
 my O
@@ -25818,7 +24781,6 @@ Bikes O
 of O
 Palo PLACE
 Alto PLACE
-Alto O
 , O
 Chaco O
 , O
@@ -25833,7 +24795,6 @@ bomberos O
 of O
 Latin PLACE
 America PLACE
-America O
 , O
 and O
 everyone O
@@ -25844,7 +24805,6 @@ this O
 trip O
 . O
 
- O
 Miles O
 by O
 Country O
@@ -25859,69 +24819,51 @@ California PLACE
 ) O
 : O
 853 O
- O
 Mexico PLACE
 : O
 3,052 O
- O
 Guatemala PLACE
 : O
 130 O
- O
 Belize PLACE
 : O
 339 O
- O
 Honduras PLACE
 : O
 463 O
- O
 El PLACE
 Salvador PLACE
-Salvador O
 : O
 225 O
- O
 Nicaragua PLACE
 : O
 299 O
- O
 Costa PLACE
 Rica PLACE
-Rica O
 : O
 404 O
- O
 Panama PLACE
 : O
 344 O
- O
 Colombia PLACE
 : O
 1,123 O
- O
 Venezuela PLACE
- O
 Brazil PLACE
 : O
 651 O
- O
 Peru PLACE
 : O
 1,964 O
- O
 Bolivia PLACE
 : O
 547 O
- O
 Chile PLACE
 : O
 2,233 O
- O
 Argentina PLACE
 : O
 2,106 O
- O
 Total O
 : O
 15,921 O
@@ -25940,7 +24882,6 @@ November O
 2nd O
 , O
 2006 O
-    O
 Leaving MOTION
 Lima PLACE
 , O
@@ -25979,7 +24920,6 @@ Climbing MOTION
 above SPATIAL_SIGNAL
 13,000 MEASURE
 feet MEASURE
-feet O
 , O
 I SPATIAL_ENTITY
 found O
@@ -26000,7 +24940,6 @@ even O
 camped NONMOTION_EVENT
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 a O
 flock SPATIAL_ENTITY
 of O
@@ -26016,7 +24955,6 @@ center O
 ) O
 . O
 
-    O
 After O
 spending NONMOTION_EVENT
 a O
@@ -26035,9 +24973,6 @@ Institucion PLACE
 Educativo PLACE
 Luis PLACE
 Carranta PLACE
-Educativo O
-Luis O
-Carranta O
 ) O
 , O
 I SPATIAL_ENTITY
@@ -26098,7 +25033,6 @@ to O
 me SPATIAL_ENTITY
 . O
 
-    O
 Everyone O
 along O
 this O
@@ -26146,7 +25080,6 @@ from MOTION_SIGNAL
 the O
 United PLACE
 States PLACE
-Statesâ€ O
 ™ O
 , O
 â€˜I O
@@ -26173,7 +25106,6 @@ the O
 road PATH
 . O
 
-    O
 Biking MOTION
 by MOTION_SIGNAL
 one O
@@ -26187,7 +25119,6 @@ students SPATIAL_ENTITY
 rushed MOTION
 out MOTION_SIGNAL
 of MOTION_SIGNAL
-of O
 their O
 recess NONMOTION_EVENT
 to O
@@ -26246,7 +25177,6 @@ in O
 Quechua O
 . O
 
-    O
 People O
 have O
 little O
@@ -26402,7 +25332,6 @@ I SPATIAL_ENTITY
 camped NONMOTION_EVENT
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 explained O
 that O
 there O
@@ -26438,7 +25367,6 @@ to O
 eat O
 . O
 
-    O
 In SPATIAL_SIGNAL
 one O
 town PLACE
@@ -26556,7 +25484,6 @@ about O
 it O
 . O
 
-    O
 The O
 majority O
 my O
@@ -26658,7 +25585,6 @@ I SPATIAL_ENTITY
 camped NONMOTION_EVENT
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 , O
 and O
 who O
@@ -26673,17 +25599,12 @@ their O
 kitchens PLACE
 . O
 
-    O
 After O
 many MEASURE
 more MEASURE
 thousands MEASURE
 of MEASURE
 feet MEASURE
-more O
-thousands O
-of O
-feet O
 of O
 climbing MOTION
 and O
@@ -26712,7 +25633,6 @@ days O
 and O
 12,000 MEASURE
 feet MEASURE
-feet O
 of O
 climbing MOTION
 , O
@@ -26734,7 +25654,6 @@ of SPATIAL_SIGNAL
 the O
 Inca PLACE
 Empire PLACE
-Empire O
 . O
 
 Cartagena O
@@ -26750,7 +25669,6 @@ June O
 5th O
 , O
 2006 O
-    O
 Leaving MOTION
 Cartagena PLACE
 , O
@@ -26811,7 +25729,6 @@ in SPATIAL_SIGNAL
 the O
 country PLACE
 side PLACE
-side O
 . O
 
 I SPATIAL_ENTITY
@@ -26841,7 +25758,6 @@ night O
 ) O
 . O
 
-    O
 The O
 route PATH
 sees O
@@ -26930,7 +25846,6 @@ local O
 school PLACE
 . O
 
-    O
 The O
 military O
 presence NONMOTION_EVENT
@@ -27052,7 +25967,6 @@ here O
 ) O
 . O
 
-    O
 The O
 last O
 few O
@@ -27067,7 +25981,6 @@ including O
 an O
 8,000 MEASURE
 feet MEASURE
-feet O
 climb MOTION
 into MOTION_SIGNAL
 the O
@@ -27096,7 +26009,6 @@ cattle O
 grazing NONMOTION_EVENT
 . O
 
-    O
 Biking MOTION
 through MOTION_SIGNAL
 the O
@@ -27140,7 +26052,6 @@ February O
 15th O
 , O
 2006 O
-    O
 Following MOTION
 a O
 route PATH
@@ -27158,7 +26069,6 @@ valley PATH
 where SPATIAL_SIGNAL
 Mexico PLACE
 City PLACE
-City O
 , O
 the O
 worldâ€ O
@@ -27212,7 +26122,6 @@ people O
 
 Mexico PLACE
 city PLACE
-city O
 is O
 huge O
 , O
@@ -27243,8 +26152,6 @@ biked MOTION
 over MEASURE
 120 MEASURE
 miles MEASURE
-120 O
-miles O
 , O
 stayed NONMOTION_EVENT
 with O
@@ -27269,8 +26176,6 @@ school PLACE
 Logos PLACE
 middle PLACE
 school PLACE
-middle O
-school O
 ) O
 , O
 and O
@@ -27299,13 +26204,11 @@ trip O
 ) O
 . O
 
-    O
 In O
 comparison O
 to O
 Los PLACE
 Angeles PLACE
-Angeles O
 , O
 I SPATIAL_ENTITY
 felt O
@@ -27314,7 +26217,6 @@ biking MOTION
 in SPATIAL_SIGNAL
 Mexico PLACE
 City PLACE
-City O
 as O
 the O
 cars SPATIAL_ENTITY
@@ -27461,7 +26363,6 @@ adapt O
 afterwards O
 . O
 
-    O
 Joining O
 forces O
 with O
@@ -27501,7 +26402,6 @@ almost O
 cyclists O
 took MOTION
 over MOTION
-over O
 two O
 lanes PATH
 of O
@@ -27566,7 +26466,6 @@ the O
 city PLACE
 . O
 
-    O
 To O
 be O
 sure O
@@ -27711,7 +26610,6 @@ kept O
 cycling MOTION
 . O
 
-    O
 While O
 biking MOTION
 around MOTION_SIGNAL
@@ -27744,7 +26642,6 @@ the O
 cause O
 . O
 
-    O
 Bicycles O
 are O
 not O
@@ -27893,7 +26790,6 @@ here O
 ) O
 . O
 
-    O
 I SPATIAL_ENTITY
 also O
 visited MOTION
@@ -27902,9 +26798,6 @@ National PLACE
 Institute PLACE
 of PLACE
 Ecology PLACE
-Institute O
-of O
-Ecology O
 , O
 where SPATIAL_SIGNAL
 I SPATIAL_ENTITY
@@ -28031,7 +26924,6 @@ quality O
 in O
 Mexico PLACE
 City PLACE
-City O
 . O
 
 And O
@@ -28056,7 +26948,6 @@ Venezuela PLACE
 ) O
 . O
 
-    O
 I SPATIAL_ENTITY
 spent NONMOTION_EVENT
 my O
@@ -28073,7 +26964,6 @@ tourist O
 
 Mexico PLACE
 City PLACE
-City O
 was O
 built NONMOTION_EVENT
 by O
@@ -28081,7 +26971,6 @@ the O
 Spaniards O
 on SPATIAL_SIGNAL
 top SPATIAL_SIGNAL
-top O
 of O
 a O
 seasonal O
@@ -28139,7 +27028,6 @@ here PLACE
 in SPATIAL_SIGNAL
 Mexico PLACE
 City PLACE
-City O
 , O
 mixed O
 with O
@@ -28193,13 +27081,11 @@ unique O
 energy O
 . O
 
-    O
 I SPATIAL_ENTITY
 finally O
 left MOTION
 Mexico PLACE
 City PLACE
-City O
 , O
 departing MOTION
 on MOTION_SIGNAL
@@ -28211,7 +27097,6 @@ between MOTION_SIGNAL
 two O
 18,000 MEASURE
 ft MEASURE
-ft O
 volcanoes PLACE
 ( O
 named O
@@ -28228,7 +27113,6 @@ earlier O
 , O
 Hernan SPATIAL_ENTITY
 Cortez SPATIAL_ENTITY
-Cortez O
 , O
 the O
 Spanish O
@@ -28270,11 +27154,9 @@ April O
 16th O
 , O
 2006 O
-    O
 Leaving MOTION
 El PLACE
 Salvador PLACE
-Salvador O
 , O
 I SPATIAL_ENTITY
 climbed MOTION
@@ -28291,7 +27173,6 @@ route PATH
 through MOTION_SIGNAL
 Central PLACE
 America PLACE
-America O
 ( O
 see O
 the O
@@ -28302,7 +27183,6 @@ route PATH
 ) O
 . O
 
-    O
 Returning MOTION
 to MOTION_SIGNAL
 Honduras PLACE
@@ -28380,7 +27260,6 @@ family O
 events O
 . O
 
-    O
 Earlier O
 that O
 day O
@@ -28530,7 +27409,6 @@ of O
 them O
 . O
 
-    O
 After O
 spending O
 a O
@@ -28545,7 +27423,6 @@ city PLACE
 of O
 La PLACE
 Paz PLACE
-Paz O
 , O
 I SPATIAL_ENTITY
 biked MOTION
@@ -28565,11 +27442,9 @@ at SPATIAL_SIGNAL
 about O
 3,000 MEASURE
 feet MEASURE
-feet O
 above O
 sea PLACE
 level PLACE
-level O
 in SPATIAL_SIGNAL
 the O
 middle PLACE
@@ -28624,7 +27499,6 @@ all O
 of O
 Latin PLACE
 America PLACE
-America O
 is O
 on O
 vacation O
@@ -28698,7 +27572,6 @@ the O
 government O
 . O
 
-    O
 I SPATIAL_ENTITY
 continued MOTION
 into MOTION_SIGNAL
@@ -28723,7 +27596,6 @@ countries PLACE
 in SPATIAL_SIGNAL
 Latin PLACE
 America PLACE
-America O
 ( O
 see O
 comparison O
@@ -28733,7 +27605,6 @@ comparison O
 Like O
 El PLACE
 Salvador PLACE
-Salvador O
 , O
 Nicaragua PLACE
 had O
@@ -28818,7 +27689,6 @@ affair O
 ) O
 . O
 
-    O
 Now O
 the O
 country PLACE
@@ -28830,7 +27700,6 @@ and O
 like O
 El PLACE
 Salvador PLACE
-Salvador O
 , O
 I SPATIAL_ENTITY
 felt O
@@ -28927,7 +27796,6 @@ the O
 right O
 . O
 
-    O
 Arriving MOTION
 in MOTION_SIGNAL
 Managua PLACE
@@ -28944,7 +27812,6 @@ airport PLACE
 to O
 pick NONMOTION_EVENT
 up NONMOTION_EVENT
-up O
 my O
 father SPATIAL_ENTITY
 , O
@@ -28959,7 +27826,6 @@ Nicaragua PLACE
 and O
 Costa PLACE
 Rica PLACE
-Rica O
 . O
 
 In O
@@ -28973,7 +27839,6 @@ son SPATIAL_ENTITY
 pops SPATIAL_ENTITY
 showed MOTION
 up MOTION
-up O
 at MOTION_SIGNAL
 the O
 airport PLACE
@@ -29039,7 +27904,6 @@ March O
 16th O
 , O
 2007 O
-    O
 I SPATIAL_ENTITY
 am O
 sitting NONMOTION_EVENT
@@ -29051,8 +27915,6 @@ in SPATIAL_SIGNAL
 Punta PLACE
 Arenas, PLACE
 Chile PLACE
-Arenas O
-, O
 Chile O
 , O
 right O
@@ -29093,7 +27955,6 @@ only O
 about O
 one MEASURE
 inch MEASURE
-inch O
 . O
 
 As O
@@ -29111,7 +27972,6 @@ here O
 on O
 ? O
 
-    O
 The O
 most O
 likely O
@@ -29174,7 +28034,6 @@ a O
 disaster O
 . O
 
-    O
 The O
 problem O
 , O
@@ -29234,7 +28093,6 @@ could O
 rise MOTION
 80 MEASURE
 feet MEASURE
-feet O
 . O
 
 We O
@@ -29309,7 +28167,6 @@ find O
 out O
 ? O
 
-    O
 As O
 I SPATIAL_ENTITY
 have O
@@ -29321,14 +28178,12 @@ am O
 in SPATIAL_SIGNAL
 Punta PLACE
 Arenas PLACE
-Arenas O
 right O
 now O
 . O
 
 Punta PLACE
 Arenas PLACE
-Arenas O
 sits NONMOTION_EVENT
 on SPATIAL_SIGNAL
 the O
@@ -29338,8 +28193,6 @@ the O
 Straight PATH
 of PATH
 Magellan PATH
-of O
-Magellan O
 on SPATIAL_SIGNAL
 the O
 southern O
@@ -29347,7 +28200,6 @@ tip PLACE
 of SPATIAL_SIGNAL
 South PLACE
 America PLACE
-America O
 , O
 and O
 is O
@@ -29394,16 +28246,13 @@ what O
 a O
 1 MEASURE
 foot MEASURE
-foot O
 , O
 10 MEASURE
 foot MEASURE
-foot O
 , O
 or O
 80 MEASURE
 foot MEASURE
-foot O
 sea O
 level PATH
 rise MOTION
@@ -29428,7 +28277,6 @@ February O
 22nd O
 , O
 2006 O
-    O
 After O
 two O
 days O
@@ -29437,7 +28285,6 @@ bicycling MOTION
 from MOTION_SIGNAL
 Mexico PLACE
 City PLACE
-City O
 , O
 and O
 crossing MOTION
@@ -29445,7 +28292,6 @@ over SPATIAL_SIGNAL
 a O
 12,000 MEASURE
 ft MEASURE
-ft O
 pass PATH
 between SPATIAL_SIGNAL
 two O
@@ -29512,7 +28358,6 @@ a O
 church PLACE
 on SPATIAL_SIGNAL
 top SPATIAL_SIGNAL
-top O
 ( O
 see O
 photo O
@@ -29530,9 +28375,6 @@ American PLACE
 School PLACE
 of PLACE
 Puebla PLACE
-School O
-of O
-Puebla O
 , O
 and O
 stayed NONMOTION_EVENT
@@ -29546,7 +28388,6 @@ the O
 school PLACE
 . O
 
-    O
 Heading MOTION
 south MOTION_SIGNAL
 , O
@@ -29614,8 +28455,6 @@ of O
 Santa PLACE
 Maria PLACE
 Tutla PLACE
-Maria O
-Tutla O
 ( O
 photo O
 right O
@@ -29631,14 +28470,11 @@ town PLACE
 of O
 Monte PLACE
 Frio PLACE
-Frio O
 . O
 
-    O
 In SPATIAL_SIGNAL
 Monte PLACE
 Frio PLACE
-Frio O
 , O
 a O
 town PLACE
@@ -29656,7 +28492,6 @@ I SPATIAL_ENTITY
 camped NONMOTION_EVENT
 next SPATIAL_SIGNAL
 to SPATIAL_SIGNAL
-to O
 the O
 municipal O
 building PLACE
