@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-    
+#### programme configuration that lead to the parameter selection results in this folder
+
 from hyperopt import hp
 from flair.hyperparameter.param_selection import SearchSpace, Parameter
 from flair.datasets import ColumnCorpus
@@ -59,5 +58,3 @@ param_selector = SequenceTaggerParamSelector(
 
 # start the optimization
 param_selector.optimize(search_space, max_evals=30)
-
-

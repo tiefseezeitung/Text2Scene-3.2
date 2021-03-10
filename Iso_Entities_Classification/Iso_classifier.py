@@ -36,8 +36,8 @@ print(tag_dictionary.idx2item)
 
 # initialize embeddings
 embedding_types: List[TokenEmbeddings] = [
-    #WordEmbeddings("glove"),
-    TransformerWordEmbeddings('distilbert-base-uncased', fine_tune=True),
+    WordEmbeddings("glove"),
+    #TransformerWordEmbeddings('distilbert-base-uncased', fine_tune=True),
     # comment in this line to use character embeddings
     # CharacterEmbeddings(),
     # comment in these lines to use contextual string embeddings
@@ -50,7 +50,7 @@ embedding_types: List[TokenEmbeddings] = [
 embeddings: StackedEmbeddings = StackedEmbeddings(embeddings=embedding_types)
 
 tagger: SequenceTagger = SequenceTagger(
-    hidden_size=256,
+    hidden_size=128,
     embeddings=embeddings,
     tag_dictionary=tag_dictionary,
     tag_type=tag_type,
@@ -62,15 +62,35 @@ from flair.trainers import ModelTrainer
 
 trainer: ModelTrainer = ModelTrainer(tagger, corpus)
 
+# the folder where your model, log files etc will be saved to
+model_path = "resources/taggers/iso"
+
 trainer.train(
-    "resources2/taggers/example-iso",
-    learning_rate=0.5,
-    mini_batch_size=32,
-    max_epochs=3,
+    model_path,
+    learning_rate=0.15,
+    mini_batch_size=8,
+    max_epochs=15,
+    write_weights=True,
+    checkpoint=True
 )
 
-# not necessary, but plots learning curves
+# plots learning curves (creates png plot) | not necessary for training
 plotter = Plotter()
-plotter.plot_training_curves("resources/taggers/example-iso/loss.tsv")
-plotter.plot_weights("resources/taggers/example-iso/weights.txt")
+plotter.plot_training_curves(model_path+"/loss.tsv")
+plotter.plot_weights(model_path+"/weights.txt")
 
+
+# in case you want to stop training and want to continue at another time, 
+# just load the checkpoint with following code:
+'''   
+checkpoint = model_path+"/checkpoint.pt"
+trainer = ModelTrainer.load_checkpoint(checkpoint, corpus)
+trainer.train(
+    model_path,
+    learning_rate=0.2,
+    mini_batch_size=8,
+    max_epochs=12,
+    write_weights=True,
+    checkpoint=True
+)
+'''
