@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import os
 from sys import exit
 import spacy
@@ -12,23 +8,43 @@ import xml.etree.ElementTree as ET
 import csv
 import string
 
-def construct(path):
-    """constructs a list of lists"""
+
+def construct(path, link):
+    """constructs a list of lists with entries text, iso entity,semantic type
+    and the relation (if token is the trigger)"""
     
     isoents = ['PLACE','PATH','SPATIAL_ENTITY','SPATIAL_SIGNAL',\
               'MOTION','MOTION_SIGNAL','MEASURE','NONMOTION_EVENT']
+    
+    isolink = link
+    if isolink == 'QSLINK': sem_type = 'TOPOLOGICAL'
+    elif  isolink == 'OLINK': sem_type = 'DIRECTIONAL'
 
-    isolinks = ['QSLINK', 'OLINK'] 
-    
-    link_attr = ['trajector', 'landmark', 'trigger'] 
-    
     newfile = []
     
+    def toword(idtr,idlst):
+        'returns text of an id'
+        for i in idlst:
+            if i[0] == idtr:
+                return i[1]
+            
+    def toidrole(idtr,rllst):
+        '''returns trajector,landmark,from and to id'''
+        found = False
+        for i in rllst:
+            if i[0] == idtr:
+                found = True
+                return i[1],i[2],i[3],i[4]
+        if found == False:
+            return None, None, None, None
+            
+    # walk through given directory
     for subdir, dirs, files in os.walk(path):
+        newfile = []
         for filename in files:
             filepath = subdir + os.sep + filename
             if filepath.endswith(".xml"):
-                tmpfile = []
+                
                 root = ET.parse(filepath)
 
                 t = root.find('TEXT')
@@ -38,9 +54,26 @@ def construct(path):
                 root = tree.getroot()
                 doc = nlp(root[0].text)
 
+
+                # make list of all entities:
+                idfile = []
+                for elem in root:
+                    for i in isoents:
+                        for subelem in elem: 
+                            if subelem.tag == i:
+                                txt = subelem.get('text')
+                                idtxt = subelem.get('id')
+                                idfile += [[idtxt, txt, subelem.get('start'), subelem.get('semantic_type')]]
+                                
+                #make list of all entries of link
+                rolefile = []
+                for elem in root:
+                        for subelem in elem: 
+                            if subelem.tag == isolink:
+                                rolefile += [[subelem.get('trigger'),subelem.get('trajector'),subelem.get('landmark'),subelem.get('fromID'),subelem.get('toID')]]
+                
+                # this part assigns the iso entities, semantic_types, relation to words in text
                 prev = 1
-                # this part assigns the iso entities to words in text and 
-                # extracts its id
                 for token in doc:
                     found = False
                     for elem in root:
@@ -53,12 +86,32 @@ def construct(path):
                                         # split the token if it consists of 
                                         # more than one word
                                         x = txt.split(" ")
-                                        for e in range(len(x)):
-                                            # includes attributes:
-                                            #tmpfile += [[idtxt, x[e], i]+[subelem.get(attributes[a]) for a in range(len(attributes))]]  
-                                            # use this instead when you want to put a specific string if an attribute is None:
-                                            #newfile += [[x[e],i]+[subelem.get(attributes[a]) if subelem.get(attributes[a])!=None  else '' for a in range(len(attributes))]] 
-                                            tmpfile += [[idtxt, x[e], i]] 
+                                        
+                                        if subelem.get('semantic_type') == sem_type:
+                                            traj, lm, fromid, toid = toidrole(idtxt,
+                                                                rolefile)
+                                            if traj == None or lm == None: #link not complete
+                                                for e in range(len(x)):
+                                                    newfile += [[x[e], i, 'O', 'O']]    
+                                            else: #means all roles available (link complete)
+        
+                                                if traj == fromid:
+                                                    for e in range(len(x)):
+                                                        newfile += [[x[e], i, subelem.get('semantic_type'), isolink+'(arg1=trajector,arg2=landmark)' ]] 
+                                                elif traj == toid:
+                                                    for e in range(len(x)):
+                                                        newfile += [[x[e], i, subelem.get('semantic_type'), isolink+'(arg1=landmark,arg2=trajector)' ]]    
+                                                else: 
+                                                    print('false data')
+                                                    for e in range(len(x)):
+                                                        newfile += [[x[e], i, 'O', 'O']]    
+                  
+                                        else:
+                                            for e in range(len(x)):
+                                                x[e] = (str(x[e])).translate(str.maketrans('', '', string.whitespace))
+                                                if x[e] == '': pass
+                                                else: newfile += [[x[e], i]+[subelem.get('semantic_type') if (subelem.get('semantic_type') != None and subelem.get('semantic_type') != '') else 'O']+['O']]    
+                                        
                                         found = True
                                         prev = len(x)
                                         break
@@ -67,38 +120,16 @@ def construct(path):
                         else:
                             #filter out useless data
                             txt = (str(token.text)).translate(str.maketrans('', '', string.whitespace))
-                            if (txt == '' or txt == ' '): 
-                                pass
-                            else: 
-                                # includes attributes:
-                                #tmpfile += [[None, txt ,'O']+[None for n in range(len(attributes))]]
-                                tmpfile += [['no_id', txt ,'O']]
-                                
-               # this part assigns the link attributes to our lists
-                for t in range(len(tmpfile)):
-                    found = False
-                    tmpfile[t] += [[],[]]
-                    for i in isolinks:
-                        for l in root.findall('TAGS/'+i):
-                            for a in link_attr:
-                                if tmpfile[t][0] == l.get(a):
-                                    #tmpfile[t] += [i,a]
-                                    tmpfile[t][3] = tmpfile[t][3]+[i]
-                                    tmpfile[t][4] = tmpfile[t][4]+[a]
-                                    found = True
-                    # this will only print the set of the results:
-                    #tmpfile[t][3] = list(set(tmpfile[t][3]))
-                    #tmpfile[t][4] = list(set(tmpfile[t][4]))
-                    if not found: 
-                        tmpfile[t][3] = None
-                        tmpfile[t][4] = None
-
-                    # this deletes id column:
-                    #tmpfile[t] = tmpfile[t][1:]
-                newfile = newfile + tmpfile
+                            x = txt.split(' ')
+                            for e in range(len(x)):
+                                if (x[e] == '' or x[e] == ' '): 
+                                    pass
+                                else: 
+                                    newfile += [[x[e], 'O' , 'O', 'O']]    
     return newfile
 
-def writedata(path,fieldnames,datalist):
+# not used, we use writetxt
+def writecsv(path,fieldnames,datalist):
     """"writes columns and data in a csv file"""
     
     with open(path, 'w', newline='') as csvfile:
@@ -112,21 +143,36 @@ def writedata(path,fieldnames,datalist):
                 writer_wl.writerow('')
             else:
                 writer.writerow({fieldnames[f]: datalist[each][f] for f in range(len(fieldnames))})
-     
-columnnames = ['id','text', 'iso', 'link', 'role']
 
-# construct list of lists that will later be converted to csv
-trainSetClass = construct('../Data/training/Traning')
-print(len(trainSetClass))
+def writetxt(path,fieldnames,datalist):
+    """"writes columns and data in a txt file"""
+    string = ''
+    for each in range(0,len(datalist)):
+        # eine zeile
+        for e in range(len(datalist[each])):
+            # spalte
+            #print(e)
+            if datalist[each][e] != None:
+                string+= str(datalist[each][e])
+                if e == len(datalist[each])-1: string += '\n'
+                else: string += '\t'
+            else: 
+                if datalist[each][0] == '': break  #if text is empty
+                else: 
+                    string += 'None'
+                    if e == len(datalist[each])-1: string += '\n'
+                    else: string += '\t'
+            if datalist[each][0] == '.' or datalist[each][0] == '!' or datalist[each][0] == '?':
+                if e == len(datalist[each])-1: string += '\n' 
+                #string += ' '
+    txt=open(path,"w") 
+    txt.writelines(string) 
+    txt.close() 
 
-# write data into csv files
-writedata('train.csv',columnnames,trainSetClass)
+#choose either qslink or olink
+#link = 'QSLINK'
+link = 'OLINK'
 
-#test files are not provided with link tags
-#testSetClass = construct('../Data/test_task8/Test.configuration3')
-#print(len(testSetClass))
-
-
-
-
-
+columnnames = ['text', 'iso', 'semantic_type', link]
+trainSetClass = construct('../Data/training/Traning', link)
+writetxt('train_'+link+'.txt',columnnames,trainSetClass)
