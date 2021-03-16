@@ -3,35 +3,33 @@
 from flair.models import SequenceTagger, MultiTagger
 from flair.data import Corpus, Sentence
 
-def predict(sentence, iso=True):
+def predict(sentence, iso=False):
+    '''Predicts the attribute tags of the tokens in the given sentence. There are
+    two different models, you can choose by setting the iso variable'''
+    
     attributes = ['dimensionality', 'form', 'motion_type', 'motion_class', 'motion_sense',\
                   'semantic_type', 'motion_signal_type']
         
     if not iso:
         #if you want to use the attribute tagger without the iso information
-        tagger = MultiTagger.load(['resources/taggers/dimensionality/final-model.pt',\
-                                   'resources/taggers/form/final-model.pt',\
-                                   'resources/taggers/motion_type/final-model.pt',
-                                   'resources/taggers/motion_class/final-model.pt',
-                                   'resources/taggers/motion_sense/final-model.pt',
-                                   'resources/taggers/semantic_type/final-model.pt',
-                                   'resources/taggers/motion_signal_type/final-model.pt',
-                                   ])
+
+        tagger = MultiTagger.load(['resources/taggers/'+a+'/final-model.pt' for \
+                                   a in attributes])
+                         
         tagger.predict(sentence)
     else:
-        #this is the tagger with the iso information
-        isotagger = SequenceTagger.load('resources/taggers/iso/final-model.pt')
-        tagger = MultiTagger.load(['resources_ilines/taggers/dimensionality/final-model.pt',\
-                                   'resources_ilines/taggers/form/final-model.pt',\
-                                   'resources_ilines/taggers/motion_type/final-model.pt',
-                                   'resources_ilines/taggers/motion_class/final-model.pt',
-                                   'resources_ilines/taggers/motion_sense/final-model.pt',
-                                   'resources_ilines/taggers/semantic_type/final-model.pt',
-                                   'resources_ilines/taggers/motion_signal_type/final-model.pt',
-                                   ])
+        # this is the tagger with the iso information (given in sentence as tokens), 
+        # without the iso tagger model does not work
+        isotagger = SequenceTagger.load('../Iso_Entities_Classification/resources/taggers/iso_flair/final-model.pt')
+
+        tagger = MultiTagger.load(['resources_ilines/taggers/'+a+'/final-model.pt' for \
+                                   a in attributes])
+            
         isotagger.predict(sentence)
         sentence = Sentence(str(sentence.to_tagged_string()))
         tagger.predict(sentence)
+        
+                
     return sentence
         
 
@@ -39,4 +37,6 @@ def predict(sentence, iso=True):
 sentence = Sentence('I live in Berlin.')
 # use predict function 
 sentence = predict(sentence)
-print(sentence)
+
+print()
+print(sentence.to_tagged_string())

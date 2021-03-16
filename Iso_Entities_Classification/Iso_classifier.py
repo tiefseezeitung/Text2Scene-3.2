@@ -42,9 +42,9 @@ embedding_types: List[TokenEmbeddings] = [
     # CharacterEmbeddings(),
     # comment in these lines to use contextual string embeddings
     #
-    # FlairEmbeddings('news-forward'),
+    FlairEmbeddings('news-forward-fast'),
     #
-    # FlairEmbeddings('news-backward'),
+    FlairEmbeddings('news-backward-fast'),
 ]
 
 embeddings: StackedEmbeddings = StackedEmbeddings(embeddings=embedding_types)
@@ -54,7 +54,7 @@ tagger: SequenceTagger = SequenceTagger(
     embeddings=embeddings,
     tag_dictionary=tag_dictionary,
     tag_type=tag_type,
-    use_crf=True,
+    use_crf=True, rnn_layers=2,
 )
 
 # initialize trainer
@@ -63,7 +63,7 @@ from flair.trainers import ModelTrainer
 trainer: ModelTrainer = ModelTrainer(tagger, corpus)
 
 # the folder where your model, log files etc will be saved to
-model_path = "resources/taggers/iso"
+model_path = "resources/taggers/iso_x"
 
 trainer.train(
     model_path,
@@ -71,7 +71,7 @@ trainer.train(
     mini_batch_size=8,
     max_epochs=15,
     write_weights=True,
-    checkpoint=True
+    checkpoint=True,
 )
 
 # plots learning curves (creates png plot) | not necessary for training
@@ -87,7 +87,7 @@ checkpoint = model_path+"/checkpoint.pt"
 trainer = ModelTrainer.load_checkpoint(checkpoint, corpus)
 trainer.train(
     model_path,
-    learning_rate=0.2,
+    learning_rate=0.15,
     mini_batch_size=8,
     max_epochs=12,
     write_weights=True,
