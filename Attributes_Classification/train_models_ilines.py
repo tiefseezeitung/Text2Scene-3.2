@@ -42,30 +42,30 @@ def train(attributes, index):
             #CharacterEmbeddings(),
         
             # comment in these lines to use flair embeddings
-            FlairEmbeddings('news-forward'),
-            FlairEmbeddings('news-backward'),
+            FlairEmbeddings('news-forward-fast'),
+            FlairEmbeddings('news-backward-fast'),
         ]
  
     embeddings: StackedEmbeddings = StackedEmbeddings(embeddings=embedding_types)
     
-    tagger: SequenceTagger = SequenceTagger(hidden_size=256,
+    tagger: SequenceTagger = SequenceTagger(hidden_size=128,
                                                 embeddings=embeddings,
                                                 tag_dictionary=tag_dictionary,
                                                 tag_type=tag_type,
-                                                use_crf=True,rnn_layers=2)
+                                                use_crf=True)
     trainer = ModelTrainer(tagger, corpus)
     trainer.train("resources_ilines/taggers/"+attributes[index], 
                   learning_rate=0.1, 
-                  max_epochs=7)  # if performace is bad set mini_batch_size=8
+                  max_epochs=8)  # if performace is bad set mini_batch_size=8
 
 attributes = ['dimensionality', 'form', 'motion_type', 'motion_class', 'motion_sense',\
               'semantic_type', 'motion_signal_type']
 
 # we want to train all attributes individually thus we want:
-#for i in range(len(attributes)):
-#    train(attributes, i)
+for i in range(len(attributes)):
+    train(attributes, i)
 
 # to not overload your computer we rather train them carefully and edit index
 # after each time
-train(attributes, 0)
+#train(attributes, 0)
 

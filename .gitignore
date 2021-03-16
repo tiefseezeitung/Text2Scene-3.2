@@ -1,3 +1,4 @@
-#models must be ignored, files too large
+#models files (.pt) very large, only keep final-models
 #*.pt
 *checkpoint.pt
+*best-model.pt
