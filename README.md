@@ -1,7 +1,9 @@
 # Text2Scene-3.2
 Semeval task 8
 ***
-In folder Data lays the original SpaceEval training and test data, which we use to train different models. We use [flair](https://github.com/flairNLP) to classify our text.
+In order to get our programs running you will need to install Python (3.6+), Pytorch (1.5+) and Flair.
+
+In the folder 'Data' lays the original SpaceEval training and test data, which we use to train different models. We use [flair](https://github.com/flairNLP) to classify our text.
 
 ***
 ## Iso Entities
