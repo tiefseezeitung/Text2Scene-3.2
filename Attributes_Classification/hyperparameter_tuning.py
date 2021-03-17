@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+ 
+from hyperopt import hp
+from flair.hyperparameter.param_selection import SearchSpace, Parameter
+from flair.datasets import ColumnCorpus
+from flair.data import Corpus
+from flair.embeddings import (
+    TokenEmbeddings,
+    WordEmbeddings,
+    StackedEmbeddings,
+    FlairEmbeddings,
+    TransformerWordEmbeddings,
+    CharacterEmbeddings,)
+
+# this is the folder in which train and test files reside
+data_folder = './'
+
+# define columns
+columns = {0: 'text', 1:'iso', 2:'dimensionality', 3:'form', 4:'motion_type',\
+           5:'motion_class', 6:'motion_sense', 7:'semantic_type', \
+               8:'motion_signal_type'}
+# load corpus containing training, test and dev data
+corpus: Corpus = ColumnCorpus(data_folder, columns,
+                                      test_file='test.txt', 
+                                      train_file='train.txt')
+tag_type = "semantic_type"
+
+
+# defining our search space
+search_space = SearchSpace()
+
+search_space.add(Parameter.EMBEDDINGS, hp.choice, options=[ 
+    StackedEmbeddings([WordEmbeddings("glove"),FlairEmbeddings('news-forward-fast'), FlairEmbeddings('news-backward-fast')])
+])
+# another embedding that could be tried
+#WordEmbeddings("glove")
+#StackedEmbeddings([FlairEmbeddings('news-forward'), FlairEmbeddings('news-backward')])
+#TransformerWordEmbeddings('distilbert-base-uncased', fine_tune=True)
+#TransformerWordEmbeddings('distilbert-base-cased', fine_tune=True)
+
+search_space.add(Parameter.HIDDEN_SIZE, hp.choice, options=[64, 128])
+search_space.add(Parameter.RNN_LAYERS, hp.choice, options=[1,2])
+search_space.add(Parameter.LEARNING_RATE, hp.choice, options=[0.1, 0.15, 0.2])
+search_space.add(Parameter.MINI_BATCH_SIZE, hp.choice, options=[8])
+
+#search_space.add(Parameter.DROPOUT, hp.uniform, low=0.0, high=0.5)
+
+from flair.hyperparameter.param_selection import SequenceTaggerParamSelector, OptimizationValue
+
+# create the parameter selector
+param_selector = SequenceTaggerParamSelector(
+    corpus, 
+    tag_type, 
+    'resources_param_selector/results'+tag_type, 
+    max_epochs=8,
+    training_runs=2,
+    optimization_value=OptimizationValue.DEV_SCORE
+)
+
+# start the optimization
+param_selector.optimize(search_space, max_evals=20)
+
