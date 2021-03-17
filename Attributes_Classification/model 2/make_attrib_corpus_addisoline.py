@@ -123,8 +123,8 @@ columnnames = ['text'] + attributes
 
 # construct the list of lists with token and iso entities as first entries and
 # attributes as following entries in each list
-trainSetClass = construct(attributes,'/home/beyza/Desktop/Text2Scene/Data/training/Traning')
-testSetClass = construct(attributes,'/home/beyza/Desktop/Text2Scene/Data/test_task8/Test.configuration3')
+trainSetClass = construct(attributes,'../../Data/training/Traning')
+testSetClass = construct(attributes,'../../Data/test_task8/Test.configuration3')
 
 #print(len(trainSetClass))
 #print(len(testSetClass))

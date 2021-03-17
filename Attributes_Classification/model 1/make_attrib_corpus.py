@@ -110,8 +110,8 @@ attributes = ['dimensionality','form','motion_type','motion_class',\
 columnnames = ['text', 'iso'] + attributes
 
 # construct list of lists that will later be converted to txt file
-trainSetClass = construct(attributes,'../Data/training/Traning')
-testSetClass = construct(attributes,'../Data/test_task8/Test.configuration3')
+trainSetClass = construct(attributes,'../../Data/training/Traning')
+testSetClass = construct(attributes,'../../Data/test_task8/Test.configuration3')
 
 #print(len(trainSetClass))
 #print(len(testSetClass))

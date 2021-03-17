@@ -17,8 +17,9 @@ from flair.datasets import ColumnCorpus
 from matplotlib import pyplot as plt
 import torch
 import torch.nn as nn
+from sys import exit
 
-data_folder = './'
+data_folder = './model 1'
 columns = {0: 'text', 1:'iso', 2:'dimensionality', 3:'form', 4:'motion_type',\
            5:'motion_class', 6:'motion_sense', 7:'semantic_type', \
                8:'motion_signal_type'}
@@ -28,6 +29,7 @@ corpus: Corpus = ColumnCorpus(data_folder, columns,
                           test_file='test.txt', column_delimiter='\t', )
 
 tag_type = 'dimensionality'
+
 tag_dictionary = corpus.make_tag_dictionary(tag_type=tag_type)
 #print(tag_dictionary)
 

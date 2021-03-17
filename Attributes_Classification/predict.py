@@ -13,7 +13,7 @@ def predict(sentence, iso=False):
     if not iso:
         #if you want to use the attribute tagger without the iso information
 
-        tagger = MultiTagger.load(['resources/taggers/'+a+'/final-model.pt' for \
+        tagger = MultiTagger.load(['model 1/resources/taggers/'+a+'/final-model.pt' for \
                                    a in attributes])
                          
         tagger.predict(sentence)
@@ -22,7 +22,7 @@ def predict(sentence, iso=False):
         # without the iso tagger model does not work
         isotagger = SequenceTagger.load('../Iso_Entities_Classification/resources/taggers/iso_flair/final-model.pt')
 
-        tagger = MultiTagger.load(['resources_ilines/taggers/'+a+'/final-model.pt' for \
+        tagger = MultiTagger.load(['model 2/resources_ilines/taggers/'+a+'/final-model.pt' for \
                                    a in attributes])
             
         isotagger.predict(sentence)

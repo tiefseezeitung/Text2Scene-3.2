@@ -52,7 +52,7 @@ from flair.hyperparameter.param_selection import SequenceTaggerParamSelector, Op
 param_selector = SequenceTaggerParamSelector(
     corpus, 
     tag_type, 
-    'resources_param_selector/results'+tag_type, 
+    'resources_param_selector/results_'+tag_type, 
     max_epochs=8,
     training_runs=2,
     optimization_value=OptimizationValue.DEV_SCORE
