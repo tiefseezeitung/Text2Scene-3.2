@@ -53,11 +53,12 @@ The construction of the corpi (make_attrib_corpus/make_attrib_corpus_ilines.py) 
 
 Then we have the files for model training (train_models/train_models_ilines.py). You can only train every attribute individually. If you use the for loop you can easily go through all of them. 
 
-In predict.py you can predict a sentence of your choice. If you set the parameter 'iso' of the predict method to True, you can use the second approach, if you don't set this parameter or set it to False, you use the first approach.
+In predict_iso.py you can predict a sentence of your choice. If you set the parameter 'iso' of the predict method to True, you can use the second approach, if you don't set this parameter or set it to False, you use the first approach.
 
 As our second approach is not as elegant, we tried to solve it by concatenating the wordembedding of the token with a One Hot Encoding vector for its Iso Entity. For now we haven't got this model running. It is saved in 'selfmade_model.py' 
 
 ***
 ## Links
 
-We trained the two links OLINK and QSLINK. For predicting these links it is important to know that every link/relation consists of a trigger, trajector and landmark. The trigger is a SPATIAL_SIGNAL with a semantic_type ['TOPOLOGICAL', 'DIRECTIONAL', 'TOP_DIR' (both)]. If it is TOPOLOGICAL it is a trigger for a QSLINK and if it is DIRECTIONAL it is one for OLINK. We don't consider a trigger with TOP_DIR as this could worsen our results.
+We trained the two links (OLINK and QSLINK). For predicting these links it is important to know that every link/relation consists of a trigger, trajector and landmark. The trigger is a SPATIAL_SIGNAL with a semantic_type ['TOPOLOGICAL', 'DIRECTIONAL', 'TOP_DIR' (both)]. If it is TOPOLOGICAL it is a trigger for a QSLINK and if it is DIRECTIONAL it is one for OLINK. We don't consider a trigger with TOP_DIR as this could worsen our results.
+Choose in 'train_link_model.py' which relation / tag you would like to train and the right txt data is loaded for that. Try predicting with 'predict_link.py'.
