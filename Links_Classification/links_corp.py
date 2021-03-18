@@ -27,6 +27,13 @@ def construct(path, link):
         for i in idlst:
             if i[0] == idtr:
                 return i[1]
+    
+    def topos(idr,idlst):
+        '''returns (starting) position of iso entity token'''
+        for i in idlst:
+            if i[0] == idr:
+                return float(i[2])
+            
             
     def toidrole(idtr,rllst):
         '''returns trajector,landmark,from and to id'''
@@ -94,7 +101,7 @@ def construct(path, link):
                                                 for e in range(len(x)):
                                                     newfile += [[x[e], i, 'O', 'O']]    
                                             else: #means all roles available (link complete)
-        
+                                                ''' wrong approach because trajector is always fromID, instead choose arguments from their positions 
                                                 if traj == fromid:
                                                     for e in range(len(x)):
                                                         newfile += [[x[e], i, subelem.get('semantic_type'), isolink+'(arg1=trajector,arg2=landmark)' ]] 
@@ -104,8 +111,19 @@ def construct(path, link):
                                                 else: 
                                                     print('false data')
                                                     for e in range(len(x)):
-                                                        newfile += [[x[e], i, 'O', 'O']]    
-                  
+                                                        newfile += [[x[e], i, 'O', 'O']]   ''' 
+                                                if isinstance(topos(traj,idfile),float) and isinstance(topos(lm,idfile),float):
+                                                    if topos(traj,idfile) < topos(lm,idfile):
+                                                        for e in range(len(x)):
+                                                            newfile += [[x[e], i, subelem.get('semantic_type'), isolink+'(arg1=trajector,arg2=landmark)' ]]
+                                                    else:
+                                                        for e in range(len(x)):
+                                                            newfile += [[x[e], i, subelem.get('semantic_type'), isolink+'(arg1=landmark,arg2=trajector)' ]]
+                                                else:
+                                                    for e in range(len(x)):
+                                                        newfile += [[x[e], i, subelem.get('semantic_type') , 'O']]  
+                                                        print('false / incomplete data:')
+                                                        print(idtxt,filepath)
                                         else:
                                             for e in range(len(x)):
                                                 x[e] = (str(x[e])).translate(str.maketrans('', '', string.whitespace))

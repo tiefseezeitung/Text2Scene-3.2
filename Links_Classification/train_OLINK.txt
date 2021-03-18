@@ -938,7 +938,7 @@ to	O	O	O
 the	O	O	O
 north	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=trajector,arg2=landmark)
 and	O	O	O
-south	SPATIAL_SIGNAL	O	O
+south	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=trajector,arg2=landmark)
 .	O	O	O
 
 Eventually	O	O	O
@@ -2237,7 +2237,7 @@ for	O	O	O
 students	SPATIAL_ENTITY	O	O
 at	SPATIAL_SIGNAL	TOPOLOGICAL	O
 a	O	O	O
-neighboring	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=trajector,arg2=landmark)
+neighboring	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=landmark,arg2=trajector)
 University	PLACE	O	O
 ,	O	O	O
 I	SPATIAL_ENTITY	O	O
@@ -4679,7 +4679,7 @@ class	PLACE	O	O
 in	SPATIAL_SIGNAL	TOPOLOGICAL	O
 the	O	O	O
 floor	PLACE	O	O
-below	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=trajector,arg2=landmark)
+below	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=landmark,arg2=trajector)
 ,	O	O	O
 cost	O	O	O
 15	O	O	O
@@ -7085,7 +7085,7 @@ through	SPATIAL_SIGNAL	TOPOLOGICAL	O
 the	O	O	O
 wilderness	PLACE	O	O
 –	O	O	O
-along	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=trajector,arg2=landmark)
+along	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 sides	PATH	O	O
 were	O	O	O
@@ -12440,7 +12440,7 @@ vineyards	O	O	O
 .	O	O	O
 
 Far	O	O	O
-up	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=trajector,arg2=landmark)
+up	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=landmark,arg2=trajector)
 in	SPATIAL_SIGNAL	TOPOLOGICAL	O
 the	O	O	O
 valley	PATH	O	O
@@ -13562,7 +13562,7 @@ Andes	PATH	O	O
 .	O	O	O
 
 Climbing	MOTION	O	O
-above	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=trajector,arg2=landmark)
+above	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=landmark,arg2=trajector)
 13,000	MEASURE	O	O
 feet	MEASURE	O	O
 ,	O	O	O
@@ -14454,7 +14454,7 @@ tiring	O	O	O
 if	O	O	O
 you	SPATIAL_ENTITY	O	O
 are	O	O	O
-surrounded	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=trajector,arg2=landmark)
+surrounded	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=landmark,arg2=trajector)
 by	O	O	O
 children	SPATIAL_ENTITY	O	O
 â€	O	O	O
@@ -16097,7 +16097,7 @@ of	SPATIAL_SIGNAL	TOPOLOGICAL	O
 a	O	O	O
 large	O	O	O
 valley	PATH	O	O
-surrounded	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=trajector,arg2=landmark)
+surrounded	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=landmark,arg2=trajector)
 by	O	O	O
 pine	O	O	O
 forests	PLACE	O	O
@@ -17073,7 +17073,7 @@ country	PLACE	O	O
 that	O	O	O
 ,	O	O	O
 further	O	O	O
-south	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=trajector,arg2=landmark)
+south	SPATIAL_SIGNAL	DIRECTIONAL	OLINK(arg1=landmark,arg2=trajector)
 ,	O	O	O
 gave	O	O	O
 way	O	O	O

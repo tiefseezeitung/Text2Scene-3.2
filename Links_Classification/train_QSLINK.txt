@@ -147,7 +147,7 @@ and	O	O	O
 350,000	O	O	O
 people	O	O	O
 ,	O	O	O
-contains	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+contains	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 a	O	O	O
 great	O	O	O
 maze	PLACE	O	O
@@ -183,7 +183,7 @@ center	PLACE	O	O
 of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
 town	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 encountered	MOTION	O	O
 my	O	O	O
@@ -414,7 +414,7 @@ in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
 La	PLACE	O	O
 Paz	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 talked	NONMOTION_EVENT	O	O
 to	O	O	O
@@ -594,7 +594,7 @@ on	SPATIAL_SIGNAL	DIRECTIONAL	O
 these	O	O	O
 roads	PATH	O	O
 –	O	O	O
-at	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+at	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 one	O	O	O
 point	PLACE	O	O
 had	O	O	O
@@ -627,7 +627,7 @@ weeks	O	O	O
 Southern	PLACE	O	O
 Bolivia	PLACE	O	O
 ,	O	O	O
-including	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+including	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 worldâ€	O	O	O
 ™	O	O	O
@@ -648,7 +648,7 @@ Desert	PLACE	O	O
 of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
 Chile	PLACE	O	O
 ,	O	O	O
-including	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+including	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 some	O	O	O
 incredible	O	O	O
 night	O	O	O
@@ -657,7 +657,7 @@ biking	NONMOTION_EVENT	O	O
 Northern	PLACE	O	O
 Argentina	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 am	O	O	O
 now	O	O	O
@@ -785,7 +785,7 @@ chickens	O	O	O
 )	O	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Copala	PLACE	O	O
 I	SPATIAL_ENTITY	O	O
 befriended	NONMOTION_EVENT	O	O
@@ -925,7 +925,7 @@ the	O	O	O
 only	O	O	O
 paved	O	O	O
 road	PATH	O	O
-through	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+through	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 Sierra	PATH	O	O
 Madre	PATH	O	O
@@ -1201,13 +1201,13 @@ colonial	O	O	O
 downtown	PLACE	O	O
 ,	O	O	O
 sits	NONMOTION_EVENT	O	O
-at	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+at	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 about	MEASURE	O	O
 6,000	MEASURE	O	O
 ft	MEASURE	O	O
 and	O	O	O
 is	O	O	O
-filled	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+filled	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 with	O	O	O
 about	O	O	O
 half	O	O	O
@@ -1249,7 +1249,7 @@ rises	MOTION	O	O
 over	MEASURE	O	O
 22,000	MEASURE	O	O
 ft	MEASURE	O	O
-has	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+has	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 worldâ€	O	O	O
 ™	O	O	O
@@ -1305,7 +1305,7 @@ be	O	O	O
 gone	O	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Huaraz	PLACE	O	O
 ,	O	O	O
 I	SPATIAL_ENTITY	O	O
@@ -1411,7 +1411,7 @@ right	O	O	O
 used	O	O	O
 to	O	O	O
 reach	MOTION	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 am	O	O	O
 sitting	NONMOTION_EVENT	O	O
@@ -1558,7 +1558,7 @@ before	O	O	O
 
 Ten	MEASURE	O	O
 meters	MEASURE	O	O
-from	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+from	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 summit	PLACE	O	O
 ,	O	O	O
@@ -1762,8 +1762,8 @@ While	O	O	O
 the	O	O	O
 skies	PLACE	O	O
 were	O	O	O
-full	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
-of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+full	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
+of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 butterflies	SPATIAL_ENTITY	O	O
 ,	O	O	O
 there	O	O	O
@@ -1836,7 +1836,7 @@ it	O	O	O
 is	O	O	O
 likely	O	O	O
 that	O	O	O
-in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 this	O	O	O
 region	PLACE	O	O
 of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
@@ -1870,7 +1870,7 @@ California	PLACE	O	O
 It	O	O	O
 is	O	O	O
 cold	NONMOTION_EVENT	O	O
-at	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+at	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 11,000	MEASURE	O	O
 feet	MEASURE	O	O
 ,	O	O	O
@@ -2062,8 +2062,8 @@ the	O	O	O
 butterfly	O	O	O
 sanctuary	PLACE	O	O
 was	O	O	O
-full	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
-of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+full	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
+of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 shops	PLACE	O	O
 pedaling	O	O	O
 trinkets	O	O	O
@@ -2103,7 +2103,7 @@ of	O	O	O
 at	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
 the	O	O	O
 entrance	PLACE	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 most	O	O	O
 people	O	O	O
 camp	NONMOTION_EVENT	O	O
@@ -2316,7 +2316,7 @@ major	O	O	O
 threat	O	O	O
 .	O	O	O
 
-Everywhere	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+Everywhere	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 roads	PATH	O	O
 are	O	O	O
 built	MOTION	O	O
@@ -2764,7 +2764,7 @@ the	O	O	O
 city	PLACE	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 preserve	PLACE	O	O
 ,	O	O	O
@@ -2806,7 +2806,7 @@ of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
 the	O	O	O
 tower	SPATIAL_ENTITY	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 was	O	O	O
 able	O	O	O
@@ -2939,7 +2939,7 @@ paramo	O	O	O
 .	O	O	O
 
 Hidden	O	O	O
-in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 fog	SPATIAL_ENTITY	O	O
 ,	O	O	O
@@ -2954,7 +2954,7 @@ through	MOTION_SIGNAL	O	O
 a	O	O	O
 strange	O	O	O
 forest	PLACE	O	O
-of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 dwarf	O	O	O
 palm	O	O	O
 like	O	O	O
@@ -2991,7 +2991,7 @@ about	O	O	O
 12,500	MEASURE	O	O
 feet	MEASURE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 temperatures	NONMOTION_EVENT	O	O
 were	O	O	O
@@ -3377,7 +3377,7 @@ enjoy	O	O	O
 the	O	O	O
 same	O	O	O
 place	PLACE	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 was	O	O	O
 standing	NONMOTION_EVENT	O	O
@@ -3791,7 +3791,7 @@ town	PLACE	O	O
 of	O	O	O
 Zipaquira	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 locals	O	O	O
 have	O	O	O
@@ -4194,7 +4194,7 @@ is	O	O	O
 enormous	O	O	O
 â€	O	O	O
 “	O	O	O
-in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Manaus	PLACE	O	O
 ,	O	O	O
 1,000	MEASURE	O	O
@@ -5458,7 +5458,7 @@ towards	MOTION_SIGNAL	O	O
 West	PLACE	O	O
 Los	PLACE	O	O
 Angeles	PLACE	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 met	MOTION	O	O
 my	O	O	O
@@ -5506,7 +5506,7 @@ their	O	O	O
 lives	O	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Belize	PLACE	O	O
 ,	O	O	O
 the	O	O	O
@@ -5528,7 +5528,7 @@ level	PATH	O	O
 
 The	O	O	O
 town	PLACE	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	O	O	O
 learned	NONMOTION_EVENT	O	O
 to	O	O	O
@@ -5856,7 +5856,7 @@ that	O	O	O
 year	O	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Tegucigalpa	PLACE	O	O
 ,	O	O	O
 the	O	O	O
@@ -5913,7 +5913,7 @@ on	O	O	O
 the	O	O	O
 right	O	O	O
 )	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 there	O	O	O
 used	O	O	O
 to	O	O	O
@@ -5932,7 +5932,7 @@ Central	PLACE	O	O
 America	PLACE	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 San	PLACE	O	O
 Miguel,	PLACE	O	O
 El	PLACE	O	O
@@ -5950,7 +5950,7 @@ many	O	O	O
 homes	O	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Nicaragua	PLACE	O	O
 ,	O	O	O
 the	O	O	O
@@ -5995,7 +5995,7 @@ left	O	O	O
 .	O	O	O
 
 Also	O	O	O
-in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Nicaragua	PLACE	O	O
 ,	O	O	O
 I	SPATIAL_ENTITY	O	O
@@ -6309,7 +6309,7 @@ into	MOTION_SIGNAL	O	O
 the	O	O	O
 firehouse	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 spent	NONMOTION_EVENT	O	O
 the	O	O	O
@@ -6567,7 +6567,7 @@ the	O	O	O
 world	PLACE	O	O
 ,	O	O	O
 and	O	O	O
-apart	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+apart	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 from	O	O	O
 irrigated	O	O	O
 land	PLACE	O	O
@@ -6643,7 +6643,7 @@ s	O	O	O
 capital	O	O	O
 city	PLACE	O	O
 and	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 9	O	O	O
 million	O	O	O
 people	O	O	O
@@ -6706,7 +6706,7 @@ routes	PATH	O	O
 ,	O	O	O
 before	O	O	O
 arriving	MOTION	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 would	O	O	O
 stay	NONMOTION_EVENT	O	O
@@ -6724,10 +6724,10 @@ cities	PLACE	O	O
 the	O	O	O
 outskirts	PLACE	O	O
 are	O	O	O
-filled	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+filled	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 with	O	O	O
 shantytowns	PLACE	O	O
-of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 poorer	O	O	O
 houses	PLACE	O	O
 that	O	O	O
@@ -6740,7 +6740,7 @@ section	PLACE	O	O
 of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
 the	O	O	O
 town	PLACE	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 middle	O	O	O
 and	O	O	O
@@ -6860,7 +6860,7 @@ out	O	O	O
 .	O	O	O
 
 )	O	O	O
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Lima	PLACE	O	O
 ,	O	O	O
 I	O	O	O
@@ -7103,7 +7103,7 @@ a	O	O	O
 small	O	O	O
 village	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 we	SPATIAL_ENTITY	O	O
 could	O	O	O
 buy	NONMOTION_EVENT	O	O
@@ -7120,7 +7120,7 @@ last	O	O	O
 town	PLACE	O	O
 we	SPATIAL_ENTITY	O	O
 stayed	NONMOTION_EVENT	O	O
-in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 ,	O	O	O
 San	PLACE	O	O
 Pedro	PLACE	O	O
@@ -7302,7 +7302,7 @@ the	O	O	O
 Andes	PATH	O	O
 .	O	O	O
 
-At	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+At	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 higher	O	O	O
 altitude	PLACE	O	O
 ,	O	O	O
@@ -7390,7 +7390,7 @@ After	O	O	O
 camping	NONMOTION_EVENT	O	O
 two	O	O	O
 nights	O	O	O
-at	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+at	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 14,000	MEASURE	O	O
 feet	MEASURE	O	O
 overlooking	SPATIAL_SIGNAL	DIRECTIONAL	O
@@ -7427,7 +7427,7 @@ major	O	O	O
 tourism	O	O	O
 center	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 will	O	O	O
 use	NONMOTION_EVENT	O	O
@@ -7477,7 +7477,7 @@ December	O	O	O
 31st	O	O	O
 ,	O	O	O
 2005	O	O	O
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Loreto	PLACE	O	O
 ,	O	O	O
 I	SPATIAL_ENTITY	O	O
@@ -7550,7 +7550,7 @@ large	O	O	O
 coastal	O	O	O
 plain	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 a	O	O	O
 number	O	O	O
 of	O	O	O
@@ -7644,7 +7644,7 @@ Ciudad	PLACE	O	O
 de	PLACE	O	O
 Constitución	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	O	O	O
 watched	NONMOTION_EVENT	O	O
 a	O	O	O
@@ -7730,7 +7730,7 @@ La	PLACE	O	O
 Paz	PLACE	O	O
 now	O	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 will	O	O	O
 be	O	O	O
@@ -7844,7 +7844,7 @@ small	O	O	O
 Guatemalan	O	O	O
 village	PLACE	O	O
 (	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 ran	MOTION	O	O
 into	MOTION_SIGNAL	O	O
@@ -8216,7 +8216,7 @@ of	O	O	O
 10,000	O	O	O
 people	O	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 we	SPATIAL_ENTITY	O	O
 met	NONMOTION_EVENT	O	O
 with	O	O	O
@@ -8393,7 +8393,7 @@ try	O	O	O
 to	O	O	O
 put	O	O	O
 him	SPATIAL_ENTITY	O	O
-inside	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+inside	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 ™	O	O	O
 Soon	O	O	O
 ,	O	O	O
@@ -8439,7 +8439,7 @@ to	O	O	O
 put	O	O	O
 the	O	O	O
 jaguar	SPATIAL_ENTITY	O	O
-inside	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+inside	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 ,	O	O	O
 but	O	O	O
 the	O	O	O
@@ -8488,7 +8488,7 @@ Center	PLACE	O	O
 a	O	O	O
 small	O	O	O
 town	PLACE	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 locals	O	O	O
 speak	NONMOTION_EVENT	O	O
@@ -8888,7 +8888,7 @@ down	SPATIAL_SIGNAL	O	O
 the	O	O	O
 road	PATH	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 we	SPATIAL_ENTITY	O	O
 camped	NONMOTION_EVENT	O	O
 ,	O	O	O
@@ -9037,7 +9037,7 @@ Sur	PLACE	O	O
 ’	O	O	O
 )	O	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 have	O	O	O
 just	O	O	O
@@ -9126,7 +9126,7 @@ wealthier	O	O	O
 
 Stores	PLACE	O	O
 are	O	O	O
-stocked	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+stocked	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 with	O	O	O
 all	O	O	O
 the	O	O	O
@@ -9534,7 +9534,7 @@ from	MOTION_SIGNAL	O	O
 the	O	O	O
 mountains	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 it	SPATIAL_ENTITY	O	O
 falls	MOTION	O	O
 as	O	O	O
@@ -9724,7 +9724,7 @@ cities	PLACE	O	O
 I	SPATIAL_ENTITY	O	O
 have	O	O	O
 been	O	O	O
-in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 (	O	O	O
 including	O	O	O
 parts	PLACE	O	O
@@ -9746,7 +9746,7 @@ provide	O	O	O
 water	O	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 one	O	O	O
 rural	O	O	O
 area	PLACE	O	O
@@ -10514,7 +10514,7 @@ river	O	O	O
 banks	PATH	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Caracas	PLACE	O	O
 ,	O	O	O
 I	SPATIAL_ENTITY	O	O
@@ -10528,7 +10528,7 @@ of	O	O	O
 the	O	O	O
 valley	PATH	O	O
 were	O	O	O
-packed	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+packed	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 with	O	O	O
 houses	PLACE	O	O
 of	O	O	O
@@ -10672,7 +10672,7 @@ Colon	PLACE	O	O
 is	O	O	O
 a	O	O	O
 city	PLACE	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 foreigners	O	O	O
 are	O	O	O
 regularly	O	O	O
@@ -10895,7 +10895,7 @@ San	PLACE	O	O
 Blas	PLACE	O	O
 Islands	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 we	SPATIAL_ENTITY	O	O
 anchored	NONMOTION_EVENT	O	O
 between	SPATIAL_SIGNAL	DIRECTIONAL	O
@@ -11010,7 +11010,7 @@ morning	O	O	O
 
 Every	O	O	O
 Sunday	O	O	O
-in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Medellin	PLACE	O	O
 ,	O	O	O
 they	O	O	O
@@ -11020,7 +11020,7 @@ the	O	O	O
 ,	O	O	O
 â€	O	O	O
 ™	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 a	O	O	O
 number	O	O	O
 of	O	O	O
@@ -11177,7 +11177,7 @@ it	PLACE	O	O
 is	O	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Medellin	PLACE	O	O
 ,	O	O	O
 I	SPATIAL_ENTITY	O	O
@@ -11574,7 +11574,7 @@ never	O	O	O
 rains	NONMOTION_EVENT	O	O
 ,	O	O	O
 and	O	O	O
-has	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+has	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 a	O	O	O
 cool	O	O	O
 comfortable	O	O	O
@@ -11604,7 +11604,7 @@ poor	O	O	O
 At	O	O	O
 the	O	O	O
 office	PLACE	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 people	O	O	O
 work	NONMOTION_EVENT	O	O
 on	O	O	O
@@ -11846,8 +11846,8 @@ of	O	O	O
 Baja	PLACE	O	O
 ,	O	O	O
 is	O	O	O
-full	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
-of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+full	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
+of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 United	SPATIAL_ENTITY	O	O
 Staters	SPATIAL_ENTITY	O	O
 .	O	O	O
@@ -11895,7 +11895,7 @@ places	PLACE	O	O
 in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
 the	O	O	O
 world	PLACE	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 bicycle	O	O	O
 tourists	SPATIAL_ENTITY	O	O
 congregate	MOTION	O	O
@@ -11994,7 +11994,7 @@ across	SPATIAL_SIGNAL	DIRECTIONAL	O
 Concepcion	PLACE	O	O
 Bay	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 we	SPATIAL_ENTITY	O	O
 cooked	NONMOTION_EVENT	O	O
 dinner	O	O	O
@@ -12022,7 +12022,7 @@ town	PLACE	O	O
 of	O	O	O
 Loreto	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 met	MOTION	O	O
 with	O	O	O
@@ -12345,7 +12345,7 @@ winter	O	O	O
 if	O	O	O
 you	O	O	O
 live	NONMOTION_EVENT	O	O
-in	SPATIAL_SIGNAL	O	O
+in	SPATIAL_SIGNAL	TOPOLOGICAL	O
 the	O	O	O
 northern	PLACE	O	O
 hemisphere	PLACE	O	O
@@ -12441,7 +12441,7 @@ vineyards	O	O	O
 
 Far	O	O	O
 up	SPATIAL_SIGNAL	DIRECTIONAL	O
-in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 valley	PATH	O	O
 ,	O	O	O
@@ -12464,7 +12464,7 @@ see	O	O	O
 a	O	O	O
 dry	O	O	O
 landscape	PLACE	O	O
-with	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+with	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 a	O	O	O
 river	PATH	O	O
 .	O	O	O
@@ -12481,7 +12481,7 @@ agriculture	NONMOTION_EVENT	O	O
 .	O	O	O
 
 While	O	O	O
-in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Santiago	PLACE	O	O
 ,	O	O	O
 I	SPATIAL_ENTITY	O	O
@@ -12551,7 +12551,7 @@ of	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
 the	O	O	O
 Andes	PATH	O	O
 ,	O	O	O
-including	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+including	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Aconcagua	PLACE	O	O
 ,	O	O	O
 South	O	O	O
@@ -12609,7 +12609,7 @@ from	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
 Buenos	PLACE	O	O
 Aires	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 am	O	O	O
 preparing	NONMOTION_EVENT	O	O
@@ -12717,7 +12717,7 @@ whose	O	O	O
 houses	PLACE	O	O
 I	SPATIAL_ENTITY	O	O
 stayed	NONMOTION_EVENT	O	O
-in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 or	O	O	O
 camped	NONMOTION_EVENT	O	O
 next	SPATIAL_SIGNAL	DIR_TOP	O
@@ -13611,7 +13611,7 @@ city	PLACE	O	O
 of	O	O	O
 Ayacucho	PLACE	O	O
 (	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 visited	NONMOTION_EVENT	O	O
 Institucion	PLACE	O	O
@@ -14012,7 +14012,7 @@ to	O	O	O
 eat	O	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 one	O	O	O
 town	PLACE	O	O
 ,	O	O	O
@@ -14264,7 +14264,7 @@ arrived	MOTION	O	O
 in	MOTION_SIGNAL	O	O
 Abancay	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 pavement	SPATIAL_ENTITY	O	O
 began	MOTION	O	O
@@ -14465,7 +14465,7 @@ center	O	O	O
 )	O	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 town	PLACE	O	O
 of	O	O	O
@@ -14580,7 +14580,7 @@ the	O	O	O
 cities	PLACE	O	O
 I	SPATIAL_ENTITY	O	O
 stayed	NONMOTION_EVENT	O	O
-in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 .	O	O	O
 
 (	O	O	O
@@ -14637,7 +14637,7 @@ was	O	O	O
 impressed	O	O	O
 that	O	O	O
 both	O	O	O
-in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 lowlands	PLACE	O	O
 and	O	O	O
@@ -14671,7 +14671,7 @@ descended	MOTION	O	O
 into	MOTION_SIGNAL	O	O
 the	O	O	O
 valley	PATH	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 city	PLACE	O	O
 of	O	O	O
@@ -14788,7 +14788,7 @@ valley	PLACE	O	O
 In	O	O	O
 my	O	O	O
 week	NONMOTION_EVENT	O	O
-in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+in	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 city	PLACE	O	O
 ,	O	O	O
@@ -15087,7 +15087,7 @@ sustainable	O	O	O
 -	O	O	O
 transportation	O	O	O
 organization	PLACE	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 one	O	O	O
 of	O	O	O
 the	O	O	O
@@ -15444,7 +15444,7 @@ Institute	PLACE	O	O
 of	PLACE	O	O
 Ecology	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 I	SPATIAL_ENTITY	O	O
 talked	NONMOTION_EVENT	O	O
 to	O	O	O
@@ -15491,7 +15491,7 @@ poorer	O	O	O
 country	O	O	O
 .	O	O	O
 
-At	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+At	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 institute	PLACE	O	O
 ,	O	O	O
@@ -16083,7 +16083,7 @@ city	O	O	O
 The	O	O	O
 city	PLACE	O	O
 sits	NONMOTION_EVENT	O	O
-at	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+at	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 about	O	O	O
 3,000	MEASURE	O	O
 feet	MEASURE	O	O
@@ -16970,7 +16970,7 @@ Colombian	O	O	O
 city	PLACE	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 center	PLACE	O	O
 of	O	O	O
@@ -17117,7 +17117,7 @@ Monte	PLACE	O	O
 Frio	PLACE	O	O
 .	O	O	O
 
-In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+In	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 Monte	PLACE	O	O
 Frio	PLACE	O	O
 ,	O	O	O
@@ -17141,7 +17141,7 @@ the	O	O	O
 municipal	O	O	O
 building	PLACE	O	O
 ,	O	O	O
-where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=trajector,arg2=landmark)
+where	SPATIAL_SIGNAL	TOPOLOGICAL	QSLINK(arg1=landmark,arg2=trajector)
 the	O	O	O
 mayor	O	O	O
 and	O	O	O
