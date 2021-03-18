@@ -27,8 +27,8 @@ Training with given settings will start if you run the programme and a model wil
 
 In 'predict.py' you can predict the tags of sentence that you pass to the model.  First the model is loaded from the model file (a final-model.pt) of your choice. Then the sentence is printed with all its predicted tags.
 
-In 'hyperparameter_tuning' we vary different settings. You could vary embeddings, learning_rate, rnn_layers, hidden_layers, batch_size and many more. There are no models created, they are just being trained and results saved into a file.
-We got the best results for the setting:
+In 'hyperparameter_tuning' we vary different settings. You could vary embeddings, learning_rate, rnn_layers, hidden_layers, batch_size and many more. There are no models created, your defined SearchSpace is just being trained and results saved into a file.
+We got the best results for the setting:hidden_size=128, lr=0.15, emebeddings=StackedEmbeddings([WordEmbeddings("glove"),FlairEmbeddings('news-forward-fast'), FlairEmbeddings('news-backward-fast')]) , rnn_layers=2, mini_batch_size=8
 
 
 ***
