@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# programme not running, dimension error
+# programme not running, still dimension error
 
 # this model is not trained through flair, we extract input from flair corpus 
 # and use their embeddings
@@ -14,9 +14,10 @@ from flair.embeddings import (
     TransformerWordEmbeddings)
 from flair.data import Corpus
 from flair.datasets import ColumnCorpus
-from matplotlib import pyplot as plt
+#from matplotlib import pyplot as plt
 import torch
 import torch.nn as nn
+from torch.autograd import Variable
 from sys import exit
 
 data_folder = './model 1'
@@ -67,7 +68,7 @@ def get_categ_tensor(category, lst):
     return vec
 
 train = corpus.train + corpus.dev
-test = corpus.test #not used yet
+test = corpus.test #not used yet, needed later for testing
 
 train_tensors = [] #list of input vectors
 tags = [] #list of all tags
@@ -94,8 +95,9 @@ output_classes = list(set(tags))
 print(output_classes)
 print(len(output_classes))
 
-
+# try a RNN
 class RNN(nn.Module):
+    '''Class for a classifying RNN'''
     def __init__(self,input_size,hidden_size,output_size):
         super(RNN,self).__init__()
         
@@ -107,42 +109,81 @@ class RNN(nn.Module):
     def forward(self, input_tensor, hidden_tensor):
         combined = torch.cat((input_tensor, hidden_tensor))
         hidden = self.i2h(combined)
-        #output = self.i2o(combined)
-        output = self.logsoftmax(self.i2o(combined))
+        output = self.i2o(combined)
         return output, hidden
 
     def init_hidden(self):
         return (torch.zeros(self.hidden_size))
-  
-#a = torch.zeros(,)
-rnn = RNN(len(train_tensors[0]),128,len(output_classes))    
-criterion = nn.NLLLoss()
-lr = 0.1
-optimizer = torch.optim.SGD(rnn.parameters(),lr=lr)
-
-def train(input_tensor, category_tensor):
-    hidden = rnn.init_hidden()
     
-    output, hidden = rnn(input_tensor, hidden)
+    def train(self, input_tensor, category_tensor): #train method for RNN class
+        criterion = nn.CrossEntropyLoss()
+        lr = 0.1
+        optimizer = torch.optim.SGD(net.parameters(),lr=lr)    
         
-    optimizer.zero_grad()
-    loss = criterion(output, category_tensor)
-    loss.backward()
-    optimizer.step()
+        hidden = self.init_hidden()
         
-    return output,loss.item()
+        output, hidden = self(input_tensor, hidden)
+            
+        optimizer.zero_grad()
+        loss = criterion(output, category_tensor)
+        loss.backward()
+        optimizer.step()
+            
+        return output,loss.item()
+    
+# try a normal NN 
+class NN(nn.Module):
+    '''classification NN is created with two hidden layers'''
+    def __init__(self,input_size, hidden_size, output_size):
+        super(NN,self).__init__()
+        
+        self.hid1 = nn.Linear(input_size, hidden_size)
+        self.hid2 = nn.Linear(hidden_size, hidden_size)
+        self.out = nn.Linear(hidden_size, output_size)
+        
+        torch.nn.init.xavier_uniform_(self.hid1.weight)
+        torch.nn.init.zeros_(self.hid1.bias)
+        torch.nn.init.xavier_uniform_(self.hid2.weight)
+        torch.nn.init.zeros_(self.hid2.bias)
+        torch.nn.init.xavier_uniform_(self.out.weight)
+        torch.nn.init.zeros_(self.out.bias)
+        
+    def forward(self, input_tensor):
+        z = torch.tanh(self.hid1(input_tensor))
+        z = torch.tanh(self.hid2(z))
+        z = self.out(z) 
+        return z
+    
+    def train(self, input_tensor, category_tensor): #train method for NN class
+        criterion = nn.CrossEntropyLoss()
+        lr = 0.1
+        optimizer = torch.optim.SGD(net.parameters(),lr=lr)
 
-avg = []
+        output = self(input_tensor)
+            
+        optimizer.zero_grad()
+        loss = criterion(output, category_tensor)
+        loss.backward()
+        optimizer.step()
+            
+        return output,loss.item()
+        
+# define your neural net
+#net = RNN(len(train_tensors[0]),128,len(output_classes))  #first try
+net = NN(len(train_tensors[0]),128,len(output_classes))  #second try with NN
+
+
+avg = [] #average losses are saved into this list
 sum = 0
 #this is 1 epoch:
 for i in range(length_train):
-    output, loss = train(train_tensors[i], get_categ_tensor(tags[i], output_classes))
+    output, loss = net.train(Variable(train_tensors[i]), Variable(get_categ_tensor(tags[i], output_classes)))
     sum = sum + loss
     if i % 100 == 0:
         avg.append(sum/100)
         sum = 0
         print(100*i/length_train,'% progress')
         
-plt.figure()
-plt.plot(avg)
-plt.show()
+#plt.figure()
+#plt.plot(avg)
+#plt.show()
