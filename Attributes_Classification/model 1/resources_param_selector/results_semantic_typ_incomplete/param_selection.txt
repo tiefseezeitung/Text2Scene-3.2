@@ -1,0 +1,110 @@
+evaluation run 1
+	embeddings: StackedEmbeddings [0-/Users/nihat/.flair/embeddings/glove.gensim,1-/Users/nihat/.flair/embeddings/lm-news-english-forward-1024-v0.2rc.pt,2-/Users/nihat/.flair/embeddings/lm-news-english-backward-1024-v0.2rc.pt]
+	hidden_size: 64
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.015333333333333327
+variance: 7.177777777777479e-07
+test_score: 0.9817
+----------------------------------------------------------------------------------------------------
+evaluation run 2
+	embeddings: StackedEmbeddings [0-/Users/nihat/.flair/embeddings/glove.gensim,1-/Users/nihat/.flair/embeddings/lm-news-english-forward-1024-v0.2rc.pt,2-/Users/nihat/.flair/embeddings/lm-news-english-backward-1024-v0.2rc.pt]
+	hidden_size: 64
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.018633333333333335
+variance: 3.128888888888914e-06
+test_score: 0.9794
+----------------------------------------------------------------------------------------------------
+evaluation run 3
+	embeddings: StackedEmbeddings [0-/Users/nihat/.flair/embeddings/glove.gensim,1-/Users/nihat/.flair/embeddings/lm-news-english-forward-1024-v0.2rc.pt,2-/Users/nihat/.flair/embeddings/lm-news-english-backward-1024-v0.2rc.pt]
+	hidden_size: 64
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.018233333333333324
+variance: 1.186444444444435e-05
+test_score: 0.9779
+----------------------------------------------------------------------------------------------------
+evaluation run 4
+	embeddings: StackedEmbeddings [0-/Users/nihat/.flair/embeddings/glove.gensim,1-/Users/nihat/.flair/embeddings/lm-news-english-forward-1024-v0.2rc.pt,2-/Users/nihat/.flair/embeddings/lm-news-english-backward-1024-v0.2rc.pt]
+	hidden_size: 128
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.014066666666666672
+variance: 2.844444444444484e-07
+test_score: 0.9813
+----------------------------------------------------------------------------------------------------
+evaluation run 5
+	embeddings: StackedEmbeddings [0-/Users/nihat/.flair/embeddings/glove.gensim,1-/Users/nihat/.flair/embeddings/lm-news-english-forward-1024-v0.2rc.pt,2-/Users/nihat/.flair/embeddings/lm-news-english-backward-1024-v0.2rc.pt]
+	hidden_size: 64
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.016499999999999997
+variance: 4.6888888888889295e-07
+test_score: 0.9774
+----------------------------------------------------------------------------------------------------
+evaluation run 6
+	embeddings: StackedEmbeddings [0-/Users/nihat/.flair/embeddings/glove.gensim,1-/Users/nihat/.flair/embeddings/lm-news-english-forward-1024-v0.2rc.pt,2-/Users/nihat/.flair/embeddings/lm-news-english-backward-1024-v0.2rc.pt]
+	hidden_size: 64
+	learning_rate: 0.2
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.01988333333333333
+variance: 8.604444444444324e-06
+test_score: 0.974
+----------------------------------------------------------------------------------------------------
+evaluation run 7
+	embeddings: StackedEmbeddings [0-/Users/nihat/.flair/embeddings/glove.gensim,1-/Users/nihat/.flair/embeddings/lm-news-english-forward-1024-v0.2rc.pt,2-/Users/nihat/.flair/embeddings/lm-news-english-backward-1024-v0.2rc.pt]
+	hidden_size: 64
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.015950000000000002
+variance: 2.388888888888907e-06
+test_score: 0.9806
+----------------------------------------------------------------------------------------------------
+evaluation run 8
+	embeddings: StackedEmbeddings [0-/Users/nihat/.flair/embeddings/glove.gensim,1-/Users/nihat/.flair/embeddings/lm-news-english-forward-1024-v0.2rc.pt,2-/Users/nihat/.flair/embeddings/lm-news-english-backward-1024-v0.2rc.pt]
+	hidden_size: 128
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.016866666666666676
+variance: 6.0244444444444985e-06
+test_score: 0.9734
+----------------------------------------------------------------------------------------------------
+evaluation run 9
+	embeddings: StackedEmbeddings [0-/Users/nihat/.flair/embeddings/glove.gensim,1-/Users/nihat/.flair/embeddings/lm-news-english-forward-1024-v0.2rc.pt,2-/Users/nihat/.flair/embeddings/lm-news-english-backward-1024-v0.2rc.pt]
+	hidden_size: 64
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 1
+score: 0.017466666666666665
+variance: 1.455555555555515e-06
+test_score: 0.9817
+----------------------------------------------------------------------------------------------------
+evaluation run 10
+	embeddings: StackedEmbeddings [0-/Users/nihat/.flair/embeddings/glove.gensim,1-/Users/nihat/.flair/embeddings/lm-news-english-forward-1024-v0.2rc.pt,2-/Users/nihat/.flair/embeddings/lm-news-english-backward-1024-v0.2rc.pt]
+	hidden_size: 128
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.014333333333333326
+variance: 4.3555555555555455e-07
+test_score: 0.9824
+----------------------------------------------------------------------------------------------------
+evaluation run 11
+	embeddings: StackedEmbeddings [0-/Users/nihat/.flair/embeddings/glove.gensim,1-/Users/nihat/.flair/embeddings/lm-news-english-forward-1024-v0.2rc.pt,2-/Users/nihat/.flair/embeddings/lm-news-english-backward-1024-v0.2rc.pt]
+	hidden_size: 64
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 2
+score: 0.015433333333333316
+variance: 1.41555555555552e-06
+test_score: 0.9808
+----------------------------------------------------------------------------------------------------

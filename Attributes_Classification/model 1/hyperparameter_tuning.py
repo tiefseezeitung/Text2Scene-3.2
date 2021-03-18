@@ -33,11 +33,10 @@ search_space = SearchSpace()
 search_space.add(Parameter.EMBEDDINGS, hp.choice, options=[ 
     StackedEmbeddings([WordEmbeddings("glove"),FlairEmbeddings('news-forward-fast'), FlairEmbeddings('news-backward-fast')])
 ])
-# another embedding that could be tried
+# other embeddings that could be tried
 #WordEmbeddings("glove")
 #StackedEmbeddings([FlairEmbeddings('news-forward'), FlairEmbeddings('news-backward')])
 #TransformerWordEmbeddings('distilbert-base-uncased', fine_tune=True)
-#TransformerWordEmbeddings('distilbert-base-cased', fine_tune=True)
 
 search_space.add(Parameter.HIDDEN_SIZE, hp.choice, options=[64, 128])
 search_space.add(Parameter.RNN_LAYERS, hp.choice, options=[1,2])

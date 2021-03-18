@@ -386,7 +386,7 @@ to O O
 a O O
 meadow O O
 , O O
-where TOPOLOGICAL TOPOLOGICAL
+where TOPOLOGICAL O
 we O O
 easily O O
 could O O
@@ -1009,7 +1009,7 @@ the O O
 confluence O O
 . O O
 
-At TOPOLOGICAL TOPOLOGICAL
+At TOPOLOGICAL O
 a O O
 small O O
 village O O
@@ -1342,7 +1342,7 @@ south O O
 , O O
 one O O
 is O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 France O O
 and O O
 the O O
@@ -1371,7 +1371,7 @@ Upper O O
 Rhine O O
 River O O
 runs O O
-in O TOPOLOGICAL
+in O O
 the O O
 middle O O
 of O O
@@ -1420,13 +1420,13 @@ Germany O O
 Both O O
 are O O
 located O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 upper O O
 valleys O O
 that O O
 open O O
 out O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 the O O
 Rhine O O
 Rift O O
@@ -1446,7 +1446,7 @@ m O O
 , O O
 both O O
 are O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 a O O
 mixed O O
 spruce O O
@@ -1679,8 +1679,8 @@ steam O O
 . O O
 
 Right DIR_TOP O
-next DIR_TOP O
-to DIR_TOP O
+next DIR_TOP DIR_TOP
+to DIR_TOP DIR_TOP
 a O O
 track O O
 about O O
@@ -2052,7 +2052,7 @@ who O O
 let O O
 me O O
 stay O O
-at TOPOLOGICAL TOPOLOGICAL
+at TOPOLOGICAL O
 their O O
 station O O
 . O O
@@ -2171,7 +2171,7 @@ of O O
 Chingaza O O
 . O O
 
-At O TOPOLOGICAL
+At O O
 this O O
 elevation O O
 , O O
@@ -2549,7 +2549,7 @@ which O O
 are O O
 found O O
 only O O
-in O TOPOLOGICAL
+in O O
 this O O
 high O O
 Andean O O
@@ -2573,7 +2573,7 @@ small O O
 deer O O
 that O O
 live O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 the O O
 park O O
 . O O
@@ -2939,12 +2939,12 @@ invited O O
 me O O
 to O O
 stay O O
-at TOPOLOGICAL TOPOLOGICAL
+at TOPOLOGICAL O
 their O O
 ranch O O
 . O O
 
-At TOPOLOGICAL TOPOLOGICAL
+At TOPOLOGICAL O
 the O O
 ranch O O
 , O O
@@ -3527,7 +3527,7 @@ There O O
 are O O
 many O O
 places O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 the O O
 city O O
 where TOPOLOGICAL TOPOLOGICAL
@@ -3617,7 +3617,7 @@ spent O O
 my O O
 last O O
 day O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 the O O
 city O O
 enjoying O O
@@ -3902,7 +3902,7 @@ trip O O
 April O O
 21st O O
 in TOPOLOGICAL O
-in O TOPOLOGICAL
+in O O
 Boston O O
 , O O
 and O O
@@ -4317,7 +4317,7 @@ half O O
 , O O
 I O O
 arrived O O
-at O TOPOLOGICAL
+at O O
 the O O
 ruins O O
 of O O
@@ -4404,7 +4404,7 @@ Itza O O
 and O O
 I O O
 stayed O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 a O O
 hotel O O
 overlooking DIRECTIONAL O
@@ -4797,7 +4797,7 @@ season O O
 of O O
 the O O
 water O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 the O O
 dams O O
 is O O
@@ -4880,12 +4880,12 @@ provide O O
 water O O
 . O O
 
-In TOPOLOGICAL TOPOLOGICAL
+In TOPOLOGICAL O
 one O O
 rural O O
 area O O
-east DIRECTIONAL DIRECTIONAL
-of DIRECTIONAL DIRECTIONAL
+east DIRECTIONAL O
+of DIRECTIONAL O
 the O O
 Cordillera O O
 Blanca O O
@@ -5094,7 +5094,7 @@ to O O
 the O O
 people O O
 living O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 these O O
 valleys O O
 ? O O
@@ -5183,7 +5183,7 @@ point O O
 of O O
 this O O
 trip O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 Venezuela O O
 , O O
 and O O
@@ -5261,7 +5261,7 @@ COLOMBIA O O
 : O O
 5/28 O O
 Elections O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 Colombia O O
 6/5 O O
 To O O
@@ -5309,7 +5309,7 @@ Venezuela O O
 Cars O O
 and O O
 Politics O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 Caracas O O
 7/18 O O
 Floods O O
@@ -5324,7 +5324,7 @@ Hunt O O
 7/27 O O
 Coral O O
 reefs O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 Venezuela O O
 BRAZIL O O
 : O O
@@ -5351,7 +5351,7 @@ bombero O O
 celebrates O O
 his O O
 birthday O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 Medellin, O O
 Colombia O O
 Colombia O O
@@ -5368,7 +5368,7 @@ faster O O
 than O O
 an O O
 ambulance O O
-in O TOPOLOGICAL
+in O O
 Caracas, O O
 Venezuela O O
 Venezuela O O
@@ -5464,7 +5464,7 @@ supplies O O
 the O O
 water O O
 sits O O
-at TOPOLOGICAL TOPOLOGICAL
+at TOPOLOGICAL O
 the O O
 mountain O O
 tops O O
@@ -6096,7 +6096,7 @@ fair O O
 to O O
 throw O O
 trash O O
-in O TOPOLOGICAL
+in O O
 the O O
 rivers O O
 or O O
@@ -6109,7 +6109,7 @@ shared O O
 by O O
 the O O
 people O O
-in O TOPOLOGICAL
+in O O
 their O O
 town O O
 , O O
@@ -6203,7 +6203,7 @@ that O O
 there O O
 are O O
 people O O
-in TOPOLOGICAL O
+in TOPOLOGICAL TOPOLOGICAL
 the O O
 United O O
 States O O
@@ -6343,8 +6343,8 @@ camped O O
 the O O
 first O O
 night O O
-next DIR_TOP DIR_TOP
-to DIR_TOP DIR_TOP
+next DIR_TOP O
+to DIR_TOP O
 the O O
 house O O
 of O O
@@ -6431,7 +6431,7 @@ Mustang O O
 ( O O
 Many O O
 people O O
-in TOPOLOGICAL TOPOLOGICAL
+in TOPOLOGICAL O
 these O O
 small O O
 towns O O
@@ -6658,7 +6658,7 @@ high O O
 mesas O O
 and O O
 swimming O O
-in O TOPOLOGICAL
+in O O
 the O O
 many O O
 pools O O
@@ -7280,7 +7280,7 @@ who O O
 enter O O
 their O O
 reserve O O
-where O TOPOLOGICAL
+where O O
 they O O
 are O O
 not O O
