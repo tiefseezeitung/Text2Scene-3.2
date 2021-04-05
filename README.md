@@ -1,7 +1,7 @@
 # Text2Scene-3.2
 Semeval task 8
 ***
-In order to get our programs running you will need to install Python (3.6+), Pytorch (1.5+) and Flair.
+In order to get our programs running you will need to install Python (3.6+), Pytorch (1.5+) and Flair. If you want to run the programs that construct a corpus you will also need to install spaCy but as corpus files are already uploaded, you won't need it if you just want to train a model or predict something.
 
 In the folder 'Data' lays the original SpaceEval training and test data, which we use to train different models. We use [flair](https://github.com/flairNLP) to classify our text.
 
@@ -17,7 +17,7 @@ The folder Iso_Entities_Classification is for classifying every token in a given
 * MOTION
 * MOTION_SIGNAL
 * SPATIAL_SIGNAL
-* O (no iso-entity). 
+* O (no iso-entity)
 
 There lay four different python files. 'make_iso_corpus.py' creates the train.txt and test.txt file needed for training the model. You don't have to run this programme since the txt files are also uploaded and lay in the folder ./corpus. You don't have to worry about any adjustments of the path, they are compatible if you are keeping the structure of our folders.
 
