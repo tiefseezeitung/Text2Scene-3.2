@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from flair.models import SequenceTagger, MultiTagger
-from flair.data import Corpus, Sentence
+from flair.data import Sentence
 
 def predict(sentence, iso=False):
     '''Predicts the attribute tags of the tokens in the given sentence. There are

@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import os
-from sys import exit
 import spacy
 nlp = spacy.load("en_core_web_sm")
 import xml.etree.ElementTree as ET
@@ -42,8 +41,9 @@ def construct(attributes, path):
                                         x = txt.split(" ")
                                         for e in range(len(x)):
                                             x[e] = (str(x[e]).translate(str.maketrans('', '', string.whitespace)))
-                                            # add line as a list
-                                            newfile += [[x[e],i]+[subelem.get(attributes[a]) if (subelem.get(attributes[a])!=None and subelem.get(attributes[a])!='') else 'O' for a in range(len(attributes))]]
+                                            if x[e] != '':
+                                                # add line as a list
+                                                newfile += [[x[e],i]+[subelem.get(attributes[a]) if (subelem.get(attributes[a])!=None and subelem.get(attributes[a])!='') else 'O' for a in range(len(attributes))]]
                                         found = True
                                         prev = len(x)
                                         break
@@ -57,7 +57,7 @@ def construct(attributes, path):
                         else:
                             #filter out useless data
                             txt = (str(token.text)).translate(str.maketrans('', '', string.whitespace))
-                            if (txt == '' or txt == ' '): 
+                            if (txt == ''): 
                                 pass
                             else: 
                                 newfile += [[txt ,'O']+['O' for n in range(len(attributes))]]
@@ -113,8 +113,6 @@ columnnames = ['text', 'iso'] + attributes
 trainSetClass = construct(attributes,'../../Data/training/Traning')
 testSetClass = construct(attributes,'../../Data/test_task8/Test.configuration3')
 
-#print(len(trainSetClass))
-#print(len(testSetClass))
 
 # write data into txt files
 write_txt('train.txt',columnnames,trainSetClass)

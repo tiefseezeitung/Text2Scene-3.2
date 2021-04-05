@@ -1,7 +1,6 @@
-from flair.data import Sentence
 from flair.models import SequenceTagger
-from flair.data_fetcher import NLPTaskDataFetcher
 from flair.data import Corpus
+from flair.datasets import ColumnCorpus
 from typing import List
 from flair.embeddings import (
     TokenEmbeddings,
@@ -10,9 +9,8 @@ from flair.embeddings import (
     FlairEmbeddings,
     TransformerWordEmbeddings,
     CharacterEmbeddings,)
-from flair.training_utils import EvaluationMetric
 from flair.visual.training_curves import Plotter
-from flair.datasets import ColumnCorpus
+from flair.training_utils import EvaluationMetric
 
 # this is the folder in which train, test and dev files reside
 data_folder = './corpus'
@@ -71,7 +69,7 @@ trainer.train(
     mini_batch_size=8,
     max_epochs=15,
     write_weights=True,
-    checkpoint=True,
+    checkpoint=True
 )
 
 # plots learning curves (creates png plot) | not necessary for training

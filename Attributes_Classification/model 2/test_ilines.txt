@@ -5216,7 +5216,6 @@ PLACE	O	O	O	O	O	O	O
 at	O	O	O	O	O	O	O
 9,000	O	O	O	O	O	O	O
 ft	O	O	O	O	O	O	O
-	O	O	O	O	O	O	O
 <	O	O	O	O	O	O	O
 MEASURE	O	O	O	O	O	O	O
 >	O	O	O	O	O	O	O
@@ -10513,7 +10512,6 @@ PLACE	O	O	O	O	O	O	O
 /	O	O	O	O	O	O	O
 Ciudad	O	NAM	O	O	O	O	O
 Guyana	O	NAM	O	O	O	O	O
-	O	NAM	O	O	O	O	O
 <	O	O	O	O	O	O	O
 PLACE	O	O	O	O	O	O	O
 >	O	O	O	O	O	O	O

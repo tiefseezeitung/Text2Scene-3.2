@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import os
-from sys import exit
 import spacy
 nlp = spacy.load("en_core_web_sm")
 import xml.etree.ElementTree as ET
@@ -47,9 +46,11 @@ def construct(attributes, path):
                                         x = txt.split(" ")
                                         for e in range(len(x)):
                                             x[e] = (str(x[e]).translate(str.maketrans('', '', string.whitespace)))
-                                            # add line as a list
-                                            newfile += [[x[e]]+[subelem.get(attributes[a]) if (subelem.get(attributes[a])!=None and subelem.get(attributes[a])!='') \
-                                                                else 'O' for a in range(len(attributes))]]    
+                                            if x[e] != '':
+                                                # add line as a list
+                                                newfile += [[x[e]]+[subelem.get(attributes[a]) if (subelem.get(attributes[a])!=None and subelem.get(attributes[a])!='') \
+                                                                    else 'O' for a in range(len(attributes))]]    
+                                        
                                         # adds list with the iso entity of the subelem
                                         newfile += [['<']+['O' for n in range(len(attributes))]]
                                         newfile += [[i]+['O' for n in range(len(attributes))]]
@@ -126,8 +127,6 @@ columnnames = ['text'] + attributes
 trainSetClass = construct(attributes,'../../Data/training/Traning')
 testSetClass = construct(attributes,'../../Data/test_task8/Test.configuration3')
 
-#print(len(trainSetClass))
-#print(len(testSetClass))
 
 # write data into txt files
 write_txt('train_ilines.txt',columnnames,trainSetClass)

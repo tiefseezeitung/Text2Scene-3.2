@@ -147,7 +147,7 @@ def construct(path, link):
     return newfile
 
 # not used, we use writetxt
-def writecsv(path,fieldnames,datalist):
+def write_csv(path,fieldnames,datalist):
     """"writes columns and data in a csv file"""
     
     with open(path, 'w', newline='') as csvfile:
@@ -162,7 +162,7 @@ def writecsv(path,fieldnames,datalist):
             else:
                 writer.writerow({fieldnames[f]: datalist[each][f] for f in range(len(fieldnames))})
 
-def writetxt(path,fieldnames,datalist):
+def write_txt(path,fieldnames,datalist):
     """"writes columns and data in a txt file"""
     string = ''
     for each in range(0,len(datalist)):
@@ -187,10 +187,9 @@ def writetxt(path,fieldnames,datalist):
     txt.writelines(string) 
     txt.close() 
 
-#choose either qslink or olink
-#link = 'QSLINK'
-link = 'OLINK'
 
-columnnames = ['text', 'iso', 'semantic_type', link]
-trainSetClass = construct('../Data/training/Traning', link)
-writetxt('train_'+link+'.txt',columnnames,trainSetClass)
+link = ['OLINK', 'QSLINK']
+for l in link:
+    columnnames = ['text', 'iso', 'semantic_type', l]
+    trainSetClass = construct('../Data/training/Traning', l)
+    write_txt('train_'+l+'.txt',columnnames,trainSetClass)

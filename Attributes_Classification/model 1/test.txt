@@ -3041,7 +3041,6 @@ Bogota	PLACE	O	NAM	O	O	O	O	O
 at	O	O	O	O	O	O	O	O
 9,000	MEASURE	O	O	O	O	O	O	O
 ft	MEASURE	O	O	O	O	O	O	O
-	MEASURE	O	O	O	O	O	O	O
 sea	O	O	O	O	O	O	O	O
 level	O	O	O	O	O	O	O	O
 ,	O	O	O	O	O	O	O	O
@@ -6559,7 +6558,6 @@ Ordaz	PLACE	O	NAM	O	O	O	O	O
 /	O	O	O	O	O	O	O	O
 Ciudad	PLACE	O	NAM	O	O	O	O	O
 Guyana	PLACE	O	NAM	O	O	O	O	O
-	PLACE	O	NAM	O	O	O	O	O
 the	O	O	O	O	O	O	O	O
 city	PLACE	O	NOM	O	O	O	O	O
 seems	O	O	O	O	O	O	O	O

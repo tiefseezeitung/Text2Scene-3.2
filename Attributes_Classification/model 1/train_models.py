@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
-import numpy as np
-from flair.data_fetcher import NLPTaskDataFetcher
-from flair.embeddings import DocumentLSTMEmbeddings
 from flair.embeddings import (
     TokenEmbeddings,
     WordEmbeddings,
@@ -12,14 +8,10 @@ from flair.embeddings import (
     FlairEmbeddings,
     TransformerWordEmbeddings,
     CharacterEmbeddings,)
-from flair.models import SequenceTagger, MultiTagger
+from flair.models import SequenceTagger
 from flair.datasets import ColumnCorpus
 from flair.trainers import ModelTrainer
-from flair.datasets import CSVClassificationCorpus
 from flair.data import Corpus
-from pathlib import Path
-from typing import List
-from sys import exit
 
 def train(attributes, index):
     '''trains with text column as input and given attribute as output/tag'''
